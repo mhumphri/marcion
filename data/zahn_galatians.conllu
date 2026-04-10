@@ -1,0 +1,1861 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+
+# sent_id = zahn.galatians.u0001
+# unit_id = u0001
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = Παῦλος ἀπόστολος , οὐκ ἀπ᾽ ἀνθρώπων οὐ δὲ δι᾽ ἀνθρώπου , ἀλλὰ διὰ Ἰησοῦ Χριστοῦ τοῦ ἐγείραντος αὑτὸν ἐκ νεκρῶν .
+# text_en = Paul apostle, not from human not but through human, but through Jesus Christ the raise himself from dead.
+# text_de = Paulus Apostel, nicht von Mensch nicht aber durch Mensch, sondern durch Jesus Christus der auferwecken sich selbst aus tot.
+# text_la = Paulus apostolus, non ab homo non autem per homo, sed per Iesus Christus ille suscitare se ex mortuus.
+1	Παῦλος	παῦλος	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	0	nsubj	_	Gloss.en=Paul|Gloss.la=Paulus|Gloss.de=Paulus|LN=93.1|SourceNode=t_1
+2	ἀπόστολος	ἀπόστολος	ADJ	a-s---mn-	Case=n|Gender=m|Number=s	0	nsubj	_	Gloss.en=apostle|Gloss.en.alt=messenger|Gloss.la=apostolus|Gloss.de=Apostel|LN=53.74|SourceNode=t_2
+3	,	,	PUNCT	u--------	_	0	punct	_	SourceNode=t_3
+4	οὐκ	οὐ	ADV	d--------	_	6	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_4
+5	ἀπ᾽	ἀπό	ADP	r--------	_	8	case	_	Gloss.en=from|Gloss.en.alt=away from|Gloss.la=ab|Gloss.de=von|LN=84.15|SourceNode=t_5
+6	ἀνθρώπων	ἄνθρωπος	NOUN	n-p---mg-	Case=g|Gender=m|Number=p	5	advmod	_	Gloss.en=human|Gloss.en.alt=man|Gloss.la=homo|Gloss.de=Mensch|LN=9.1|SourceNode=t_6
+7	οὐ	οὐ	ADV	d--------	_	10	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_7
+8	δὲ	δέ	PART	g--------	_	12	conj	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_8
+9	δι᾽	διά	ADP	r--------	_	8	case	_	Gloss.en=through|Gloss.en.alt=because of|Gloss.la=per|Gloss.de=durch|LN=89.76|SourceNode=t_9
+10	ἀνθρώπου	ἄνθρωπος	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	9	advmod	_	Gloss.en=human|Gloss.en.alt=man|Gloss.la=homo|Gloss.de=Mensch|LN=9.1|SourceNode=t_10
+11	,	,	PUNCT	u--------	_	0	punct	_	SourceNode=t_11
+12	ἀλλὰ	ἀλλά	CCONJ	c--------	_	0	conj	_	Gloss.en=but|Gloss.en.alt=rather|Gloss.la=sed|Gloss.de=sondern|LN=89.125|SourceNode=t_12
+13	διὰ	διά	ADP	r--------	_	12	case	_	Gloss.en=through|Gloss.en.alt=because of|Gloss.la=per|Gloss.de=durch|LN=89.76|SourceNode=t_13
+14	Ἰησοῦ	ἰησοῦς	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	13	advmod	_	Gloss.en=Jesus|Gloss.la=Iesus|Gloss.de=Jesus|LN=93.2|SourceNode=t_14
+15	Χριστοῦ	χριστός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	14	nmod	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_15
+16	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	14	nmod	_	Gloss.en=the|SourceNode=t_16|Gloss.de=der|Gloss.la=ille
+17	ἐγείραντος	ἐγείρω	VERB	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	0	root	_	Gloss.en=raise|Gloss.en.alt=resurrect|Gloss.la=suscitare|Gloss.de=auferwecken|LN=23.94|SourceNode=t_17
+18	αὑτὸν	ἑαυτοῦ	PRON	p-s---ma-	Case=a|Gender=m|Number=s	17	obj	_	Gloss.en=himself|Gloss.en.alt=oneself|Gloss.la=se|Gloss.de=sich selbst|LN=92.28|SourceNode=t_18
+19	ἐκ	ἐκ	ADP	r--------	_	17	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_19
+20	νεκρῶν	νεκρός	NOUN	n-p---mg-	Case=g|Gender=m|Number=p	19	advmod	_	Gloss.en=dead|Gloss.en.alt=death|Gloss.la=mortuus|Gloss.de=tot|LN=23.99|SourceNode=t_20
+21	.	.	PUNCT	u--------	_	0	punct	_	SourceNode=t_21
+
+# sent_id = zahn.galatians.u0002
+# unit_id = u0002
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = θαυμάζω ὅτι οὕτως ταχέως μετατίθεσθε ἀπὸ τοῦ καλέσαντος ὑμᾶς ἐν χάριτι εἰς ἕτερον εὐαγγέλιον , ὃ πάντως οὐκ ἔστιν ἄλλο , εἰ μή τινές εἰσιν οἱ ταράσσοντες ὑμᾶς καὶ θέλοντες μεταστρέψαι τὸ εὐαγγέλιον τοῦ Χριστοῦ .
+# text_en = marvel that thus quickly transfer from the call you in grace into another gospel, which <pantos> not be other, if not someone be the trouble you and want distort the gospel the Christ.
+# text_de = sich wundern dass so schnell übertragen von der berufen du in Gnade in ein anderer Evangelium, welcher <pantos> nicht sein anderer, wenn nicht jemand sein der verwirren du und wollen verdrehen der Evangelium der Christus.
+# text_la = mirari quod ita cito transferre ab ille vocare tu in gratia in alter evangelium, qui <pantos> non esse alius, si ne aliquis esse ille turbare tu et velle convertere ille evangelium ille Christus.
+1	θαυμάζω	θαυμάζω	VERB	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	root	_	Gloss.en=marvel|Gloss.en.alt=be amazed|Gloss.la=mirari|Gloss.de=sich wundern|LN=53.56|SourceNode=t_22
+2	ὅτι	ὅτι	SCONJ	c--------	_	1	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_23
+3	οὕτως	οὕτως	ADV	d--------	_	4	advmod	_	SourceNode=t_24|Gloss.en=thus|Gloss.de=so|Gloss.la=ita
+4	ταχέως	ταχύς	ADV	d--------	_	5	advmod	_	SourceNode=t_25|Gloss.en=quickly|Gloss.de=schnell|Gloss.la=cito
+5	μετατίθεσθε	μετατίθημι	VERB	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	2	obj	_	Gloss.en=transfer|Gloss.en.alt=turn away|Gloss.la=transferre|Gloss.de=übertragen|LN=31.9|SourceNode=t_26
+6	ἀπὸ	ἀπό	ADP	r--------	_	5	case	_	Gloss.en=from|Gloss.en.alt=away from|Gloss.la=ab|Gloss.de=von|LN=84.15|SourceNode=t_27
+7	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	8	nmod	_	Gloss.en=the|SourceNode=t_28|Gloss.de=der|Gloss.la=ille
+8	καλέσαντος	καλέω	VERB	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	6	advmod	_	Gloss.en=call|Gloss.en.alt=invite|Gloss.la=vocare|Gloss.de=berufen|LN=33.312|SourceNode=t_29
+9	ὑμᾶς	σύ	PRON	p-p---ma-	Case=a|Gender=m|Number=p	8	obj	_	Gloss.en=you|Gloss.la=tu|Gloss.de=du|LN=92.2|SourceNode=t_30
+10	ἐν	ἐν	ADP	r--------	_	8	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_31
+11	χάριτι	χάρις	NOUN	n-s---fd-	Case=d|Gender=f|Number=s	10	advmod	_	Gloss.en=grace|Gloss.en.alt=favour|Gloss.la=gratia|Gloss.de=Gnade|LN=88.66|SourceNode=t_32
+12	εἰς	εἰς	ADP	r--------	_	5	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_33
+13	ἕτερον	ἕτερος	ADJ	a-s---na-	Case=a|Gender=n|Number=s	14	nmod	_	Gloss.en=another|Gloss.en.alt=different|Gloss.la=alter|Gloss.de=ein anderer|LN=58.36|SourceNode=t_34
+14	εὐαγγέλιον	εὐαγγέλιον	NOUN	n-s---na-	Case=a|Gender=n|Number=s	12	advmod	_	Gloss.en=gospel|Gloss.en.alt=good news|Gloss.la=evangelium|Gloss.de=Evangelium|LN=33.217|SourceNode=t_35
+15	,	,	PUNCT	u--------	_	1	punct	_	SourceNode=t_36
+16	ὃ	ὅς	PRON	p-s---nn-	Case=n|Gender=n|Number=s	19	nsubj	_	SourceNode=t_37|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+17	πάντως	πάντως	ADV	d--------	_	19	advmod	_	SourceNode=t_38|Gloss.en=<pantos>|Gloss.de=<pantos>|Gloss.la=<pantos>
+18	οὐκ	οὐ	ADV	d--------	_	19	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_39
+19	ἔστιν	εἰμί	VERB	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	nmod	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_40
+20	ἄλλο	ἄλλος	ADJ	a-s---nn-	Case=n|Gender=n|Number=s	16	nmod	_	Gloss.en=other|Gloss.en.alt=another|Gloss.la=alius|Gloss.de=anderer|LN=58.37|SourceNode=t_41
+21	,	,	PUNCT	u--------	_	1	punct	_	SourceNode=t_42
+22	εἰ	εἰ	SCONJ	c--------	_	19	mark	_	Gloss.en=if|Gloss.la=si|Gloss.de=wenn|LN=89.65|SourceNode=t_43
+23	μή	μή	ADV	d--------	_	25	advmod	_	Gloss.en=not|Gloss.en.alt=lest|Gloss.la=ne|Gloss.de=nicht|LN=69.4|SourceNode=t_44
+24	τινές	τις	PRON	p-p---mn-	Case=n|Gender=m|Number=p	25	nsubj	_	SourceNode=t_45|Gloss.en=someone|Gloss.de=jemand|Gloss.la=aliquis
+25	εἰσιν	εἰμί	VERB	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	22	advmod	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_46
+26	οἱ	ὁ	DET	l-p---mn-	Case=n|Gender=m|Number=p	29	nmod	_	Gloss.en=the|SourceNode=t_47|Gloss.de=der|Gloss.la=ille
+27	ταράσσοντες	ταράσσω	VERB	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	29	nsubj	_	SourceNode=t_48|Gloss.en=trouble|Gloss.de=verwirren|Gloss.la=turbare
+28	ὑμᾶς	σύ	PRON	p-p---ma-	Case=a|Gender=m|Number=p	27	obj	_	Gloss.en=you|Gloss.la=tu|Gloss.de=du|LN=92.2|SourceNode=t_49
+29	καὶ	καί	CCONJ	c--------	_	25	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_50
+30	θέλοντες	ἐθέλω	VERB	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	29	nsubj	_	SourceNode=t_51|Gloss.en=want|Gloss.de=wollen|Gloss.la=velle
+31	μεταστρέψαι	μεταστρέφω	VERB	v--ana---	Mood=n|Tense=a|Voice=a	30	obj	_	SourceNode=t_52|Gloss.en=distort|Gloss.de=verdrehen|Gloss.la=convertere
+32	τὸ	ὁ	DET	l-s---na-	Case=a|Gender=n|Number=s	33	nmod	_	Gloss.en=the|SourceNode=t_53|Gloss.de=der|Gloss.la=ille
+33	εὐαγγέλιον	εὐαγγέλιον	NOUN	n-s---na-	Case=a|Gender=n|Number=s	31	obj	_	Gloss.en=gospel|Gloss.en.alt=good news|Gloss.la=evangelium|Gloss.de=Evangelium|LN=33.217|SourceNode=t_54
+34	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	35	nmod	_	Gloss.en=the|SourceNode=t_55|Gloss.de=der|Gloss.la=ille
+35	Χριστοῦ	χριστός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	33	nmod	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_56
+36	.	.	PUNCT	u--------	_	1	punct	_	SourceNode=t_57
+
+# sent_id = zahn.galatians.u0003
+# unit_id = u0003
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἀλλὰ καὶ ἐὰν ἡμεῖς ἢ ἄγγελος ἐξ οὐρανοῦ ἄλλως εὐαγγελίσηται , ἀνάθεμα ἔστω .
+# text_en = but and if I or angel from <ouranou> <allos> proclaim gospel, anathema be.
+# text_de = sondern und wenn ich oder Engel aus <ouranou> <allos> das Evangelium verkünden, Anathema sein.
+# text_la = sed et si ego aut angelus ex <ouranou> <allos> evangelizare, anathema esse.
+1	ἀλλὰ	ἀλλά	CCONJ	d--------	_	13	advmod	_	Gloss.en=but|Gloss.en.alt=rather|Gloss.la=sed|Gloss.de=sondern|LN=89.125|SourceNode=t_58
+2	καὶ	καί	ADV	d--------	_	13	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_59
+3	ἐὰν	ἐάν	CCONJ	c--------	_	13	mark	_	SourceNode=t_60|Gloss.en=if|Gloss.de=wenn|Gloss.la=si
+4	ἡμεῖς	ἐγώ	PRON	p1p---mn-	Case=n|Gender=m|Number=p	5	nsubj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_61
+5	ἢ	ἤ1	CCONJ	c--------	_	10	conj	_	SourceNode=t_62|Gloss.en=or|Gloss.de=oder|Gloss.la=aut
+6	ἄγγελος	ἄγγελος	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	5	nsubj	_	Gloss.en=angel|Gloss.en.alt=messenger|Gloss.la=angelus|Gloss.de=Engel|LN=12.28|SourceNode=t_63
+7	ἐξ	ἐκ	ADP	r--------	_	10	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_64
+8	οὐρανοῦ	οὐρανός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	7	advmod	_	SourceNode=t_65|Gloss.en=<ouranou>|Gloss.de=<ouranou>|Gloss.la=<ouranou>
+9	ἄλλως	ἄλλως	ADV	d--------	_	10	advmod	_	SourceNode=t_66|Gloss.en=<allos>|Gloss.de=<allos>|Gloss.la=<allos>
+10	εὐαγγελίσηται	εὐαγγελίζομαι	VERB	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	3	advmod	_	Gloss.en=proclaim gospel|Gloss.en.alt=announce good news|Gloss.la=evangelizare|Gloss.de=das Evangelium verkünden|LN=33.216|SourceNode=t_67
+11	,	,	PUNCT	u--------	_	13	punct	_	SourceNode=t_68
+12	ἀνάθεμα	ἀνάθεμα	NOUN	n-s---nn-	Case=n|Gender=n|Number=p	13	nsubj	_	Gloss.en=anathema|Gloss.en.alt=accursed|Gloss.la=anathema|Gloss.de=Anathema|LN=33.473|SourceNode=t_69
+13	ἔστω	εἰμί	VERB	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	0	root	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_70
+14	.	.	PUNCT	u--------	_	13	punct	_	SourceNode=t_71
+
+# sent_id = zahn.galatians.u0004
+# unit_id = u0004
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = οὐ δὲ γὰρ ἐγὼ παρὰ ἀνθρώπου παρέλαβον αὐτό , οὔ τε ἐδιδάχθην , ἀλλὰ δι᾽ ἀποκαλύψεως Ἰησοῦ Χριστοῦ .
+# text_en = not but for I from human receive he/she/it, not and <edidakhthen>, but through revelation Jesus Christ.
+# text_de = nicht aber denn ich von Mensch übernehmen er/sie/es, nicht und <edidakhthen>, sondern durch Offenbarung Jesus Christus.
+# text_la = non autem enim ego a homo accipere ipse, non et <edidakhthen>, sed per revelatio Iesus Christus.
+1	οὐ	οὐ	ADV	d--------	_	7	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_72
+2	δὲ	δέ	ADV	d--------	_	1	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_73
+3	γὰρ	γάρ	PART	d--------	_	11	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_74
+4	ἐγὼ	ἐγώ	PRON	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	7	nsubj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_75
+5	παρὰ	παρά	ADP	r--------	_	7	case	_	Gloss.en=from|Gloss.en.alt=beside|Gloss.la=a|Gloss.de=von|LN=84.16|SourceNode=t_76
+6	ἀνθρώπου	ἄνθρωπος	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	5	advmod	_	Gloss.en=human|Gloss.en.alt=man|Gloss.la=homo|Gloss.de=Mensch|LN=9.1|SourceNode=t_77
+7	παρέλαβον	παραλαμβάνω	VERB	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	root	_	Gloss.en=receive|Gloss.en.alt=take over|Gloss.la=accipere|Gloss.de=übernehmen|LN=34.2|SourceNode=t_78
+8	αὐτό	αὐτός	PRON	p-s---na-	Case=a|Gender=n|Number=s	7	obj	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_79
+9	,	,	PUNCT	u--------	_	0	root	_	SourceNode=t_80
+10	οὔ	οὐ	ADV	d--------	_	12	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_81
+11	τε	τε	PART	c--------	_	9	conj	_	SourceNode=t_82|Gloss.en=and|Gloss.de=und|Gloss.la=et
+12	ἐδιδάχθην	διδάσκω	VERB	v1saip---	Mood=i|Number=s|Person=1|Tense=a|Voice=p	0	root	_	SourceNode=t_83|Gloss.en=<edidakhthen>|Gloss.de=<edidakhthen>|Gloss.la=<edidakhthen>
+13	,	,	PUNCT	u--------	_	9	punct	_	SourceNode=t_84
+14	ἀλλὰ	ἀλλά	CCONJ	c--------	_	11	conj	_	Gloss.en=but|Gloss.en.alt=rather|Gloss.la=sed|Gloss.de=sondern|LN=89.125|SourceNode=t_85
+15	δι᾽	διά	ADP	r--------	_	14	case	_	Gloss.en=through|Gloss.en.alt=because of|Gloss.la=per|Gloss.de=durch|LN=89.76|SourceNode=t_86
+16	ἀποκαλύψεως	ἀποκάλυψις	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	15	advmod	_	Gloss.en=revelation|Gloss.en.alt=disclosure|Gloss.la=revelatio|Gloss.de=Offenbarung|LN=28.38|SourceNode=t_87
+17	Ἰησοῦ	ἰησοῦς	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	16	nmod	_	Gloss.en=Jesus|Gloss.la=Iesus|Gloss.de=Jesus|LN=93.2|SourceNode=t_88
+18	Χριστοῦ	χριστός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	16	nmod	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_89
+19	.	.	PUNCT	u--------	_	9	punct	_	SourceNode=t_90
+
+# sent_id = zahn.galatians.u0005
+# unit_id = u0005
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἠκούσατε γὰρ τὴν ἐμὴν ἀναστροφήν ποτε ἐν τῷ Ἰουδαϊσμῷ , ὅτι καθ᾽ ὑπερβολὴν ἐδίωκον τὴν ἐκκλησίαν τοῦ θεοῦ καὶ ἐπόρθουν αὐτήν ·
+# text_en = hear for the <emen> <anastrophen> <pote> in the <ioudaismo>, that according to <uperbolen> <ediokon> the church the God and <eporthoun> he/she/it·
+# text_de = hören denn der <emen> <anastrophen> <pote> in der <ioudaismo>, dass nach <uperbolen> <ediokon> der Gemeinde der Gott und <eporthoun> er/sie/es·
+# text_la = audire enim ille <emen> <anastrophen> <pote> in ille <ioudaismo>, quod secundum <uperbolen> <ediokon> ille ecclesia ille Deus et <eporthoun> ipse·
+1	ἠκούσατε	ἀκούω	VERB	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	0	root	_	Gloss.en=hear|Gloss.la=audire|Gloss.de=hören|LN=24.52|SourceNode=t_91
+2	γὰρ	γάρ	PART	d--------	_	1	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_92
+3	τὴν	ὁ	DET	l-s---fa-	Case=a|Gender=f|Number=s	5	nmod	_	Gloss.en=the|SourceNode=t_93|Gloss.de=der|Gloss.la=ille
+4	ἐμὴν	ἐμός	ADJ	a-s---fa-	Case=a|Gender=f|Number=s	5	nmod	_	SourceNode=t_94|Gloss.en=<emen>|Gloss.de=<emen>|Gloss.la=<emen>
+5	ἀναστροφήν	ἀναστροφή	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	1	obj	_	SourceNode=t_95|Gloss.en=<anastrophen>|Gloss.de=<anastrophen>|Gloss.la=<anastrophen>
+6	ποτε	ποτέ	ADV	d--------	_	1	advmod	_	SourceNode=t_96|Gloss.en=<pote>|Gloss.de=<pote>|Gloss.la=<pote>
+7	ἐν	ἐν	ADP	r--------	_	1	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_97
+8	τῷ	ὁ	DET	l-s---md-	Case=d|Gender=m|Number=s	9	nmod	_	Gloss.en=the|SourceNode=t_98|Gloss.de=der|Gloss.la=ille
+9	Ἰουδαϊσμῷ	ἰουδαϊσμός	NOUN	n-s---md-	Case=d|Gender=m|Number=s	7	advmod	_	SourceNode=t_99|Gloss.en=<ioudaismo>|Gloss.de=<ioudaismo>|Gloss.la=<ioudaismo>
+10	,	,	PUNCT	u--------	_	1	punct	_	SourceNode=t_100
+11	ὅτι	ὅτι	SCONJ	c--------	_	1	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_101
+12	καθ᾽	κατά	ADP	r--------	_	14	case	_	Gloss.en=according to|Gloss.en.alt=against|Gloss.la=secundum|Gloss.de=nach|LN=89.9|SourceNode=t_102
+13	ὑπερβολὴν	ὑπερβολή	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	12	advmod	_	SourceNode=t_103|Gloss.en=<uperbolen>|Gloss.de=<uperbolen>|Gloss.la=<uperbolen>
+14	ἐδίωκον	διώκω	VERB	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	19	obj	_	SourceNode=t_104|Gloss.en=<ediokon>|Gloss.de=<ediokon>|Gloss.la=<ediokon>
+15	τὴν	ὁ	DET	l-s---fa-	Case=a|Gender=f|Number=s	16	nmod	_	Gloss.en=the|SourceNode=t_105|Gloss.de=der|Gloss.la=ille
+16	ἐκκλησίαν	ἐκκλησία	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	14	obj	_	Gloss.en=church|Gloss.en.alt=assembly|Gloss.la=ecclesia|Gloss.de=Gemeinde|LN=11.32|SourceNode=t_106
+17	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	18	nmod	_	Gloss.en=the|SourceNode=t_107|Gloss.de=der|Gloss.la=ille
+18	θεοῦ	θεός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	16	nmod	_	Gloss.en=God|Gloss.en.alt=god|Gloss.la=Deus|Gloss.de=Gott|LN=12.1|SourceNode=t_108
+19	καὶ	καί	CCONJ	c--------	_	11	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_109
+20	ἐπόρθουν	πορθέω	VERB	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	19	obj	_	SourceNode=t_110|Gloss.en=<eporthoun>|Gloss.de=<eporthoun>|Gloss.la=<eporthoun>
+21	αὐτήν	αὐτός	PRON	p-s---fa-	Case=a|Gender=f|Number=s	20	obj	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_111
+22	·	·	PUNCT	u--------	_	1	punct	_	SourceNode=t_112
+
+# sent_id = zahn.galatians.u0006
+# unit_id = u0006
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = καὶ προέκοπτον ἐν τῷ Ἰουδαϊσμῷ ὑπὲρ πολλοὺς συνηλικιώτας ἐν τῷ γένει μου , περισσοτέρως ζηλωτὴς ὑπάρχων τῶν πατρικῶν μου παραδόσεων .
+# text_en = and <proekopton> in the <ioudaismo> for <pollous> <sunelikiotas> in the <genei> I, <perissoteros> <zelotes> be the <patrikon> I <paradoseon>.
+# text_de = und <proekopton> in der <ioudaismo> für <pollous> <sunelikiotas> in der <genei> ich, <perissoteros> <zelotes> sein der <patrikon> ich <paradoseon>.
+# text_la = et <proekopton> in ille <ioudaismo> pro <pollous> <sunelikiotas> in ille <genei> ego, <perissoteros> <zelotes> esse ille <patrikon> ego <paradoseon>.
+1	καὶ	καί	ADV	d--------	_	2	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_113
+2	προέκοπτον	προκόπτω	VERB	v1siia---	Mood=i|Number=s|Person=1|Tense=i|Voice=a	0	root	_	SourceNode=t_114|Gloss.en=<proekopton>|Gloss.de=<proekopton>|Gloss.la=<proekopton>
+3	ἐν	ἐν	ADP	r--------	_	2	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_115
+4	τῷ	ὁ	DET	l-s---md-	Case=d|Gender=m|Number=s	5	nmod	_	Gloss.en=the|SourceNode=t_116|Gloss.de=der|Gloss.la=ille
+5	Ἰουδαϊσμῷ	ἰουδαϊσμός	NOUN	n-s---md-	Case=d|Gender=m|Number=s	3	advmod	_	SourceNode=t_117|Gloss.en=<ioudaismo>|Gloss.de=<ioudaismo>|Gloss.la=<ioudaismo>
+6	ὑπὲρ	ὑπέρ	ADP	r--------	_	2	case	_	Gloss.en=for|Gloss.en.alt=on behalf of|Gloss.la=pro|Gloss.de=für|LN=90.36|SourceNode=t_118
+7	πολλοὺς	πολύς	ADJ	a-p---ma-	Case=a|Gender=m|Number=p	8	nmod	_	SourceNode=t_119|Gloss.en=<pollous>|Gloss.de=<pollous>|Gloss.la=<pollous>
+8	συνηλικιώτας	συνηλικιώτης	NOUN	n-p---ma-	Case=a|Gender=m|Number=p	6	advmod	_	SourceNode=t_120|Gloss.en=<sunelikiotas>|Gloss.de=<sunelikiotas>|Gloss.la=<sunelikiotas>
+9	ἐν	ἐν	ADP	r--------	_	8	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_121
+10	τῷ	ὁ	DET	l-s---nd-	Case=d|Gender=n|Number=s	11	nmod	_	Gloss.en=the|SourceNode=t_122|Gloss.de=der|Gloss.la=ille
+11	γένει	γένος	NOUN	n-s---nd-	Case=d|Gender=n|Number=s	9	nmod	_	SourceNode=t_123|Gloss.en=<genei>|Gloss.de=<genei>|Gloss.la=<genei>
+12	μου	ἐγώ	PRON	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	11	nmod	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_124
+13	,	,	PUNCT	u--------	_	2	punct	_	SourceNode=t_125
+14	περισσοτέρως	περισσοτέρως	ADJ	a-p---mac	Degree=c	16	advmod	_	SourceNode=t_126|Gloss.en=<perissoteros>|Gloss.de=<perissoteros>|Gloss.la=<perissoteros>
+15	ζηλωτὴς	ζηλωτὴς	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	16	nsubj	_	SourceNode=t_127|Gloss.en=<zelotes>|Gloss.de=<zelotes>|Gloss.la=<zelotes>
+16	ὑπάρχων	ὑπάρχω	VERB	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	2	advmod	_	SourceNode=t_128|Gloss.en=be|Gloss.de=sein|Gloss.la=esse
+17	τῶν	ὁ	DET	l-p---fg-	Case=g|Gender=f|Number=p	20	nmod	_	Gloss.en=the|SourceNode=t_129|Gloss.de=der|Gloss.la=ille
+18	πατρικῶν	πατρικός	ADJ	a-p---fg-	Case=g|Gender=f|Number=p	20	nmod	_	SourceNode=t_130|Gloss.en=<patrikon>|Gloss.de=<patrikon>|Gloss.la=<patrikon>
+19	μου	ἐγώ	PRON	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	20	nmod	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_131
+20	παραδόσεων	παράδοσις	NOUN	n-p---fg-	Case=g|Gender=f|Number=p	15	nmod	_	SourceNode=t_132|Gloss.en=<paradoseon>|Gloss.de=<paradoseon>|Gloss.la=<paradoseon>
+21	.	.	PUNCT	u--------	_	2	punct	_	SourceNode=t_133
+
+# sent_id = zahn.galatians.u0007
+# unit_id = u0007
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὅτε δὲ εὐδόκησεν , ὁ ἀφορίσας με ἐκ κοιλίας μητρός μου , καὶ καλέσας διὰ τῆς χάριτος αὐτοῦ , ἀποκαλύψαι τὸν υἱὸν αὐτοῦ ἐν ἐμοὶ , ἵνα εὐαγγελίζωμαι αὐτὸν ἐν τοῖς ἔθνεσιν , εὐθέως οὐ προσανεθέμην σαρκὶ καὶ αἵματι , οὐ δὲ ἀνῆλθον εἰς Ἱεροσόλυμα πρὸς τοὺς πρὸ ἐμοῦ ἀποστόλους .
+# text_en = when but be_pleased, the set apart I from womb mother I, and call through the grace he/she/it, reveal the son he/she/it in I, so that proclaim gospel he/she/it in the gentile, immediately not consult flesh and blood, not but go_up into Jerusalem to the before I apostle.
+# text_de = als aber gefallen, der absondern ich aus Mutterleib Mutter ich, und berufen durch der Gnade er/sie/es, offenbaren der Sohn er/sie/es in ich, damit das Evangelium verkünden er/sie/es in der Volk, sofort nicht vorlegen Fleisch und Blut, nicht aber hinaufgehen in Jerusalem zu der vor ich Apostel.
+# text_la = cum autem beneplacitum_esse, ille separare ego ex uterus mater ego, et vocare per ille gratia ipse, revelare ille filius ipse in ego, ut evangelizare ipse in ille gens, statim non conferre caro et sanguis, non autem ascendere in Hierosolyma ad ille ante ego apostolus.
+1	ὅτε	ὅτε	CCONJ	c--------	_	42	mark	_	SourceNode=t_134|Gloss.en=when|Gloss.de=als|Gloss.la=cum
+2	δὲ	δέ	ADV	d--------	_	42	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_135
+3	εὐδόκησεν	εὐδοκέω	VERB	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	1	advmod	_	SourceNode=t_136|Gloss.en=be_pleased|Gloss.de=gefallen|Gloss.la=beneplacitum_esse
+4	,	,	PUNCT	u--------	_	0	root	_	SourceNode=t_137
+5	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	6	nmod	_	Gloss.en=the|SourceNode=t_138|Gloss.de=der|Gloss.la=ille
+6	ἀφορίσας	ἀφορίζω	VERB	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	13	nsubj	_	Gloss.en=set apart|Gloss.en.alt=separate|Gloss.la=separare|Gloss.de=absondern|LN=63.10|SourceNode=t_139
+7	με	ἐγώ	PRON	p1s---ma-	Case=a|Gender=m|Number=s|Person=1	6	obj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_140
+8	ἐκ	ἐκ	ADP	r--------	_	6	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_141
+9	κοιλίας	κοιλία	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	8	advmod	_	Gloss.en=womb|Gloss.en.alt=belly|Gloss.la=uterus|Gloss.de=Mutterleib|LN=8.67|SourceNode=t_142
+10	μητρός	μήτηρ	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	9	nmod	_	Gloss.en=mother|Gloss.la=mater|Gloss.de=Mutter|LN=10.16|SourceNode=t_143
+11	μου	ἐγώ	PRON	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	10	nmod	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_144
+12	,	,	PUNCT	u--------	_	4	punct	_	SourceNode=t_145
+13	καὶ	καί	CCONJ	c--------	_	42	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_146
+14	καλέσας	καλέω	VERB	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	13	advmod	_	Gloss.en=call|Gloss.en.alt=invite|Gloss.la=vocare|Gloss.de=berufen|LN=33.312|SourceNode=t_147
+15	διὰ	διά	ADP	r--------	_	14	case	_	Gloss.en=through|Gloss.en.alt=because of|Gloss.la=per|Gloss.de=durch|LN=89.76|SourceNode=t_148
+16	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	17	nmod	_	Gloss.en=the|SourceNode=t_149|Gloss.de=der|Gloss.la=ille
+17	χάριτος	χάρις	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	15	advmod	_	Gloss.en=grace|Gloss.en.alt=favour|Gloss.la=gratia|Gloss.de=Gnade|LN=88.66|SourceNode=t_150
+18	αὐτοῦ	αὐτός	PRON	p-s---mg-	Case=g|Gender=m|Number=s	17	nmod	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_151
+19	,	,	PUNCT	u--------	_	4	punct	_	SourceNode=t_152
+20	ἀποκαλύψαι	ἀποκρύπτω	VERB	v--ana---	Mood=n|Tense=a|Voice=a	14	obj	_	SourceNode=t_153|Gloss.en=reveal|Gloss.de=offenbaren|Gloss.la=revelare
+21	τὸν	ὁ	DET	l-s---ma-	Case=a|Gender=m|Number=s	22	nmod	_	Gloss.en=the|SourceNode=t_154|Gloss.de=der|Gloss.la=ille
+22	υἱὸν	υἱός	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	20	obj	_	Gloss.en=son|Gloss.en.alt=child|Gloss.la=filius|Gloss.de=Sohn|LN=10.42|SourceNode=t_155
+23	αὐτοῦ	αὐτός	PRON	p-s---mg-	Case=g|Gender=m|Number=s	22	nmod	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_156
+24	ἐν	ἐν	ADP	r--------	_	20	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_157
+25	ἐμοὶ	ἐγώ	PRON	p1s---md-	Case=d|Gender=m|Number=s|Person=1	24	advmod	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_158
+26	,	,	PUNCT	u--------	_	4	punct	_	SourceNode=t_159
+27	ἵνα	ἵνα	SCONJ	c--------	_	20	mark	_	Gloss.en=so that|Gloss.en.alt=in order that|Gloss.la=ut|Gloss.de=damit|LN=89.59|SourceNode=t_160
+28	εὐαγγελίζωμαι	εὐαγγελίζομαι	VERB	v1spse---	Mood=s|Number=s|Person=1|Tense=p|Voice=e	27	advmod	_	Gloss.en=proclaim gospel|Gloss.en.alt=announce good news|Gloss.la=evangelizare|Gloss.de=das Evangelium verkünden|LN=33.216|SourceNode=t_161
+29	αὐτὸν	αὐτός	PRON	p-s---ma-	Case=a|Gender=m|Number=s	28	obj	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_162
+30	ἐν	ἐν	ADP	r--------	_	28	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_163
+31	τοῖς	ὁ	DET	l-p---nd-	Case=d|Gender=n|Number=p	32	nmod	_	Gloss.en=the|SourceNode=t_164|Gloss.de=der|Gloss.la=ille
+32	ἔθνεσιν	ἔθνος	NOUN	n-p---nd-	Case=d|Gender=n|Number=p	30	advmod	_	Gloss.en=gentile|Gloss.en.alt=nation|Gloss.la=gens|Gloss.de=Volk|LN=11.55|SourceNode=t_165
+33	,	,	PUNCT	u--------	_	4	punct	_	SourceNode=t_166
+34	εὐθέως	εὐθύς2	ADV	d--------	_	36	advmod	_	SourceNode=t_167|Gloss.en=immediately|Gloss.de=sofort|Gloss.la=statim
+35	οὐ	οὐ	ADV	d--------	_	36	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_168
+36	προσανεθέμην	προσανατίθημι	VERB	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	0	root	_	SourceNode=t_169|Gloss.en=consult|Gloss.de=vorlegen|Gloss.la=conferre
+37	σαρκὶ	σάρξ	NOUN	n-s---fd-	Case=d|Gender=f|Number=s	38	advmod	_	Gloss.en=flesh|Gloss.en.alt=human nature|Gloss.la=caro|Gloss.de=Fleisch|LN=8.4|SourceNode=t_170
+38	καὶ	καί	CCONJ	c--------	_	36	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_171
+39	αἵματι	αἷμα	NOUN	n-s---nd-	Case=d|Gender=n|Number=s	38	advmod	_	SourceNode=t_172|Gloss.en=blood|Gloss.de=Blut|Gloss.la=sanguis
+40	,	,	PUNCT	u--------	_	4	punct	_	SourceNode=t_173
+41	οὐ	οὐ	ADV	d--------	_	43	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_174
+42	δὲ	δέ	CCONJ	c--------	_	4	conj	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_175
+43	ἀνῆλθον	ἀνέρχομαι	VERB	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	root	_	SourceNode=t_176|Gloss.en=go_up|Gloss.de=hinaufgehen|Gloss.la=ascendere
+44	εἰς	εἰς	ADP	r--------	_	43	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_177
+45	Ἱεροσόλυμα	ἱεροσόλυμα	NOUN	n-p---na-	Case=a|Gender=n|Number=p	44	obj	_	Gloss.en=Jerusalem|Gloss.la=Hierosolyma|Gloss.de=Jerusalem|LN=93.183|SourceNode=t_178
+46	πρὸς	πρός	ADP	r--------	_	43	case	_	Gloss.en=to|Gloss.en.alt=with|Gloss.la=ad|Gloss.de=zu|LN=84.24|SourceNode=t_179
+47	τοὺς	ὁ	DET	l-p---ma-	Case=a|Gender=m|Number=p	50	nmod	_	Gloss.en=the|SourceNode=t_180|Gloss.de=der|Gloss.la=ille
+48	πρὸ	πρό	ADP	r--------	_	50	case	_	Gloss.en=before|Gloss.la=ante|Gloss.de=vor|LN=84.17|SourceNode=t_181
+49	ἐμοῦ	ἐγώ	PRON	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	48	nmod	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_182
+50	ἀποστόλους	ἀπόστολος	NOUN	n-p---ma-	Case=a|Gender=m|Number=p	46	advmod	_	Gloss.en=apostle|Gloss.en.alt=messenger|Gloss.la=apostolus|Gloss.de=Apostel|LN=53.74|SourceNode=t_183
+51	.	.	PUNCT	u--------	_	4	punct	_	SourceNode=t_184
+
+# sent_id = zahn.galatians.u0008
+# unit_id = u0008
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἀλλὰ ἀπῆλθον εἰς Ἀραβίαν , καὶ πάλιν ὑπέστρεψα εἰς Δαμασκόν .
+# text_en = but <apelthon> into Arabia, and again return into Damascus.
+# text_de = sondern <apelthon> in Arabien, und wieder zurückkehren in Damaskus.
+# text_la = sed <apelthon> in Arabia, et rursus redire in Damascus.
+1	ἀλλὰ	ἀλλά	CCONJ	d--------	_	6	advmod	_	Gloss.en=but|Gloss.en.alt=rather|Gloss.la=sed|Gloss.de=sondern|LN=89.125|SourceNode=t_185
+2	ἀπῆλθον	ἀπέρχομαι	VERB	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	root	_	SourceNode=t_186|Gloss.en=<apelthon>|Gloss.de=<apelthon>|Gloss.la=<apelthon>
+3	εἰς	εἰς	ADP	r--------	_	2	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_187
+4	Ἀραβίαν	ἀραβία	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	3	obj	_	Gloss.en=Arabia|Gloss.la=Arabia|Gloss.de=Arabien|LN=93.178|SourceNode=t_188
+5	,	,	PUNCT	u--------	_	0	root	_	SourceNode=t_189
+6	καὶ	καί	CCONJ	c--------	_	5	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_190
+7	πάλιν	πάλιν	ADV	d--------	_	8	advmod	_	SourceNode=t_191|Gloss.en=again|Gloss.de=wieder|Gloss.la=rursus
+8	ὑπέστρεψα	ἐπανέρχομαι	VERB	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	root	_	SourceNode=t_192|Gloss.en=return|Gloss.de=zurückkehren|Gloss.la=redire
+9	εἰς	εἰς	ADP	r--------	_	8	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_193
+10	Δαμασκόν	δαμασκός	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	9	obj	_	Gloss.en=Damascus|Gloss.la=Damascus|Gloss.de=Damaskus|LN=93.180|SourceNode=t_194
+11	.	.	PUNCT	u--------	_	5	punct	_	SourceNode=t_195
+
+# sent_id = zahn.galatians.u0009
+# unit_id = u0009
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἔπειτα διὰ δεκατεσσάρων ἐτῶν ἀνέβην εἰς Ἱεροσόλυμα μετὰ Βαρναβᾶ , συνπαραλαβὼν καὶ Τίτον ·
+# text_en = then through fourteen year go up into Jerusalem after Barnabas, <sunparalabon> and Titus·
+# text_de = dann durch vierzehn Jahr hinaufgehen in Jerusalem nach Barnabas, <sunparalabon> und Titus·
+# text_la = deinde per quattuordecim annus ascendere in Hierosolyma post Barnabas, <sunparalabon> et Titus·
+1	ἔπειτα	ἔπειτα	ADV	d--------	_	5	advmod	_	SourceNode=t_196|Gloss.en=then|Gloss.de=dann|Gloss.la=deinde
+2	διὰ	διά	ADP	r--------	_	5	case	_	Gloss.en=through|Gloss.en.alt=because of|Gloss.la=per|Gloss.de=durch|LN=89.76|SourceNode=t_197
+3	δεκατεσσάρων	δεκατεσσάρων	ADJ	a-p---ng-	Case=g|Gender=n|Number=p	4	nmod	_	Gloss.en=fourteen|Gloss.la=quattuordecim|Gloss.de=vierzehn|LN=60.14|SourceNode=t_198
+4	ἐτῶν	ἔτος	NOUN	n-p---ng-	Case=g|Gender=n|Number=p	2	advmod	_	Gloss.en=year|Gloss.la=annus|Gloss.de=Jahr|LN=67.175|SourceNode=t_199
+5	ἀνέβην	ἀναβαίνω	VERB	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	root	_	Gloss.en=go up|Gloss.la=ascendere|Gloss.de=hinaufgehen|LN=15.103|SourceNode=t_200
+6	εἰς	εἰς	ADP	r--------	_	5	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_201
+7	Ἱεροσόλυμα	ἱεροσόλυμα	NOUN	n-p---na-	Case=a|Gender=n|Number=p	6	obj	_	Gloss.en=Jerusalem|Gloss.la=Hierosolyma|Gloss.de=Jerusalem|LN=93.183|SourceNode=t_202
+8	μετὰ	μετά	ADP	r--------	_	5	case	_	Gloss.en=after|Gloss.en.alt=with|Gloss.la=post|Gloss.de=nach|LN=84.28|SourceNode=t_203
+9	Βαρναβᾶ	βαρναβᾶς	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	8	advmod	_	Gloss.en=Barnabas|Gloss.la=Barnabas|Gloss.de=Barnabas|LN=93.179|SourceNode=t_204
+10	,	,	PUNCT	u--------	_	5	punct	_	SourceNode=t_205
+11	συνπαραλαβὼν	συμπαραλαμβάνω	VERB	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	advmod	_	SourceNode=t_206|Gloss.en=<sunparalabon>|Gloss.de=<sunparalabon>|Gloss.la=<sunparalabon>
+12	καὶ	καί	ADV	d--------	_	13	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_207
+13	Τίτον	τίτος	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	11	obj	_	Gloss.en=Titus|Gloss.la=Titus|Gloss.de=Titus|LN=93.198|SourceNode=t_208
+14	·	·	PUNCT	u--------	_	5	punct	_	SourceNode=t_209
+
+# sent_id = zahn.galatians.u0010
+# unit_id = u0010
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἀνέβην δὲ κατὰ ἀποκάλυψιν , καὶ ἀνεθέμην αὐτοῖς τὸ εὐαγγέλιον ὃ κηρύσσω ἐν τοῖς ἔθνεσιν , κατ᾽ ἰδίαν δὲ τοῖς δοκοῦσιν , μήπως εἰς κενὸν ἔδραμον ἢ τρέχω .
+# text_en = go up but according to revelation, and <anethemen> he/she/it the gospel which proclaim in the gentile, according to <idian> but the think, perhaps into <kenon> run or run.
+# text_de = hinaufgehen aber nach Offenbarung, und <anethemen> er/sie/es der Evangelium welcher verkünden in der Volk, nach <idian> aber der meinen, vielleicht in <kenon> laufen oder laufen.
+# text_la = ascendere autem secundum revelatio, et <anethemen> ipse ille evangelium qui praedicare in ille gens, secundum <idian> autem ille putare, forte in <kenon> currere aut currere.
+1	ἀνέβην	ἀναβαίνω	VERB	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	root	_	Gloss.en=go up|Gloss.la=ascendere|Gloss.de=hinaufgehen|LN=15.103|SourceNode=t_210
+2	δὲ	δέ	ADV	d--------	_	6	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_211
+3	κατὰ	κατά	ADP	r--------	_	1	case	_	Gloss.en=according to|Gloss.en.alt=against|Gloss.la=secundum|Gloss.de=nach|LN=89.9|SourceNode=t_212
+4	ἀποκάλυψιν	ἀποκάλυψις	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	3	advmod	_	Gloss.en=revelation|Gloss.en.alt=disclosure|Gloss.la=revelatio|Gloss.de=Offenbarung|LN=28.38|SourceNode=t_213
+5	,	,	PUNCT	u--------	_	0	root	_	SourceNode=t_214
+6	καὶ	καί	CCONJ	c--------	_	5	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_215
+7	ἀνεθέμην	ἀνατίθημι	VERB	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	0	root	_	SourceNode=t_216|Gloss.en=<anethemen>|Gloss.de=<anethemen>|Gloss.la=<anethemen>
+8	αὐτοῖς	αὐτός	PRON	p-p---md-	Case=d|Gender=m|Number=p	7	obj	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_217
+9	τὸ	ὁ	DET	l-s---na-	Case=a|Gender=n|Number=s	10	nmod	_	Gloss.en=the|SourceNode=t_218|Gloss.de=der|Gloss.la=ille
+10	εὐαγγέλιον	εὐαγγέλιον	NOUN	n-s---na-	Case=a|Gender=n|Number=s	7	obj	_	Gloss.en=gospel|Gloss.en.alt=good news|Gloss.la=evangelium|Gloss.de=Evangelium|LN=33.217|SourceNode=t_219
+11	ὃ	ὅς	PRON	p-s---na-	Case=a|Gender=n|Number=s	12	obj	_	SourceNode=t_220|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+12	κηρύσσω	κηρύσσω	VERB	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	10	nmod	_	SourceNode=t_221|Gloss.en=proclaim|Gloss.de=verkünden|Gloss.la=praedicare
+13	ἐν	ἐν	ADP	r--------	_	12	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_222
+14	τοῖς	ὁ	DET	l-p---nd-	Case=d|Gender=n|Number=p	15	nmod	_	Gloss.en=the|SourceNode=t_223|Gloss.de=der|Gloss.la=ille
+15	ἔθνεσιν	ἔθνος	NOUN	n-p---nd-	Case=d|Gender=n|Number=p	13	advmod	_	Gloss.en=gentile|Gloss.en.alt=nation|Gloss.la=gens|Gloss.de=Volk|LN=11.55|SourceNode=t_224
+16	,	,	PUNCT	u--------	_	5	punct	_	SourceNode=t_225
+17	κατ᾽	κατά	ADP	r--------	_	19	case	_	Gloss.en=according to|Gloss.en.alt=against|Gloss.la=secundum|Gloss.de=nach|LN=89.9|SourceNode=t_226
+18	ἰδίαν	ἴδιος	ADJ	a-s---fa-	Case=a|Gender=f|Number=s	17	advmod	_	SourceNode=t_227|Gloss.en=<idian>|Gloss.de=<idian>|Gloss.la=<idian>
+19	δὲ	δέ	CCONJ	c--------	_	10	conj	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_228
+20	τοῖς	ὁ	DET	l-p---md-	Case=d|Gender=m|Number=p	21	nmod	_	Gloss.en=the|SourceNode=t_229|Gloss.de=der|Gloss.la=ille
+21	δοκοῦσιν	δοκέω	VERB	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	19	obj	_	Gloss.en=think|Gloss.en.alt=seem|Gloss.la=putare|Gloss.de=meinen|LN=31.29|SourceNode=t_230
+22	,	,	PUNCT	u--------	_	5	punct	_	SourceNode=t_231
+23	μήπως	μήπως	ADV	d--------	_	22	mark	_	SourceNode=t_232|Gloss.en=perhaps|Gloss.de=vielleicht|Gloss.la=forte
+24	εἰς	εἰς	ADP	r--------	_	26	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_233
+25	κενὸν	κενός	ADJ	a-s---na-	Case=a|Gender=n|Number=s	24	obj	_	SourceNode=t_234|Gloss.en=<kenon>|Gloss.de=<kenon>|Gloss.la=<kenon>
+26	ἔδραμον	τρέχω	VERB	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	27	obj	_	Gloss.en=run|Gloss.la=currere|Gloss.de=laufen|LN=15.244|SourceNode=t_235
+27	ἢ	ἤ1	CCONJ	c--------	_	22	conj	_	SourceNode=t_236|Gloss.en=or|Gloss.de=oder|Gloss.la=aut
+28	τρέχω	τρέχω	VERB	v1spsa---	Mood=s|Number=s|Person=1|Tense=p|Voice=a	27	obj	_	Gloss.en=run|Gloss.la=currere|Gloss.de=laufen|LN=15.244|SourceNode=t_237
+29	.	.	PUNCT	u--------	_	5	punct	_	SourceNode=t_238
+
+# sent_id = zahn.galatians.u0011
+# unit_id = u0011
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἀλλ᾽ οὐ δὲ Τίτος ὁ σὺν ἐμοί , Ἕλλην ὤν , ἠναγκάσθη περιτμηθῆναι διὰ τοὺς παρεισάκτους ψευδαδέλφους , οἵτινες παρεισῆλθον κατασκοπῆσαι τὴν ἐλευθερίαν ἡμῶν ἣν ἔχομεν ἐν Χριστῷ , ἵνα ἡμᾶς καταδουλώσουσιν .
+# text_en = but not but Titus the with I, Ἕλλην be, compel circumcise through the false_brothers false brother, which slip_in spy_out the freedom I which have in Christ, so that I <katadoulosousin>.
+# text_de = sondern nicht aber Titus der mit ich, Ἕλλην sein, zwingen beschneiden durch der falsche_Brüder falscher Bruder, welcher einschleichen auskundschaften der Freiheit ich welcher haben in Christus, damit ich <katadoulosousin>.
+# text_la = sed non autem Titus ille cum ego, Ἕλλην esse, cogere circumcidere per ille falsi_fratres pseudofrater, quicumque introire_clam explorare ille libertas ego qui habere in Christus, ut ego <katadoulosousin>.
+1	ἀλλ᾽	ἀλλά	ADV	d--------	_	12	advmod	_	Gloss.en=but|Gloss.en.alt=rather|Gloss.la=sed|Gloss.de=sondern|LN=89.125|SourceNode=t_239
+2	οὐ	οὐ	ADV	d--------	_	12	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_240
+3	δὲ	δέ	ADV	d--------	_	2	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_241
+4	Τίτος	τίτος	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	12	nsubj	_	Gloss.en=Titus|Gloss.la=Titus|Gloss.de=Titus|LN=93.198|SourceNode=t_242
+5	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	4	nmod	_	Gloss.en=the|SourceNode=t_243|Gloss.de=der|Gloss.la=ille
+6	σὺν	σύν	ADP	r--------	_	4	case	_	Gloss.en=with|Gloss.en.alt=together with|Gloss.la=cum|Gloss.de=mit|LN=89.107|SourceNode=t_244
+7	ἐμοί	ἐγώ	PRON	p1s---md-	Case=d|Gender=m|Number=s|Person=1	6	nmod	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_245
+8	,	,	PUNCT	u--------	_	12	punct	_	SourceNode=t_246
+9	Ἕλλην	ἕλλην	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	10	nsubj	_	Gloss.en=Ἕλλην|Gloss.la=Ἕλλην|Gloss.de=Ἕλλην|SourceNode=t_247
+10	ὤν	εἰμί	VERB	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	4	nmod	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_248
+11	,	,	PUNCT	u--------	_	12	punct	_	SourceNode=t_249
+12	ἠναγκάσθη	ἀναγκάζω	VERB	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	root	_	SourceNode=t_250|Gloss.en=compel|Gloss.de=zwingen|Gloss.la=cogere
+13	περιτμηθῆναι	περιτέμνω	VERB	v--anp---	Mood=n|Tense=a|Voice=p	12	obj	_	Gloss.en=circumcise|Gloss.la=circumcidere|Gloss.de=beschneiden|LN=53.44|SourceNode=t_251
+14	διὰ	διά	ADP	r--------	_	13	case	_	Gloss.en=through|Gloss.en.alt=because of|Gloss.la=per|Gloss.de=durch|LN=89.76|SourceNode=t_252
+15	τοὺς	ὁ	DET	l-p---ma-	Case=a|Gender=m|Number=p	17	nmod	_	Gloss.en=the|SourceNode=t_253|Gloss.de=der|Gloss.la=ille
+16	παρεισάκτους	παρεισάκτους	ADJ	a-p---ma-	Case=a|Gender=m|Number=p	17	nmod	_	SourceNode=t_254|Gloss.en=false_brothers|Gloss.de=falsche_Brüder|Gloss.la=falsi_fratres
+17	ψευδαδέλφους	ψευδάδελφος	ADJ	a-p---ma-	Case=a|Gender=m|Number=p	14	advmod	_	Gloss.en=false brother|Gloss.la=pseudofrater|Gloss.de=falscher Bruder|LN=11.24|SourceNode=t_255
+18	,	,	PUNCT	u--------	_	12	punct	_	SourceNode=t_256
+19	οἵτινες	ὅστις	PRON	p-p---mn-	Case=n|Gender=m|Number=p	20	nsubj	_	SourceNode=t_257|Gloss.en=which|Gloss.de=welcher|Gloss.la=quicumque
+20	παρεισῆλθον	παρεισέρχομαι	VERB	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	17	nmod	_	SourceNode=t_258|Gloss.en=slip_in|Gloss.de=einschleichen|Gloss.la=introire_clam
+21	κατασκοπῆσαι	κατασκοπέω	VERB	v--ana---	Mood=n|Tense=a|Voice=a	20	obj	_	SourceNode=t_259|Gloss.en=spy_out|Gloss.de=auskundschaften|Gloss.la=explorare
+22	τὴν	ὁ	DET	l-s---fa-	Case=a|Gender=f|Number=s	23	nmod	_	Gloss.en=the|SourceNode=t_260|Gloss.de=der|Gloss.la=ille
+23	ἐλευθερίαν	ἐλευθερία	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	21	obj	_	Gloss.en=freedom|Gloss.en.alt=liberty|Gloss.la=libertas|Gloss.de=Freiheit|LN=37.13|SourceNode=t_261
+24	ἡμῶν	ἐγώ	PRON	p1p---mg-	Case=g|Gender=m|Number=p|Person=1	23	nmod	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_262
+25	ἣν	ὅς	PRON	p-p---ng-	Case=g|Gender=n|Number=p	26	obj	_	SourceNode=t_263|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+26	ἔχομεν	ἔχω	VERB	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	24	nmod	_	SourceNode=t_264|Gloss.en=have|Gloss.de=haben|Gloss.la=habere
+27	ἐν	ἐν	ADP	r--------	_	26	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_265
+28	Χριστῷ	χριστός	NOUN	n-s---md-	Case=d|Gender=m|Number=s	27	advmod	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_266
+29	,	,	PUNCT	u--------	_	12	punct	_	SourceNode=t_267
+30	ἵνα	ἵνα	SCONJ	c--------	_	21	mark	_	Gloss.en=so that|Gloss.en.alt=in order that|Gloss.la=ut|Gloss.de=damit|LN=89.59|SourceNode=t_268
+31	ἡμᾶς	ἐγώ	PRON	p-p---ma-	Case=a|Gender=m|Number=p	32	obj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_269
+32	καταδουλώσουσιν	καταδουλόω	VERB	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	30	advmod	_	SourceNode=t_270|Gloss.en=<katadoulosousin>|Gloss.de=<katadoulosousin>|Gloss.la=<katadoulosousin>
+33	.	.	PUNCT	u--------	_	12	punct	_	SourceNode=t_271
+
+# sent_id = zahn.galatians.u0012
+# unit_id = u0012
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = οὐ δὲ πρὸς ὥραν εἴξαμεν τῇ ὑποταγῇ , ἵνα ἡ ἀλήθεια τοῦ εὐαγγελίου διαμείνῃ πρὸς ὑμᾶς .
+# text_en = not but to hour yield the submission, so that the truth the gospel remain to you.
+# text_de = nicht aber zu Stunde nachgeben der Unterordnung, damit der Wahrheit der Evangelium bleiben zu du.
+# text_la = non autem ad hora cedere ille subiectio, ut ille veritas ille evangelium manere ad tu.
+1	οὐ	οὐ	ADV	d--------	_	5	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_272
+2	δὲ	δέ	ADV	d--------	_	1	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_273
+3	πρὸς	πρός	ADP	r--------	_	5	case	_	Gloss.en=to|Gloss.en.alt=with|Gloss.la=ad|Gloss.de=zu|LN=84.24|SourceNode=t_274
+4	ὥραν	ὥρα	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	3	advmod	_	SourceNode=t_275|Gloss.en=hour|Gloss.de=Stunde|Gloss.la=hora
+5	εἴξαμεν	εἴκω	VERB	v1paia---	Mood=i|Number=p|Person=1|Tense=a|Voice=a	0	root	_	SourceNode=t_276|Gloss.en=yield|Gloss.de=nachgeben|Gloss.la=cedere
+6	τῇ	ὁ	DET	l-s---fd-	Case=d|Gender=f|Number=s	7	nmod	_	Gloss.en=the|SourceNode=t_277|Gloss.de=der|Gloss.la=ille
+7	ὑποταγῇ	ὑποταγή	NOUN	n-s---fd-	Case=d|Gender=f|Number=s	5	obj	_	SourceNode=t_278|Gloss.en=submission|Gloss.de=Unterordnung|Gloss.la=subiectio
+8	,	,	PUNCT	u--------	_	5	punct	_	SourceNode=t_279
+9	ἵνα	ἵνα	SCONJ	c--------	_	5	mark	_	Gloss.en=so that|Gloss.en.alt=in order that|Gloss.la=ut|Gloss.de=damit|LN=89.59|SourceNode=t_280
+10	ἡ	ὁ	DET	l-s---fn-	Case=n|Gender=f|Number=s	11	nmod	_	Gloss.en=the|SourceNode=t_281|Gloss.de=der|Gloss.la=ille
+11	ἀλήθεια	ἀλήθεια	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	14	nsubj	_	Gloss.en=truth|Gloss.la=veritas|Gloss.de=Wahrheit|LN=72.1|SourceNode=t_282
+12	τοῦ	ὁ	DET	l-s---ng-	Case=g|Gender=n|Number=s	13	nmod	_	Gloss.en=the|SourceNode=t_283|Gloss.de=der|Gloss.la=ille
+13	εὐαγγελίου	εὐαγγέλιον	NOUN	n-s---ng-	Case=g|Gender=n|Number=s	11	nmod	_	Gloss.en=gospel|Gloss.en.alt=good news|Gloss.la=evangelium|Gloss.de=Evangelium|LN=33.217|SourceNode=t_284
+14	διαμείνῃ	διαμένω	VERB	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	9	advmod	_	SourceNode=t_285|Gloss.en=remain|Gloss.de=bleiben|Gloss.la=manere
+15	πρὸς	πρός	ADP	r--------	_	14	case	_	Gloss.en=to|Gloss.en.alt=with|Gloss.la=ad|Gloss.de=zu|LN=84.24|SourceNode=t_286
+16	ὑμᾶς	σύ	PRON	p-p---ma-	Case=a|Gender=m|Number=p	15	advmod	_	Gloss.en=you|Gloss.la=tu|Gloss.de=du|LN=92.2|SourceNode=t_287
+17	.	.	PUNCT	u--------	_	5	punct	_	SourceNode=t_288
+
+# sent_id = zahn.galatians.u0013
+# unit_id = u0013
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = καὶ γνόντες τὴν χάριν τὴν δοθεῖσάν μοι , Πέτρος καὶ Ἰάκωβος καὶ Ἰωάννης , οἱ δοκοῦντες στῦλοι εἶναι , δεξιὰς ἔδωκαν ἐμοὶ καὶ Βαρναβᾷ κοινωνίας , ἵνα ἡμεῖς εἰς τὰ ἔθνη , αὐτοὶ δὲ εἰς τὴν περιτομήν , μόνον τῶν πτωχῶν ἵνα μνημονεύωμεν , ὃ καὶ ἐσπούδασα αὐτὸ τοῦτο ποιῆσαι [1] [2] .
+# text_en = and <gnontes> the grace the give I, Peter and James and Ἰωάννης, the think pillar be, <dexias> give I and Barnabas fellowship, so that I into the gentile, he/she/it but into the circumcision, only the poor so that <mnemoneuomen>, which and <espoudasa> he/she/it this do [1] <2>.
+# text_de = und <gnontes> der Gnade der geben ich, Petrus und Jakobus und Ἰωάννης, der meinen Säule sein, <dexias> geben ich und Barnabas Gemeinschaft, damit ich in der Volk, er/sie/es aber in der Beschneidung, allein der arm damit <mnemoneuomen>, welcher und <espoudasa> er/sie/es dieser tun [1] <2>.
+# text_la = et <gnontes> ille gratia ille dare ego, Petrus et Iacobus et Ἰωάννης, ille putare columna esse, <dexias> dare ego et Barnabas communio, ut ego in ille gens, ipse autem in ille circumcisio, solus ille pauper ut <mnemoneuomen>, qui et <espoudasa> ipse hic facere [1] <2>.
+1	καὶ	καί	ADV	d--------	_	21	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_289
+2	γνόντες	γιγνώσκω	VERB	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	21	advmod	_	SourceNode=t_290|Gloss.en=<gnontes>|Gloss.de=<gnontes>|Gloss.la=<gnontes>
+3	τὴν	ὁ	DET	l-s---fa-	Case=a|Gender=f|Number=s	4	nmod	_	Gloss.en=the|SourceNode=t_291|Gloss.de=der|Gloss.la=ille
+4	χάριν	χάρις	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	2	obj	_	Gloss.en=grace|Gloss.en.alt=favour|Gloss.la=gratia|Gloss.de=Gnade|LN=88.66|SourceNode=t_292
+5	τὴν	ὁ	DET	l-s---fa-	Case=a|Gender=f|Number=s	4	nmod	_	Gloss.en=the|SourceNode=t_293|Gloss.de=der|Gloss.la=ille
+6	δοθεῖσάν	δίδωμι	VERB	v-sappfa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	4	nmod	_	SourceNode=t_294|Gloss.en=give|Gloss.de=geben|Gloss.la=dare
+7	μοι	ἐγώ	PRON	p1s---md-	Case=d|Gender=m|Number=s|Person=1	6	obj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_295
+8	,	,	PUNCT	u--------	_	21	punct	_	SourceNode=t_296
+9	Πέτρος	πέτρος	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	12	nsubj	_	SourceNode=t_297|Gloss.en=Peter|Gloss.de=Petrus|Gloss.la=Petrus
+10	καὶ	καί	ADV	d--------	_	12	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_298
+11	Ἰάκωβος	ἰάκωβος	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	12	nsubj	_	Gloss.en=James|Gloss.la=Iacobus|Gloss.de=Jakobus|LN=93.186|SourceNode=t_299
+12	καὶ	καί	CCONJ	c--------	_	21	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_300
+13	Ἰωάννης	ἰώαννης	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	12	nsubj	_	Gloss.en=Ἰωάννης|Gloss.la=Ἰωάννης|Gloss.de=Ἰωάννης|SourceNode=t_301
+14	,	,	PUNCT	u--------	_	21	punct	_	SourceNode=t_302
+15	οἱ	ὁ	DET	l-p---mn-	Case=n|Gender=m|Number=p	13	nmod	_	Gloss.en=the|SourceNode=t_303|Gloss.de=der|Gloss.la=ille
+16	δοκοῦντες	δοκέω	VERB	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	nmod	_	Gloss.en=think|Gloss.en.alt=seem|Gloss.la=putare|Gloss.de=meinen|LN=31.29|SourceNode=t_304
+17	στῦλοι	στῦλος	ADJ	a-p---mn-	Case=n|Gender=m|Number=p	18	nsubj	_	SourceNode=t_305|Gloss.en=pillar|Gloss.de=Säule|Gloss.la=columna
+18	εἶναι	εἰμί	VERB	v--pna---	Mood=n|Tense=p|Voice=a	16	obj	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_306
+19	,	,	PUNCT	u--------	_	21	punct	_	SourceNode=t_307
+20	δεξιὰς	δεξιά	ADJ	a-p---fa-	Case=a|Gender=f|Number=p	25	nmod	_	SourceNode=t_308|Gloss.en=<dexias>|Gloss.de=<dexias>|Gloss.la=<dexias>
+21	ἔδωκαν	δίδωμι	VERB	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	root	_	SourceNode=t_309|Gloss.en=give|Gloss.de=geben|Gloss.la=dare
+22	ἐμοὶ	ἐγώ	PRON	p1s---md-	Case=d|Gender=m|Number=s|Person=1	23	obj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_310
+23	καὶ	καί	CCONJ	c--------	_	21	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_311
+24	Βαρναβᾷ	βαρναβάς	NOUN	n-s---fd-	Case=d|Gender=f|Number=s	23	obj	_	Gloss.en=Barnabas|Gloss.la=Barnabas|Gloss.de=Barnabas|LN=93.179|SourceNode=t_312
+25	κοινωνίας	κοινωνία	NOUN	n-p---fa-	Case=a|Gender=f|Number=p	21	obj	_	Gloss.en=fellowship|Gloss.en.alt=sharing|Gloss.la=communio|Gloss.de=Gemeinschaft|LN=57.99|SourceNode=t_313
+26	,	,	PUNCT	u--------	_	21	punct	_	SourceNode=t_314
+27	ἵνα	ἵνα	SCONJ	c--------	_	21	mark	_	Gloss.en=so that|Gloss.en.alt=in order that|Gloss.la=ut|Gloss.de=damit|LN=89.59|SourceNode=t_315
+28	ἡμεῖς	ἐγώ	PRON	p1p---mn-	Case=n|Gender=m|Number=p	0	nsubj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_316
+29	εἰς	εἰς	ADP	r--------	_	0	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_317
+30	τὰ	ὁ	DET	l-p---na-	Case=a|Gender=n|Number=p	31	nmod	_	Gloss.en=the|SourceNode=t_318|Gloss.de=der|Gloss.la=ille
+31	ἔθνη	ἔθνος	NOUN	n-p---na-	Case=a|Gender=n|Number=p	29	obj	_	Gloss.en=gentile|Gloss.en.alt=nation|Gloss.la=gens|Gloss.de=Volk|LN=11.55|SourceNode=t_319
+32	,	,	PUNCT	u--------	_	21	punct	_	SourceNode=t_320
+33	αὐτοὶ	αὐτός	PRON	p-p---mn-	Case=n|Gender=m|Number=p	52	nsubj	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_321
+34	δὲ	δέ	CCONJ	c--------	_	21	conj	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_322
+35	εἰς	εἰς	ADP	r--------	_	51	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_323
+36	τὴν	ὁ	DET	l-s---fa-	Case=a|Gender=f|Number=s	37	nmod	_	Gloss.en=the|SourceNode=t_324|Gloss.de=der|Gloss.la=ille
+37	περιτομήν	περιτομή	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	35	obj	_	Gloss.en=circumcision|Gloss.la=circumcisio|Gloss.de=Beschneidung|LN=53.45|SourceNode=t_325
+38	,	,	PUNCT	u--------	_	21	punct	_	SourceNode=t_326
+39	μόνον	μόνος	ADJ	a-s---na-	Case=a|Gender=n|Number=s	41	advmod	_	Gloss.en=only|Gloss.en.alt=alone|Gloss.la=solus|Gloss.de=allein|LN=58.71|SourceNode=t_327
+40	τῶν	ὁ	DET	l-p---mg-	Case=g|Gender=m|Number=p	41	nmod	_	Gloss.en=the|SourceNode=t_328|Gloss.de=der|Gloss.la=ille
+41	πτωχῶν	πτωχός	NOUN	n-p---mg-	Case=g|Gender=m|Number=p	43	obj	_	SourceNode=t_329|Gloss.en=poor|Gloss.de=arm|Gloss.la=pauper
+42	ἵνα	ἵνα	SCONJ	c--------	_	21	mark	_	Gloss.en=so that|Gloss.en.alt=in order that|Gloss.la=ut|Gloss.de=damit|LN=89.59|SourceNode=t_330
+43	μνημονεύωμεν	μνημονεύω	VERB	v1ppsa---	Mood=s|Number=p|Person=1|Tense=p|Voice=a	42	advmod	_	SourceNode=t_331|Gloss.en=<mnemoneuomen>|Gloss.de=<mnemoneuomen>|Gloss.la=<mnemoneuomen>
+44	,	,	PUNCT	u--------	_	21	punct	_	SourceNode=t_332
+45	ὃ	ὅς	PRON	p-s---na-	Case=a|Gender=n|Number=s	50	obj	_	SourceNode=t_333|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+46	καὶ	καί	ADV	d--------	_	47	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_334
+47	ἐσπούδασα	σπουδάζω	VERB	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	43	advmod	_	SourceNode=t_335|Gloss.en=<espoudasa>|Gloss.de=<espoudasa>|Gloss.la=<espoudasa>
+48	αὐτὸ	αὐτός	ADJ	a-s---na-	Case=a|Gender=n|Number=s	49	nmod	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_336
+49	τοῦτο	οὗτος	PRON	p-s---na-	Case=a|Gender=n|Number=s	50	obj	_	Gloss.en=this|Gloss.la=hic|Gloss.de=dieser|LN=92.25|SourceNode=t_337
+50	ποιῆσαι	ποιέω	VERB	v--ana---	Mood=n|Tense=a|Voice=a	47	obj	_	Gloss.en=do|Gloss.en.alt=make|Gloss.la=facere|Gloss.de=tun|LN=42.9|SourceNode=t_338
+51	[1]	[1]	X	---------	_	34	advmod	_	SourceNode=e_3|Gloss.en=[1]|Gloss.de=[1]|Gloss.la=[1]
+52	[2]	[2]	X	---------	_	34	advmod	_	SourceNode=e_4|Gloss.en=<2>|Gloss.de=<2>|Gloss.la=<2>
+53	.	.	PUNCT	u--------	_	21	punct	_	SourceNode=t_339
+
+# sent_id = zahn.galatians.u0014
+# unit_id = u0014
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὅτε δὲ ἦλθεν Κηφᾶς εἰς Ἀντιόχειαν , κατὰ πρόσωπον αὐτῷ ἀντέστην , ὅτι κατεγνωσμένος ἦν .
+# text_en = when but come Cephas into Antioch, according to <prosopon> he/she/it oppose, that condemn be.
+# text_de = als aber kommen Kephas in Antiochia, nach <prosopon> er/sie/es widerstehen, dass verurteilen sein.
+# text_la = cum autem venire Cephas in Antiochia, secundum <prosopon> ipse resistere, quod damnare esse.
+1	ὅτε	ὅτε	CCONJ	c--------	_	11	mark	_	SourceNode=t_340|Gloss.en=when|Gloss.de=als|Gloss.la=cum
+2	δὲ	δέ	ADV	d--------	_	11	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_341
+3	ἦλθεν	ἔρχομαι	VERB	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	1	advmod	_	Gloss.en=come|Gloss.en.alt=go|Gloss.la=venire|Gloss.de=kommen|LN=15.81|SourceNode=t_342
+4	Κηφᾶς	κηφᾶς	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	3	nsubj	_	Gloss.en=Cephas|Gloss.en.alt=Peter|Gloss.la=Cephas|Gloss.de=Kephas|LN=93.197|SourceNode=t_343
+5	εἰς	εἰς	ADP	r--------	_	3	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_344
+6	Ἀντιόχειαν	ἀντιοχεία	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	5	obj	_	Gloss.en=Antioch|Gloss.la=Antiochia|Gloss.de=Antiochia|LN=93.174|SourceNode=t_345
+7	,	,	PUNCT	u--------	_	11	punct	_	SourceNode=t_346
+8	κατὰ	κατά	ADP	r--------	_	11	case	_	Gloss.en=according to|Gloss.en.alt=against|Gloss.la=secundum|Gloss.de=nach|LN=89.9|SourceNode=t_347
+9	πρόσωπον	πρόσωπον	NOUN	n-s---na-	Case=a|Gender=n|Number=s	8	advmod	_	SourceNode=t_348|Gloss.en=<prosopon>|Gloss.de=<prosopon>|Gloss.la=<prosopon>
+10	αὐτῷ	αὐτός	PRON	p-s---md-	Case=d|Gender=m|Number=s	11	obj	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_349
+11	ἀντέστην	ἀνθίστημι	VERB	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	root	_	SourceNode=t_350|Gloss.en=oppose|Gloss.de=widerstehen|Gloss.la=resistere
+12	,	,	PUNCT	u--------	_	11	punct	_	SourceNode=t_351
+13	ὅτι	ὅτι	SCONJ	c--------	_	11	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_352
+14	κατεγνωσμένος	καταγιγνώσκω	VERB	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	15	nsubj	_	SourceNode=t_353|Gloss.en=condemn|Gloss.de=verurteilen|Gloss.la=damnare
+15	ἦν	εἰμί	VERB	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	13	advmod	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_354
+16	.	.	PUNCT	u--------	_	11	punct	_	SourceNode=t_355
+
+# sent_id = zahn.galatians.u0015
+# unit_id = u0015
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = πρὸ τοῦ γὰρ ἐλθεῖν τινας ἀπὸ Ἰακώβου μετὰ τῶν ἐθνῶν συνήσθιεν ·
+# text_en = before the for come someone from James after the gentile eat_with·
+# text_de = vor der denn kommen jemand von Jakobus nach der Volk mitessen·
+# text_la = ante ille enim venire aliquis ab Iacobus post ille gens convesci·
+1	πρὸ	πρό	ADP	r--------	_	11	case	_	Gloss.en=before|Gloss.la=ante|Gloss.de=vor|LN=84.17|SourceNode=t_356
+2	τοῦ	ὁ	DET	l-s---ng-	Case=g|Gender=n|Number=s	4	nmod	_	Gloss.en=the|SourceNode=t_357|Gloss.de=der|Gloss.la=ille
+3	γὰρ	γάρ	PART	d--------	_	11	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_358
+4	ἐλθεῖν	ἔρχομαι	VERB	v--ana---	Mood=n|Tense=a|Voice=a	1	advmod	_	Gloss.en=come|Gloss.en.alt=go|Gloss.la=venire|Gloss.de=kommen|LN=15.81|SourceNode=t_359
+5	τινας	τις	PRON	p-p---ma-	Case=a|Gender=m|Number=p	4	nsubj	_	SourceNode=t_360|Gloss.en=someone|Gloss.de=jemand|Gloss.la=aliquis
+6	ἀπὸ	ἀπό	ADP	r--------	_	4	case	_	Gloss.en=from|Gloss.en.alt=away from|Gloss.la=ab|Gloss.de=von|LN=84.15|SourceNode=t_361
+7	Ἰακώβου	ἰακώβος	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	6	advmod	_	Gloss.en=James|Gloss.la=Iacobus|Gloss.de=Jakobus|LN=93.186|SourceNode=t_362
+8	μετὰ	μετά	ADP	r--------	_	11	case	_	Gloss.en=after|Gloss.en.alt=with|Gloss.la=post|Gloss.de=nach|LN=84.28|SourceNode=t_363
+9	τῶν	ὁ	DET	l-p---ng-	Case=g|Gender=n|Number=p	10	nmod	_	Gloss.en=the|SourceNode=t_364|Gloss.de=der|Gloss.la=ille
+10	ἐθνῶν	ἔθνος	NOUN	n-p---ng-	Case=g|Gender=n|Number=p	8	advmod	_	Gloss.en=gentile|Gloss.en.alt=nation|Gloss.la=gens|Gloss.de=Volk|LN=11.55|SourceNode=t_365
+11	συνήσθιεν	συνεσθίω	VERB	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	root	_	SourceNode=t_366|Gloss.en=eat_with|Gloss.de=mitessen|Gloss.la=convesci
+12	·	·	PUNCT	u--------	_	11	punct	_	SourceNode=t_367
+
+# sent_id = zahn.galatians.u0016
+# unit_id = u0016
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὅτε δὲ ἦλθον , ὑπέστελλεν καὶ ἀφώριζεν ἑαυτόν , φοβούμενος τοὺς ἐκ περιτομῆς ·
+# text_en = when but come, <upestellen> and set apart himself, fear the from circumcision·
+# text_de = als aber kommen, <upestellen> und absondern sich selbst, fürchten der aus Beschneidung·
+# text_la = cum autem venire, <upestellen> et separare se, timere ille ex circumcisio·
+1	ὅτε	ὅτε	CCONJ	c--------	_	6	mark	_	SourceNode=t_368|Gloss.en=when|Gloss.de=als|Gloss.la=cum
+2	δὲ	δέ	ADV	d--------	_	6	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_369
+3	ἦλθον	ἔρχομαι	VERB	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	1	advmod	_	Gloss.en=come|Gloss.en.alt=go|Gloss.la=venire|Gloss.de=kommen|LN=15.81|SourceNode=t_370
+4	,	,	PUNCT	u--------	_	0	root	_	SourceNode=t_371
+5	ὑπέστελλεν	ὑποστέλλω	VERB	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	root	_	SourceNode=t_372|Gloss.en=<upestellen>|Gloss.de=<upestellen>|Gloss.la=<upestellen>
+6	καὶ	καί	CCONJ	c--------	_	4	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_373
+7	ἀφώριζεν	ἀφορίζω	VERB	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	root	_	Gloss.en=set apart|Gloss.en.alt=separate|Gloss.la=separare|Gloss.de=absondern|LN=63.10|SourceNode=t_374
+8	ἑαυτόν	ἑαυτοῦ	PRON	p-s---ma-	Case=a|Gender=m|Number=s	6	obj	_	Gloss.en=himself|Gloss.en.alt=oneself|Gloss.la=se|Gloss.de=sich selbst|LN=92.28|SourceNode=t_375
+9	,	,	PUNCT	u--------	_	4	punct	_	SourceNode=t_376
+10	φοβούμενος	φοβέω	VERB	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	6	advmod	_	SourceNode=t_377|Gloss.en=fear|Gloss.de=fürchten|Gloss.la=timere
+11	τοὺς	ὁ	DET	l-p---ma-	Case=a|Gender=m|Number=p	10	obj	_	Gloss.en=the|SourceNode=t_378|Gloss.de=der|Gloss.la=ille
+12	ἐκ	ἐκ	ADP	r--------	_	11	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_379
+13	περιτομῆς	περιτομή	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	12	nmod	_	Gloss.en=circumcision|Gloss.la=circumcisio|Gloss.de=Beschneidung|LN=53.45|SourceNode=t_380
+14	·	·	PUNCT	u--------	_	4	punct	_	SourceNode=t_381
+
+# sent_id = zahn.galatians.u0017
+# unit_id = u0017
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = καὶ συνυπεκρίθησαν αὐτῷ καὶ οἱ λοιποὶ Ἰουδαῖοι , ὥστε καὶ Βαρναβᾶς συναπήχθη αὐτῶν τῇ ὑποκρίσει .
+# text_en = and join_in_hypocrisy he/she/it and the rest Jew, so_that and Barnabas carry_away he/she/it the hypocrisy.
+# text_de = und mitheucheln er/sie/es und der übrige Jude, sodass und Barnabas mitfortreißen er/sie/es der Heuchelei.
+# text_la = et simulare_cum ipse et ille reliqui Iudaeus, ita_ut et Barnabas secum_trahere ipse ille hypocrisis.
+1	καὶ	καί	ADV	d--------	_	2	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_382
+2	συνυπεκρίθησαν	συνυπάρχω	VERB	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	0	root	_	SourceNode=t_383|Gloss.en=join_in_hypocrisy|Gloss.de=mitheucheln|Gloss.la=simulare_cum
+3	αὐτῷ	αὐτός	PRON	p-s---md-	Case=d|Gender=m|Number=s	2	obj	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_384
+4	καὶ	καί	ADV	d--------	_	7	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_385
+5	οἱ	ὁ	DET	l-p---mn-	Case=n|Gender=m|Number=p	7	nmod	_	Gloss.en=the|SourceNode=t_386|Gloss.de=der|Gloss.la=ille
+6	λοιποὶ	λοιπός	ADJ	a-p---mn-	Case=n|Gender=m|Number=p	7	nmod	_	SourceNode=t_387|Gloss.en=rest|Gloss.de=übrige|Gloss.la=reliqui
+7	Ἰουδαῖοι	ἰουδαῖος	NOUN	n-p---mn-	Case=n|Gender=m|Number=p	2	nsubj	_	Gloss.en=Jew|Gloss.en.alt=Jewish|Gloss.la=Iudaeus|Gloss.de=Jude|LN=93.163|SourceNode=t_388
+8	,	,	PUNCT	u--------	_	2	punct	_	SourceNode=t_389
+9	ὥστε	ὥστε	CCONJ	c--------	_	2	mark	_	SourceNode=t_390|Gloss.en=so_that|Gloss.de=sodass|Gloss.la=ita_ut
+10	καὶ	καί	ADV	d--------	_	11	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_391
+11	Βαρναβᾶς	βαρναβάς	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	12	nsubj	_	Gloss.en=Barnabas|Gloss.la=Barnabas|Gloss.de=Barnabas|LN=93.179|SourceNode=t_392
+12	συναπήχθη	συναπάγω	VERB	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	9	advmod	_	SourceNode=t_393|Gloss.en=carry_away|Gloss.de=mitfortreißen|Gloss.la=secum_trahere
+13	αὐτῶν	αὐτός	PRON	p-p---mg-	Case=g|Gender=m|Number=p	15	nmod	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_394
+14	τῇ	ὁ	DET	l-s---fd-	Case=d|Gender=f|Number=s	15	nmod	_	Gloss.en=the|SourceNode=t_395|Gloss.de=der|Gloss.la=ille
+15	ὑποκρίσει	ὑπόκρισις	NOUN	n-s---fd-	Case=d|Gender=f|Number=s	12	obj	_	SourceNode=t_396|Gloss.en=hypocrisy|Gloss.de=Heuchelei|Gloss.la=hypocrisis
+16	.	.	PUNCT	u--------	_	2	punct	_	SourceNode=t_397
+
+# sent_id = zahn.galatians.u0018
+# unit_id = u0018
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἀλλ᾽ ὅτε εἶδον ὅτι οὐκ ὀρθοποδοῦσιν πρὸς τὴν ἀλήθειαν τοῦ εὐαγγελίου , εἶπον τῷ Κηφᾷ ἔμπροσθεν πάντων ·
+# text_en = but when see that not walk uprightly to the truth the gospel, say the Cephas before all·
+# text_de = sondern als sehen dass nicht aufrecht gehen zu der Wahrheit der Evangelium, sagen der Kephas vor all·
+# text_la = sed cum videre quod non recte incedere ad ille veritas ille evangelium, dicere ille Cephas ante omnis·
+1	ἀλλ᾽	ἀλλά	ADV	d--------	_	13	advmod	_	Gloss.en=but|Gloss.en.alt=rather|Gloss.la=sed|Gloss.de=sondern|LN=89.125|SourceNode=t_398
+2	ὅτε	ὅτε	CCONJ	c--------	_	13	mark	_	SourceNode=t_399|Gloss.en=when|Gloss.de=als|Gloss.la=cum
+3	εἶδον	εἶδον	VERB	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	2	advmod	_	SourceNode=t_400|Gloss.en=see|Gloss.de=sehen|Gloss.la=videre
+4	ὅτι	ὅτι	SCONJ	c--------	_	3	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_401
+5	οὐκ	οὐ	ADV	d--------	_	6	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_402
+6	ὀρθοποδοῦσιν	ὀρθοποδέω	VERB	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	4	obj	_	Gloss.en=walk uprightly|Gloss.en.alt=act straightforwardly|Gloss.la=recte incedere|Gloss.de=aufrecht gehen|LN=88.315|SourceNode=t_403
+7	πρὸς	πρός	ADP	r--------	_	6	case	_	Gloss.en=to|Gloss.en.alt=with|Gloss.la=ad|Gloss.de=zu|LN=84.24|SourceNode=t_404
+8	τὴν	ὁ	DET	l-s---fa-	Case=a|Gender=f|Number=s	9	nmod	_	Gloss.en=the|SourceNode=t_405|Gloss.de=der|Gloss.la=ille
+9	ἀλήθειαν	ἀλήθεια	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	7	obj	_	Gloss.en=truth|Gloss.la=veritas|Gloss.de=Wahrheit|LN=72.1|SourceNode=t_406
+10	τοῦ	ὁ	DET	l-s---ng-	Case=g|Gender=n|Number=s	11	nmod	_	Gloss.en=the|SourceNode=t_407|Gloss.de=der|Gloss.la=ille
+11	εὐαγγελίου	εὐαγγέλιον	NOUN	n-s---ng-	Case=g|Gender=n|Number=s	9	nmod	_	Gloss.en=gospel|Gloss.en.alt=good news|Gloss.la=evangelium|Gloss.de=Evangelium|LN=33.217|SourceNode=t_408
+12	,	,	PUNCT	u--------	_	13	punct	_	SourceNode=t_409
+13	εἶπον	εἶπον	VERB	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	root	_	SourceNode=t_410|Gloss.en=say|Gloss.de=sagen|Gloss.la=dicere
+14	τῷ	ὁ	DET	l-s---md-	Case=d|Gender=m|Number=s	15	nmod	_	Gloss.en=the|SourceNode=t_411|Gloss.de=der|Gloss.la=ille
+15	Κηφᾷ	κηφᾶς	NOUN	n-s---md-	Case=d|Gender=m|Number=s	13	obj	_	Gloss.en=Cephas|Gloss.en.alt=Peter|Gloss.la=Cephas|Gloss.de=Kephas|LN=93.197|SourceNode=t_412
+16	ἔμπροσθεν	ἔμπροσθεν	ADV	d--------	_	13	case	_	SourceNode=t_413|Gloss.en=before|Gloss.de=vor|Gloss.la=ante
+17	πάντων	πᾶς	ADJ	a-p---ng-	Case=g|Gender=n|Number=p	16	advmod	_	Gloss.en=all|Gloss.en.alt=every|Gloss.la=omnis|Gloss.de=all|LN=59.23|SourceNode=t_414
+18	·	·	PUNCT	u--------	_	13	punct	_	SourceNode=t_415
+
+# sent_id = zahn.galatians.u0019
+# unit_id = u0019
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = εἰ σὺ Ἰουδαῖος ὑπάρχων ἐθνικῶς καὶ οὐχ Ἰουδαϊκῶς ζῇς , πῶς τὰ ἔθνη ἀναγκάζεις ἰουδαΐζειν ;
+# text_en = if you Jew be gentile_like and not <ioudaikos> live, how the gentile compel Ἰουδαΐζειν;
+# text_de = wenn du Jude sein heidnisch und nicht <ioudaikos> leben, wie der Volk zwingen Ἰουδαΐζειν;
+# text_la = si tu Iudaeus esse gentiliter et non <ioudaikos> vivere, quomodo ille gens cogere Ἰουδαΐζειν;
+1	εἰ	εἰ	SCONJ	c--------	_	14	mark	_	Gloss.en=if|Gloss.la=si|Gloss.de=wenn|LN=89.65|SourceNode=t_416
+2	σὺ	σύ	PRON	p2s----n-	Case=n|Number=s|Person=2	9	nsubj	_	Gloss.en=you|Gloss.la=tu|Gloss.de=du|LN=92.2|SourceNode=t_417
+3	Ἰουδαῖος	ἰουδαῖος	ADJ	a-s---mn-	Case=n|Gender=m|Number=s	4	nsubj	_	Gloss.en=Jew|Gloss.en.alt=Jewish|Gloss.la=Iudaeus|Gloss.de=Jude|LN=93.163|SourceNode=t_418
+4	ὑπάρχων	ὑπάρχω	VERB	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	advmod	_	SourceNode=t_419|Gloss.en=be|Gloss.de=sein|Gloss.la=esse
+5	ἐθνικῶς	ἐθνικός	ADV	d--------	_	4	advmod	_	SourceNode=t_420|Gloss.en=gentile_like|Gloss.de=heidnisch|Gloss.la=gentiliter
+6	καὶ	καί	CCONJ	c--------	_	9	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_421
+7	οὐχ	οὐ	ADV	d--------	_	8	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_422
+8	Ἰουδαϊκῶς	ἰουδαικός	ADV	d--------	_	6	advmod	_	SourceNode=t_423|Gloss.en=<ioudaikos>|Gloss.de=<ioudaikos>|Gloss.la=<ioudaikos>
+9	ζῇς	ζάω	VERB	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	1	advmod	_	Gloss.en=live|Gloss.la=vivere|Gloss.de=leben|LN=23.88|SourceNode=t_424
+10	,	,	PUNCT	u--------	_	14	punct	_	SourceNode=t_425
+11	πῶς	πῶς	ADV	d--------	_	14	advmod	_	SourceNode=t_426|Gloss.en=how|Gloss.de=wie|Gloss.la=quomodo
+12	τὰ	ὁ	DET	l-p---na-	Case=a|Gender=n|Number=p	13	nmod	_	Gloss.en=the|SourceNode=t_427|Gloss.de=der|Gloss.la=ille
+13	ἔθνη	ἔθνος	NOUN	n-p---na-	Case=a|Gender=n|Number=p	15	obj	_	Gloss.en=gentile|Gloss.en.alt=nation|Gloss.la=gens|Gloss.de=Volk|LN=11.55|SourceNode=t_428
+14	ἀναγκάζεις	ἀναγκάζω	VERB	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	root	_	SourceNode=t_429|Gloss.en=compel|Gloss.de=zwingen|Gloss.la=cogere
+15	ἰουδαΐζειν	ἰουδαίζω	VERB	v--pna---	Mood=n|Tense=p|Voice=a	14	obj	_	Gloss.en=Ἰουδαΐζειν|Gloss.la=Ἰουδαΐζειν|Gloss.de=Ἰουδαΐζειν|SourceNode=t_430
+16	;	;	PUNCT	u--------	_	14	punct	_	SourceNode=t_431
+
+# sent_id = zahn.galatians.u0020
+# unit_id = u0020
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = εἰδότες δὲ ὅτι οὐ δικαιοῦται ἄνθρωπος ἐξ ἔργων νόμου ἐὰν μὴ διὰ πίστεως Χριστοῦ Ἰησοῦ , καὶ ἡμεῖς εἰς Χριστὸν Ἰησοῦν ἐπιστεύσαμεν , ἵνα δικαιωθῶμεν ἐκ πίστεως Χριστοῦ καὶ οὐκ ἐξ ἔργων νόμου , ὅτι ἐξ ἔργων νόμου οὐ δικαιωθήσεται πᾶσα σάρξ .
+# text_en = <eidotes> but that not justify human from work law if not through faith Christ Jesus, and I into Christ Jesus <episteusamen>, so that justify from faith Christ and not from work law, that from work law not justify all flesh.
+# text_de = <eidotes> aber dass nicht rechtfertigen Mensch aus Werk Gesetz wenn nicht durch Glaube Christus Jesus, und ich in Christus Jesus <episteusamen>, damit rechtfertigen aus Glaube Christus und nicht aus Werk Gesetz, dass aus Werk Gesetz nicht rechtfertigen all Fleisch.
+# text_la = <eidotes> autem quod non iustificare homo ex opus lex si ne per fides Christus Iesus, et ego in Christus Iesus <episteusamen>, ut iustificare ex fides Christus et non ex opus lex, quod ex opus lex non iustificare omnis caro.
+1	εἰδότες	οἶδα	VERB	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	22	advmod	_	SourceNode=t_432|Gloss.en=<eidotes>|Gloss.de=<eidotes>|Gloss.la=<eidotes>
+2	δὲ	δέ	ADV	d--------	_	22	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_433
+3	ὅτι	ὅτι	SCONJ	c--------	_	1	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_434
+4	οὐ	οὐ	ADV	d--------	_	5	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_435
+5	δικαιοῦται	δικαιόω	VERB	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	3	obj	_	Gloss.en=justify|Gloss.en.alt=declare righteous|Gloss.la=iustificare|Gloss.de=rechtfertigen|LN=88.16|SourceNode=t_436
+6	ἄνθρωπος	ἄνθρωπος	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	5	nsubj	_	Gloss.en=human|Gloss.en.alt=man|Gloss.la=homo|Gloss.de=Mensch|LN=9.1|SourceNode=t_437
+7	ἐξ	ἐκ	ADP	r--------	_	5	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_438
+8	ἔργων	ἔργον	NOUN	n-p---ng-	Case=g|Gender=n|Number=p	7	advmod	_	Gloss.en=work|Gloss.en.alt=deed|Gloss.la=opus|Gloss.de=Werk|LN=42.11|SourceNode=t_439
+9	νόμου	νόμος	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	7	advmod	_	Gloss.en=law|Gloss.en.alt=Torah|Gloss.la=lex|Gloss.de=Gesetz|LN=33.55|SourceNode=t_440
+10	ἐὰν	ἐάν	CCONJ	c--------	_	5	mark	_	SourceNode=t_441|Gloss.en=if|Gloss.de=wenn|Gloss.la=si
+11	μὴ	μή	ADV	d--------	_	0	advmod	_	Gloss.en=not|Gloss.en.alt=lest|Gloss.la=ne|Gloss.de=nicht|LN=69.4|SourceNode=t_442
+12	διὰ	διά	ADP	r--------	_	0	case	_	Gloss.en=through|Gloss.en.alt=because of|Gloss.la=per|Gloss.de=durch|LN=89.76|SourceNode=t_443
+13	πίστεως	πίστις	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	12	advmod	_	Gloss.en=faith|Gloss.en.alt=faithfulness|Gloss.la=fides|Gloss.de=Glaube|LN=31.85|SourceNode=t_444
+14	Χριστοῦ	χριστός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	13	nmod	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_445
+15	Ἰησοῦ	ἰησοῦς	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	14	nmod	_	Gloss.en=Jesus|Gloss.la=Iesus|Gloss.de=Jesus|LN=93.2|SourceNode=t_446
+16	,	,	PUNCT	u--------	_	22	punct	_	SourceNode=t_447
+17	καὶ	καί	ADV	d--------	_	18	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_448
+18	ἡμεῖς	ἐγώ	PRON	p1p---mn-	Case=n|Gender=m|Number=p|Person=1	22	nsubj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_449
+19	εἰς	εἰς	ADP	r--------	_	22	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_450
+20	Χριστὸν	χριστός	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	19	obj	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_451
+21	Ἰησοῦν	ἰησοῦς	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	20	nmod	_	Gloss.en=Jesus|Gloss.la=Iesus|Gloss.de=Jesus|LN=93.2|SourceNode=t_452
+22	ἐπιστεύσαμεν	ἐπιστεύω	VERB	v1paia---	Mood=i|Number=p|Person=1|Tense=a|Voice=a	0	root	_	SourceNode=t_453|Gloss.en=<episteusamen>|Gloss.de=<episteusamen>|Gloss.la=<episteusamen>
+23	,	,	PUNCT	u--------	_	22	punct	_	SourceNode=t_454
+24	ἵνα	ἵνα	SCONJ	c--------	_	22	mark	_	Gloss.en=so that|Gloss.en.alt=in order that|Gloss.la=ut|Gloss.de=damit|LN=89.59|SourceNode=t_455
+25	δικαιωθῶμεν	δικαιόω	VERB	v1ppsa---	Mood=s|Number=p|Person=1|Tense=p|Voice=a	24	advmod	_	Gloss.en=justify|Gloss.en.alt=declare righteous|Gloss.la=iustificare|Gloss.de=rechtfertigen|LN=88.16|SourceNode=t_456
+26	ἐκ	ἐκ	ADP	r--------	_	29	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_457
+27	πίστεως	πίστις	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	26	advmod	_	Gloss.en=faith|Gloss.en.alt=faithfulness|Gloss.la=fides|Gloss.de=Glaube|LN=31.85|SourceNode=t_458
+28	Χριστοῦ	χριστός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	27	nmod	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_459
+29	καὶ	καί	CCONJ	c--------	_	25	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_460
+30	οὐκ	οὐ	ADV	d--------	_	33	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_461
+31	ἐξ	ἐκ	ADP	r--------	_	29	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_462
+32	ἔργων	ἔργον	NOUN	n-p---ng-	Case=g|Gender=n|Number=p	31	advmod	_	Gloss.en=work|Gloss.en.alt=deed|Gloss.la=opus|Gloss.de=Werk|LN=42.11|SourceNode=t_463
+33	νόμου	νόμος	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	31	advmod	_	Gloss.en=law|Gloss.en.alt=Torah|Gloss.la=lex|Gloss.de=Gesetz|LN=33.55|SourceNode=t_464
+34	,	,	PUNCT	u--------	_	22	punct	_	SourceNode=t_465
+35	ὅτι	ὅτι	SCONJ	c--------	_	22	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_466
+36	ἐξ	ἐκ	ADP	r--------	_	40	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_467
+37	ἔργων	ἔργον	NOUN	n-p---ng-	Case=g|Gender=n|Number=p	36	advmod	_	Gloss.en=work|Gloss.en.alt=deed|Gloss.la=opus|Gloss.de=Werk|LN=42.11|SourceNode=t_468
+38	νόμου	νόμος	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	36	advmod	_	Gloss.en=law|Gloss.en.alt=Torah|Gloss.la=lex|Gloss.de=Gesetz|LN=33.55|SourceNode=t_469
+39	οὐ	οὐ	ADV	d--------	_	40	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_470
+40	δικαιωθήσεται	δικαιόω	VERB	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	35	advmod	_	Gloss.en=justify|Gloss.en.alt=declare righteous|Gloss.la=iustificare|Gloss.de=rechtfertigen|LN=88.16|SourceNode=t_471
+41	πᾶσα	πᾶς	ADJ	a-s---fn-	Case=n|Gender=f|Number=s	42	nmod	_	Gloss.en=all|Gloss.en.alt=every|Gloss.la=omnis|Gloss.de=all|LN=59.23|SourceNode=t_472
+42	σάρξ	σάρξ	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	40	nsubj	_	Gloss.en=flesh|Gloss.en.alt=human nature|Gloss.la=caro|Gloss.de=Fleisch|LN=8.4|SourceNode=t_473
+43	.	.	PUNCT	u--------	_	22	punct	_	SourceNode=t_474
+
+# sent_id = zahn.galatians.u0021
+# unit_id = u0021
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = εἰ γὰρ ἃ κατέλυσα ταῦτα πάλιν οἰκοδομῶ , παραβάτην ἐμαυτὸν συνιστάνω .
+# text_en = if for which tear_down this again build, transgressor myself commend.
+# text_de = wenn denn welcher niederreißen dieser wieder bauen, Übertreter ich_selbst empfehlen.
+# text_la = si enim qui destruere hic rursus aedificare, praevaricator meipsum commendare.
+1	εἰ	εἰ	SCONJ	c--------	_	11	mark	_	Gloss.en=if|Gloss.la=si|Gloss.de=wenn|LN=89.65|SourceNode=t_475
+2	γὰρ	γάρ	PART	d--------	_	11	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_476
+3	ἃ	ὅς	PRON	p-p---na-	Case=a|Gender=n|Number=p	4	obj	_	SourceNode=t_477|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+4	κατέλυσα	καταλύω	VERB	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	5	nmod	_	SourceNode=t_478|Gloss.en=tear_down|Gloss.de=niederreißen|Gloss.la=destruere
+5	ταῦτα	οὗτος	PRON	p-p---na-	Case=a|Gender=n|Number=p	7	obj	_	Gloss.en=this|Gloss.la=hic|Gloss.de=dieser|LN=92.25|SourceNode=t_479
+6	πάλιν	πάλιν	ADV	d--------	_	7	advmod	_	SourceNode=t_480|Gloss.en=again|Gloss.de=wieder|Gloss.la=rursus
+7	οἰκοδομῶ	οἰκοδομέω	VERB	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	1	advmod	_	SourceNode=t_481|Gloss.en=build|Gloss.de=bauen|Gloss.la=aedificare
+8	,	,	PUNCT	u--------	_	11	punct	_	SourceNode=t_482
+9	παραβάτην	παραβάτης	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	11	xcomp	_	SourceNode=t_483|Gloss.en=transgressor|Gloss.de=Übertreter|Gloss.la=praevaricator
+10	ἐμαυτὸν	ἐμαυτοῦ	PRON	p-s---ma-	Case=a|Gender=m|Number=s	11	obj	_	SourceNode=t_484|Gloss.en=myself|Gloss.de=ich_selbst|Gloss.la=meipsum
+11	συνιστάνω	συνιστάνω	VERB	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	root	_	SourceNode=t_485|Gloss.en=commend|Gloss.de=empfehlen|Gloss.la=commendare
+12	.	.	PUNCT	u--------	_	11	punct	_	SourceNode=t_486
+
+# sent_id = zahn.galatians.u0022
+# unit_id = u0022
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = Χριστῷ συνεσταύρωμαι ·
+# text_en = Christ crucified_with·
+# text_de = Christus mitgekreuzigt·
+# text_la = Christus concrucifixus·
+1	Χριστῷ	χριστός	NOUN	n-s---md-	Case=d|Gender=m|Number=s	2	obj	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_487
+2	συνεσταύρωμαι	συνεστιάω	VERB	v1srie---	Mood=i|Number=s|Person=1|Tense=r|Voice=e	0	root	_	SourceNode=t_488|Gloss.en=crucified_with|Gloss.de=mitgekreuzigt|Gloss.la=concrucifixus
+3	·	·	PUNCT	u--------	_	2	punct	_	SourceNode=t_489
+
+# sent_id = zahn.galatians.u0023
+# unit_id = u0023
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ζῶ δὲ οὐκέτι ἐγώ , ζῇ δὲ ἐν ἐμοὶ Χριστός ·
+# text_en = live but no_longer I, live but in I Christ·
+# text_de = leben aber nicht_mehr ich, leben aber in ich Christus·
+# text_la = vivere autem non_iam ego, vivere autem in ego Christus·
+1	ζῶ	ζάω	VERB	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	root	_	Gloss.en=live|Gloss.la=vivere|Gloss.de=leben|LN=23.88|SourceNode=t_490
+2	δὲ	δέ	PART	g--------	_	7	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_491
+3	οὐκέτι	οὐκέτι	ADV	d--------	_	1	advmod	_	SourceNode=t_492|Gloss.en=no_longer|Gloss.de=nicht_mehr|Gloss.la=non_iam
+4	ἐγώ	ἐγώ	PRON	p-s---mn-	Case=n|Gender=m|Number=s	1	nsubj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_493
+5	,	,	PUNCT	u--------	_	7	punct	_	SourceNode=t_494
+6	ζῇ	ζάω	VERB	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	root	_	Gloss.en=live|Gloss.la=vivere|Gloss.de=leben|LN=23.88|SourceNode=t_495
+7	δὲ	δέ	PART	g--------	_	0	root	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_496
+8	ἐν	ἐν	ADP	r--------	_	6	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_497
+9	ἐμοὶ	ἐγώ	PRON	p-s---md-	Case=d|Gender=m|Number=s	8	advmod	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_498
+10	Χριστός	χριστός	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	6	nsubj	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_499
+11	·	·	PUNCT	u--------	_	7	punct	_	SourceNode=t_500
+
+# sent_id = zahn.galatians.u0024
+# unit_id = u0024
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὃ δὲ νῦν ζῶ ἐν σαρκί , ἐν πίστει ζῶ τῇ τοῦ υἱοῦ τοῦ θεοῦ τοῦ ἀγοράσαντός με .
+# text_en = which but now live in flesh, in faith live the the son the God the <agorasantos> I.
+# text_de = welcher aber jetzt leben in Fleisch, in Glaube leben der der Sohn der Gott der <agorasantos> ich.
+# text_la = qui autem nunc vivere in caro, in fides vivere ille ille filius ille Deus ille <agorasantos> ego.
+1	ὃ	ὅς	PRON	p-s---na-	Case=n|Gender=m|Number=s	4	nsubj	_	SourceNode=t_501|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+2	δὲ	δέ	ADV	d--------	_	10	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_502
+3	νῦν	νῦν	ADV	d--------	_	4	advmod	_	SourceNode=t_503|Gloss.en=now|Gloss.de=jetzt|Gloss.la=nunc
+4	ζῶ	ζάω	VERB	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	10	advmod	_	Gloss.en=live|Gloss.la=vivere|Gloss.de=leben|LN=23.88|SourceNode=t_504
+5	ἐν	ἐν	ADP	r--------	_	4	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_505
+6	σαρκί	σάρξ	NOUN	n-s---fd-	Case=d|Gender=f|Number=s	5	advmod	_	Gloss.en=flesh|Gloss.en.alt=human nature|Gloss.la=caro|Gloss.de=Fleisch|LN=8.4|SourceNode=t_506
+7	,	,	PUNCT	u--------	_	10	punct	_	SourceNode=t_507
+8	ἐν	ἐν	ADP	r--------	_	10	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_508
+9	πίστει	πίστις	NOUN	n-s---fd-	Case=d|Gender=f|Number=s	8	advmod	_	Gloss.en=faith|Gloss.en.alt=faithfulness|Gloss.la=fides|Gloss.de=Glaube|LN=31.85|SourceNode=t_509
+10	ζῶ	ζάω	VERB	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	root	_	Gloss.en=live|Gloss.la=vivere|Gloss.de=leben|LN=23.88|SourceNode=t_510
+11	τῇ	ὁ	DET	l-s---fd-	Case=d|Gender=f|Number=s	9	nmod	_	Gloss.en=the|SourceNode=t_511|Gloss.de=der|Gloss.la=ille
+12	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	13	nmod	_	Gloss.en=the|SourceNode=t_512|Gloss.de=der|Gloss.la=ille
+13	υἱοῦ	υἱός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	9	nmod	_	Gloss.en=son|Gloss.en.alt=child|Gloss.la=filius|Gloss.de=Sohn|LN=10.42|SourceNode=t_513
+14	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	15	nmod	_	Gloss.en=the|SourceNode=t_514|Gloss.de=der|Gloss.la=ille
+15	θεοῦ	θεός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	13	nmod	_	Gloss.en=God|Gloss.en.alt=god|Gloss.la=Deus|Gloss.de=Gott|LN=12.1|SourceNode=t_515
+16	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	15	nmod	_	Gloss.en=the|SourceNode=t_516|Gloss.de=der|Gloss.la=ille
+17	ἀγοράσαντός	ἀγοράζω	VERB	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	15	nmod	_	SourceNode=t_517|Gloss.en=<agorasantos>|Gloss.de=<agorasantos>|Gloss.la=<agorasantos>
+18	με	ἐγώ	PRON	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	17	obj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_518
+19	.	.	PUNCT	u--------	_	10	punct	_	SourceNode=t_519
+
+# sent_id = zahn.galatians.u0025
+# unit_id = u0025
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὦ ἀνόητοι Γαλάται , τίς ὑμᾶς ἐβάσκανεν , οἷς κατ᾽ ὀφθαλμοὺς Ἰησοῦς Χριστὸς προεγράφη ἐσταυρωμένος ;
+# text_en = Ὦ foolish Galatian, someone you bewitch, which according to eye Jesus Christ write before crucify;
+# text_de = Ὦ unverständig Galater, jemand du behexen, welcher nach Auge Jesus Christus vorschreiben kreuzigen;
+# text_la = Ὦ insipiens Galata, aliquis tu fascinare, qui secundum oculus Iesus Christus praescribere crucifigere;
+1	ὦ	ὦ	INTJ	i--------	_	3	advmod	_	Gloss.en=Ὦ|Gloss.la=Ὦ|Gloss.de=Ὦ|SourceNode=t_520
+2	ἀνόητοι	ἀνόητος	ADJ	a-p---mv-	Case=v|Gender=m|Number=p	3	nmod	_	SourceNode=t_521|Gloss.en=foolish|Gloss.de=unverständig|Gloss.la=insipiens
+3	Γαλάται	γαλάτης	NOUN	n-p---mv-	Case=v|Gender=m|Number=p	7	dep	_	Gloss.en=Galatian|Gloss.la=Galata|Gloss.de=Galater|LN=93.170|SourceNode=t_522
+4	,	,	PUNCT	u--------	_	7	punct	_	SourceNode=t_523
+5	τίς	τις	PRON	p-s---mn-	Case=n|Gender=m|Number=s	7	nsubj	_	SourceNode=t_524|Gloss.en=someone|Gloss.de=jemand|Gloss.la=aliquis
+6	ὑμᾶς	σύ	PRON	p-p---ma-	Case=a|Gender=m|Number=p	7	obj	_	Gloss.en=you|Gloss.la=tu|Gloss.de=du|LN=92.2|SourceNode=t_525
+7	ἐβάσκανεν	βαίνω	VERB	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	root	_	SourceNode=t_526|Gloss.en=bewitch|Gloss.de=behexen|Gloss.la=fascinare
+8	,	,	PUNCT	u--------	_	7	punct	_	SourceNode=t_527
+9	οἷς	ὅς	PRON	p-p---md-	Case=d|Gender=m|Number=p	14	obj	_	SourceNode=t_528|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+10	κατ᾽	κατά	ADP	r--------	_	14	case	_	Gloss.en=according to|Gloss.en.alt=against|Gloss.la=secundum|Gloss.de=nach|LN=89.9|SourceNode=t_529
+11	ὀφθαλμοὺς	ὀφθαλμός	NOUN	n-p---ma-	Case=a|Gender=m|Number=p	10	advmod	_	Gloss.en=eye|Gloss.la=oculus|Gloss.de=Auge|LN=8.22|SourceNode=t_530
+12	Ἰησοῦς	ἰησοῦς	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	11	nmod	_	Gloss.en=Jesus|Gloss.la=Iesus|Gloss.de=Jesus|LN=93.2|SourceNode=t_531
+13	Χριστὸς	χριστός	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	14	nsubj	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_532
+14	προεγράφη	προγράφω	VERB	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	6	nmod	_	Gloss.en=write before|Gloss.en.alt=portray publicly|Gloss.la=praescribere|Gloss.de=vorschreiben|LN=33.62|SourceNode=t_533
+15	ἐσταυρωμένος	σταυρόω	VERB	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	14	advmod	_	Gloss.en=crucify|Gloss.la=crucifigere|Gloss.de=kreuzigen|LN=20.75|SourceNode=t_534
+16	;	;	PUNCT	u--------	_	7	punct	_	SourceNode=t_535
+
+# sent_id = zahn.galatians.u0026
+# unit_id = u0026
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = μάθετε ὅτι ὁ δίκαιος ἐκ πίστεως ζήσεται ·
+# text_en = <mathete> that the righteous from faith live·
+# text_de = <mathete> dass der gerecht aus Glaube leben·
+# text_la = <mathete> quod ille iustus ex fides vivere·
+1	μάθετε	μανθάνω	VERB	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	0	root	_	SourceNode=t_536|Gloss.en=<mathete>|Gloss.de=<mathete>|Gloss.la=<mathete>
+2	ὅτι	ὅτι	SCONJ	c--------	_	1	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_537
+3	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	4	nmod	_	Gloss.en=the|SourceNode=t_538|Gloss.de=der|Gloss.la=ille
+4	δίκαιος	δίκαιος	ADJ	a-s---mn-	Case=n|Gender=m|Number=s	7	nsubj	_	Gloss.en=righteous|Gloss.en.alt=just|Gloss.la=iustus|Gloss.de=gerecht|LN=88.9|SourceNode=t_539
+5	ἐκ	ἐκ	ADP	r--------	_	7	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_540
+6	πίστεως	πίστις	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	5	advmod	_	Gloss.en=faith|Gloss.en.alt=faithfulness|Gloss.la=fides|Gloss.de=Glaube|LN=31.85|SourceNode=t_541
+7	ζήσεται	ζάω	VERB	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	2	obj	_	Gloss.en=live|Gloss.la=vivere|Gloss.de=leben|LN=23.88|SourceNode=t_542
+8	·	·	PUNCT	u--------	_	1	punct	_	SourceNode=t_543
+
+# sent_id = zahn.galatians.u0027
+# unit_id = u0027
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὅσοι γὰρ ὑπὸ νόμον , ὑπὸ κατάραν εἰσίν , ὁ δὲ ποιήσας αὐτὰ ζήσεται ἐν αὐτοῖς .
+# text_en = <osoi> for under law, under curse be, the but do he/she/it live in he/she/it.
+# text_de = <osoi> denn unter Gesetz, unter Fluch sein, der aber tun er/sie/es leben in er/sie/es.
+# text_la = <osoi> enim sub lex, sub maledictum esse, ille autem facere ipse vivere in ipse.
+1	ὅσοι	ὅσος	ADJ	a-p---mn-	Case=n|Gender=m|Number=p	8	nsubj	_	SourceNode=t_544|Gloss.en=<osoi>|Gloss.de=<osoi>|Gloss.la=<osoi>
+2	γὰρ	γάρ	PART	d--------	_	11	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_545
+3	ὑπὸ	ὑπό	ADP	r--------	_	8	case	_	Gloss.en=under|Gloss.en.alt=by|Gloss.la=sub|Gloss.de=unter|LN=89.7|SourceNode=t_546
+4	νόμον	νόμος	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	3	advmod	_	Gloss.en=law|Gloss.en.alt=Torah|Gloss.la=lex|Gloss.de=Gesetz|LN=33.55|SourceNode=t_547
+5	,	,	PUNCT	u--------	_	0	root	_	SourceNode=t_548
+6	ὑπὸ	ὑπό	ADP	r--------	_	8	case	_	Gloss.en=under|Gloss.en.alt=by|Gloss.la=sub|Gloss.de=unter|LN=89.7|SourceNode=t_549
+7	κατάραν	κατάρα	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	6	nsubj	_	Gloss.en=curse|Gloss.la=maledictum|Gloss.de=Fluch|LN=33.474|SourceNode=t_550
+8	εἰσίν	εἰμί	VERB	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	root	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_551
+9	,	,	PUNCT	u--------	_	5	punct	_	SourceNode=t_552
+10	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	12	nmod	_	Gloss.en=the|SourceNode=t_553|Gloss.de=der|Gloss.la=ille
+11	δὲ	δέ	CCONJ	c--------	_	5	conj	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_554
+12	ποιήσας	ποιέω	VERB	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	14	nsubj	_	Gloss.en=do|Gloss.en.alt=make|Gloss.la=facere|Gloss.de=tun|LN=42.9|SourceNode=t_555
+13	αὐτὰ	αὐτός	PRON	p-p---na-	Case=a|Gender=n|Number=p	12	obj	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_556
+14	ζήσεται	ζάω	VERB	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	root	_	Gloss.en=live|Gloss.la=vivere|Gloss.de=leben|LN=23.88|SourceNode=t_557
+15	ἐν	ἐν	ADP	r--------	_	14	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_558
+16	αὐτοῖς	αὐτός	PRON	p-p---nd-	Case=d|Gender=m|Number=p	15	advmod	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_559
+17	.	.	PUNCT	u--------	_	5	punct	_	SourceNode=t_560
+
+# sent_id = zahn.galatians.u0028
+# unit_id = u0028
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = Χριστὸς ἡμᾶς ἐξηγόρασεν ἐκ τῆς κατάρας τοῦ νόμου γενόμενος ὑπὲρ ἡμῶν κατάρα , ὅτι γέγραπται ·
+# text_en = Christ I redeem from the curse the law become for I curse, that write·
+# text_de = Christus ich loskaufen aus der Fluch der Gesetz werden für ich Fluch, dass schreiben·
+# text_la = Christus ego redimere ex ille maledictio ille lex fieri pro ego maledictum, quod scribere·
+1	Χριστὸς	χριστός	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	3	nsubj	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_561
+2	ἡμᾶς	ἐγώ	PRON	p-p---ma-	Case=a|Gender=m|Number=p	3	obj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_562
+3	ἐξηγόρασεν	ἐξαγοράζω	VERB	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	root	_	Gloss.en=redeem|Gloss.en.alt=buy back|Gloss.la=redimere|Gloss.de=loskaufen|LN=37.22|SourceNode=t_563
+4	ἐκ	ἐκ	ADP	r--------	_	3	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_564
+5	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	6	nmod	_	Gloss.en=the|SourceNode=t_565|Gloss.de=der|Gloss.la=ille
+6	κατάρας	καταίρω	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	4	advmod	_	SourceNode=t_566|Gloss.en=curse|Gloss.de=Fluch|Gloss.la=maledictio
+7	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	8	nmod	_	Gloss.en=the|SourceNode=t_567|Gloss.de=der|Gloss.la=ille
+8	νόμου	νόμος	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	6	nmod	_	Gloss.en=law|Gloss.en.alt=Torah|Gloss.la=lex|Gloss.de=Gesetz|LN=33.55|SourceNode=t_568
+9	γενόμενος	γίγνομαι	VERB	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	3	advmod	_	Gloss.en=become|Gloss.en.alt=happen|Gloss.la=fieri|Gloss.de=werden|LN=13.48|SourceNode=t_569
+10	ὑπὲρ	ὑπέρ	ADP	r--------	_	9	case	_	Gloss.en=for|Gloss.en.alt=on behalf of|Gloss.la=pro|Gloss.de=für|LN=90.36|SourceNode=t_570
+11	ἡμῶν	ἐγώ	PRON	p-p---mg-	Case=g|Number=p	10	advmod	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_571
+12	κατάρα	κατάρα	ADJ	a-p---na-	Case=a|Gender=n|Number=p	9	nsubj	_	Gloss.en=curse|Gloss.la=maledictum|Gloss.de=Fluch|LN=33.474|SourceNode=t_572
+13	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_573
+14	ὅτι	ὅτι	SCONJ	c--------	_	3	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_574
+15	γέγραπται	γράφω	VERB	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	14	advmod	_	SourceNode=t_575|Gloss.en=write|Gloss.de=schreiben|Gloss.la=scribere
+16	·	·	PUNCT	u--------	_	3	punct	_	SourceNode=t_576
+
+# sent_id = zahn.galatians.u0029
+# unit_id = u0029
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου .
+# text_en = cursed all the hang on tree.
+# text_de = verflucht all der hängen auf Holz.
+# text_la = maledictus omnis ille pendere super lignum.
+1	ἐπικατάρατος	ἐπικατάρατος	ADJ	a-s---mn-	Case=n|Gender=m|Number=s	0	nsubj	_	Gloss.en=cursed|Gloss.la=maledictus|Gloss.de=verflucht|LN=33.474|SourceNode=t_577
+2	πᾶς	πᾶς	ADJ	a-s---mn-	Case=n|Gender=m|Number=s	4	nmod	_	Gloss.en=all|Gloss.en.alt=every|Gloss.la=omnis|Gloss.de=all|LN=59.23|SourceNode=t_578
+3	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	4	nmod	_	Gloss.en=the|SourceNode=t_579|Gloss.de=der|Gloss.la=ille
+4	κρεμάμενος	κατακρεμάννυμι	VERB	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	0	root	_	SourceNode=t_580|Gloss.en=hang|Gloss.de=hängen|Gloss.la=pendere
+5	ἐπὶ	ἐπί	ADP	r--------	_	4	case	_	SourceNode=t_581|Gloss.en=on|Gloss.de=auf|Gloss.la=super
+6	ξύλου	ξύλον	NOUN	n-s---ng-	Case=g|Gender=n|Number=s	5	advmod	_	SourceNode=t_582|Gloss.en=tree|Gloss.de=Holz|Gloss.la=lignum
+7	.	.	PUNCT	u--------	_	0	punct	_	SourceNode=t_583
+
+# sent_id = zahn.galatians.u0030
+# unit_id = u0030
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἐλάβομεν οὖν τὴν πνευματικὴν εὐλογίαν διὰ τῆς πίστεως .
+# text_en = receive therefore the <pneumatiken> blessing through the faith.
+# text_de = empfangen daher der <pneumatiken> Segen durch der Glaube.
+# text_la = accipere ergo ille <pneumatiken> benedictio per ille fides.
+1	ἐλάβομεν	λαμβάνω	VERB	v1paia---	Mood=i|Number=p|Person=1|Tense=a|Voice=a	0	root	_	Gloss.en=receive|Gloss.en.alt=take|Gloss.la=accipere|Gloss.de=empfangen|LN=57.125|SourceNode=t_584
+2	οὖν	οὖν	ADV	d--------	_	1	advmod	_	SourceNode=t_585|Gloss.en=therefore|Gloss.de=daher|Gloss.la=ergo
+3	τὴν	ὁ	DET	l-s---fa-	Case=a|Gender=f|Number=s	5	nmod	_	Gloss.en=the|SourceNode=t_586|Gloss.de=der|Gloss.la=ille
+4	πνευματικὴν	πνευματικός	ADJ	a-s---fa-	Case=a|Gender=f|Number=s	5	nmod	_	SourceNode=t_587|Gloss.en=<pneumatiken>|Gloss.de=<pneumatiken>|Gloss.la=<pneumatiken>
+5	εὐλογίαν	εὐλογία	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	1	obj	_	SourceNode=t_588|Gloss.en=blessing|Gloss.de=Segen|Gloss.la=benedictio
+6	διὰ	διά	ADP	r--------	_	1	case	_	Gloss.en=through|Gloss.en.alt=because of|Gloss.la=per|Gloss.de=durch|LN=89.76|SourceNode=t_589
+7	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	8	nmod	_	Gloss.en=the|SourceNode=t_590|Gloss.de=der|Gloss.la=ille
+8	πίστεως	πίστις	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	6	advmod	_	Gloss.en=faith|Gloss.en.alt=faithfulness|Gloss.la=fides|Gloss.de=Glaube|LN=31.85|SourceNode=t_591
+9	.	.	PUNCT	u--------	_	1	punct	_	SourceNode=t_592
+
+# sent_id = zahn.galatians.u0031
+# unit_id = u0031
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = πάντες γὰρ υἱοὶ ἐστε τῆς πίστεως .
+# text_en = all for son be the faith.
+# text_de = all denn Sohn sein der Glaube.
+# text_la = omnis enim filius esse ille fides.
+1	πάντες	πᾶς	ADJ	a-p---mn-	Case=n|Gender=m|Number=p	4	nsubj	_	Gloss.en=all|Gloss.en.alt=every|Gloss.la=omnis|Gloss.de=all|LN=59.23|SourceNode=t_593
+2	γὰρ	γάρ	PART	d--------	_	4	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_594
+3	υἱοὶ	υἱός	NOUN	n-p---mn-	Case=n|Gender=m|Number=p	4	nsubj	_	Gloss.en=son|Gloss.en.alt=child|Gloss.la=filius|Gloss.de=Sohn|LN=10.42|SourceNode=t_595
+4	ἐστε	εἰμί	VERB	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	0	root	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_596
+5	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	6	nmod	_	Gloss.en=the|SourceNode=t_597|Gloss.de=der|Gloss.la=ille
+6	πίστεως	πίστις	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	3	nmod	_	Gloss.en=faith|Gloss.en.alt=faithfulness|Gloss.la=fides|Gloss.de=Glaube|LN=31.85|SourceNode=t_598
+7	.	.	PUNCT	u--------	_	4	punct	_	SourceNode=t_599
+
+# sent_id = zahn.galatians.u0032
+# unit_id = u0032
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = λέγω δέ , ἐφ᾽ ὅσον χρόνον ὁ κληρονόμος νήπιός ἐστιν , οὐδὲν διαφέρει δούλου κύριος πάντων ὤν , ἀλλὰ ὑπὸ ἐπιτρόπους ἐστὶν καὶ οἰκονόμους ἄχρι τῆς προθεσμίας τοῦ πατρός .
+# text_en = say but, on <oson> time the heir minor be, no_one differ slave Lord all be, but under <epitropous> be and <oikonomous> <akhri> the <prothesmias> the father.
+# text_de = sagen aber, auf <oson> Zeit der Erbe unmündig sein, niemand unterscheiden Sklave Herr all sein, sondern unter <epitropous> sein und <oikonomous> <akhri> der <prothesmias> der Vater.
+# text_la = dicere autem, super <oson> tempus ille heres parvulus esse, nemo differre servus Dominus omnis esse, sed sub <epitropous> esse et <oikonomous> <akhri> ille <prothesmias> ille pater.
+1	λέγω	λέγω3	VERB	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	root	_	Gloss.en=say|Gloss.en.alt=speak|Gloss.la=dicere|Gloss.de=sagen|LN=33.69|SourceNode=t_600
+2	δέ	δέ	CCONJ	d--------	_	1	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_601
+3	,	,	PUNCT	u--------	_	1	punct	_	SourceNode=t_602
+4	ἐφ᾽	ἐπί	ADP	r--------	_	10	case	_	SourceNode=t_603|Gloss.en=on|Gloss.de=auf|Gloss.la=super
+5	ὅσον	ὅσος	ADJ	a-s---ma-	Case=a|Gender=m|Number=s	6	nmod	_	SourceNode=t_604|Gloss.en=<oson>|Gloss.de=<oson>|Gloss.la=<oson>
+6	χρόνον	χρόνος	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	4	advmod	_	SourceNode=t_605|Gloss.en=time|Gloss.de=Zeit|Gloss.la=tempus
+7	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	8	nmod	_	Gloss.en=the|SourceNode=t_606|Gloss.de=der|Gloss.la=ille
+8	κληρονόμος	κληρονόμος	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	10	nsubj	_	SourceNode=t_607|Gloss.en=heir|Gloss.de=Erbe|Gloss.la=heres
+9	νήπιός	νήπιος	ADJ	a-s---mn-	Case=n|Gender=m|Number=s	10	nsubj	_	SourceNode=t_608|Gloss.en=minor|Gloss.de=unmündig|Gloss.la=parvulus
+10	ἐστιν	εἰμί	VERB	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	obj	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_609
+11	,	,	PUNCT	u--------	_	1	punct	_	SourceNode=t_610
+12	οὐδὲν	οὐδείς	ADJ	a-s---na-	Case=a|Gender=n|Number=s	13	advmod	_	SourceNode=t_611|Gloss.en=no_one|Gloss.de=niemand|Gloss.la=nemo
+13	διαφέρει	διαφέρω	VERB	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	obj	_	SourceNode=t_612|Gloss.en=differ|Gloss.de=unterscheiden|Gloss.la=differre
+14	δούλου	δοῦλος	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	15	nmod	_	Gloss.en=slave|Gloss.en.alt=servant|Gloss.la=servus|Gloss.de=Sklave|LN=87.76|SourceNode=t_613
+15	κύριος	κύριος	ADJ	a-s---mn-	Case=n|Gender=m|Number=s	17	nsubj	_	Gloss.en=Lord|Gloss.en.alt=master|Gloss.la=Dominus|Gloss.de=Herr|LN=12.9|SourceNode=t_614
+16	πάντων	πᾶς	ADJ	a-p---mg-	Case=g|Gender=n|Number=p	15	nmod	_	Gloss.en=all|Gloss.en.alt=every|Gloss.la=omnis|Gloss.de=all|LN=59.23|SourceNode=t_615
+17	ὤν	εἰμί	VERB	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	13	advmod	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_616
+18	,	,	PUNCT	u--------	_	1	punct	_	SourceNode=t_617
+19	ἀλλὰ	ἀλλά	CCONJ	c--------	_	1	conj	_	Gloss.en=but|Gloss.en.alt=rather|Gloss.la=sed|Gloss.de=sondern|LN=89.125|SourceNode=t_618
+20	ὑπὸ	ὑπό	ADP	r--------	_	22	case	_	Gloss.en=under|Gloss.en.alt=by|Gloss.la=sub|Gloss.de=unter|LN=89.7|SourceNode=t_619
+21	ἐπιτρόπους	ἐπίτροπος	ADJ	a-p---ma-	Case=a|Gender=m|Number=p	23	nsubj	_	SourceNode=t_620|Gloss.en=<epitropous>|Gloss.de=<epitropous>|Gloss.la=<epitropous>
+22	ἐστὶν	εἰμί	VERB	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	obj	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_621
+23	καὶ	καί	CCONJ	c--------	_	20	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_622
+24	οἰκονόμους	οἰκονόμος	ADJ	a-p---ma-	Case=a|Gender=m|Number=p	23	nsubj	_	SourceNode=t_623|Gloss.en=<oikonomous>|Gloss.de=<oikonomous>|Gloss.la=<oikonomous>
+25	ἄχρι	ἄχρι	ADP	r--------	_	22	case	_	SourceNode=t_624|Gloss.en=<akhri>|Gloss.de=<akhri>|Gloss.la=<akhri>
+26	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	27	nmod	_	Gloss.en=the|SourceNode=t_625|Gloss.de=der|Gloss.la=ille
+27	προθεσμίας	προθεσμία	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	25	advmod	_	SourceNode=t_626|Gloss.en=<prothesmias>|Gloss.de=<prothesmias>|Gloss.la=<prothesmias>
+28	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	29	nmod	_	Gloss.en=the|SourceNode=t_627|Gloss.de=der|Gloss.la=ille
+29	πατρός	πατήρ	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	27	nmod	_	Gloss.en=father|Gloss.la=pater|Gloss.de=Vater|LN=10.14|SourceNode=t_628
+30	.	.	PUNCT	u--------	_	1	punct	_	SourceNode=t_629
+
+# sent_id = zahn.galatians.u0033
+# unit_id = u0033
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = Ἔτι κατὰ ἄνθρωπον λέγω ·
+# text_en = still according to human say·
+# text_de = noch nach Mensch sagen·
+# text_la = adhuc secundum homo dicere·
+1	Ἔτι	ἔτι	CCONJ	c--------	_	4	mark	_	SourceNode=t_630|Gloss.en=still|Gloss.de=noch|Gloss.la=adhuc
+2	κατὰ	κατά	ADP	r--------	_	4	case	_	Gloss.en=according to|Gloss.en.alt=against|Gloss.la=secundum|Gloss.de=nach|LN=89.9|SourceNode=t_631
+3	ἄνθρωπον	ἄνθρωπος	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	2	advmod	_	Gloss.en=human|Gloss.en.alt=man|Gloss.la=homo|Gloss.de=Mensch|LN=9.1|SourceNode=t_632
+4	λέγω	λέγω3	VERB	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	root	_	Gloss.en=say|Gloss.en.alt=speak|Gloss.la=dicere|Gloss.de=sagen|LN=33.69|SourceNode=t_633
+5	·	·	PUNCT	u--------	_	4	punct	_	SourceNode=t_634
+
+# sent_id = zahn.galatians.u0034
+# unit_id = u0034
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὅτε ἦμεν νήπιοι , ὑπὸ τὰ στοιχεῖα τοῦ κόσμου ἦμεν τεθειμένοι εἰς τὸ δουλεῦσαι αὐτοῖς .
+# text_en = when be minor, under the elemental spirit the world be <tetheimenoi> into the serve he/she/it.
+# text_de = als sein unmündig, unter der Weltelement der Welt sein <tetheimenoi> in der dienen er/sie/es.
+# text_la = cum esse parvulus, sub ille elementum ille mundus esse <tetheimenoi> in ille servire ipse.
+1	ὅτε	ὅτε	CCONJ	c--------	_	10	mark	_	SourceNode=t_635|Gloss.en=when|Gloss.de=als|Gloss.la=cum
+2	ἦμεν	εἰμί	VERB	v1piia---	Mood=i|Number=p|Person=1|Tense=i|Voice=a	1	advmod	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_636
+3	νήπιοι	νήπιος	ADJ	a-p---mn-	Case=n|Gender=m|Number=p	2	nsubj	_	SourceNode=t_637|Gloss.en=minor|Gloss.de=unmündig|Gloss.la=parvulus
+4	,	,	PUNCT	u--------	_	10	punct	_	SourceNode=t_638
+5	ὑπὸ	ὑπό	ADP	r--------	_	11	case	_	Gloss.en=under|Gloss.en.alt=by|Gloss.la=sub|Gloss.de=unter|LN=89.7|SourceNode=t_639
+6	τὰ	ὁ	DET	l-p---na-	Case=a|Gender=n|Number=p	7	nmod	_	Gloss.en=the|SourceNode=t_640|Gloss.de=der|Gloss.la=ille
+7	στοιχεῖα	στοιχεῖον	NOUN	n-p---na-	Case=a|Gender=n|Number=p	5	advmod	_	Gloss.en=elemental spirit|Gloss.en.alt=basic principle|Gloss.la=elementum|Gloss.de=Weltelement|LN=67.128|SourceNode=t_641
+8	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	9	nmod	_	Gloss.en=the|SourceNode=t_642|Gloss.de=der|Gloss.la=ille
+9	κόσμου	κόσμος	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	7	nmod	_	Gloss.en=world|Gloss.la=mundus|Gloss.de=Welt|LN=1.1|SourceNode=t_643
+10	ἦμεν	εἰμί	VERB	v1piia---	Mood=i|Number=p|Person=1|Tense=i|Voice=a	0	root	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_644
+11	τεθειμένοι	τίθημι	VERB	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	10	advmod	_	SourceNode=t_645|Gloss.en=<tetheimenoi>|Gloss.de=<tetheimenoi>|Gloss.la=<tetheimenoi>
+12	εἰς	εἰς	ADP	r--------	_	11	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_646
+13	τὸ	ὁ	DET	l-s---na-	Case=a|Gender=n|Number=s	14	nmod	_	Gloss.en=the|SourceNode=t_647|Gloss.de=der|Gloss.la=ille
+14	δουλεῦσαι	δουλεύω	VERB	v--ana---	Mood=n|Tense=a|Voice=a	12	advmod	_	Gloss.en=serve|Gloss.en.alt=be enslaved|Gloss.la=servire|Gloss.de=dienen|LN=87.77|SourceNode=t_648
+15	αὐτοῖς	αὐτός	PRON	p-p---md-	Case=d|Gender=m|Number=p	14	obj	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_649
+16	.	.	PUNCT	u--------	_	10	punct	_	SourceNode=t_650
+
+# sent_id = zahn.galatians.u0035
+# unit_id = u0035
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὅτε δὲ ἐγένετο πληροῦσθαι τὸν χρόνον , ἀπέστειλεν ὁ θεὸς τὸν υἱὸν αὐτοῦ .
+# text_en = when but become fulfil the time, <apesteilen> the God the son he/she/it.
+# text_de = als aber werden erfüllen der Zeit, <apesteilen> der Gott der Sohn er/sie/es.
+# text_la = cum autem fieri implere ille tempus, <apesteilen> ille Deus ille filius ipse.
+1	ὅτε	ὅτε	CCONJ	c--------	_	8	mark	_	SourceNode=t_651|Gloss.en=when|Gloss.de=als|Gloss.la=cum
+2	δὲ	δέ	ADV	d--------	_	8	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_652
+3	ἐγένετο	γίγνομαι	VERB	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	1	advmod	_	Gloss.en=become|Gloss.en.alt=happen|Gloss.la=fieri|Gloss.de=werden|LN=13.48|SourceNode=t_653
+4	πληροῦσθαι	πληρόω	VERB	v--pne---	Mood=n|Tense=p|Voice=e	3	nsubj	_	Gloss.en=fulfil|Gloss.en.alt=fill|Gloss.la=implere|Gloss.de=erfüllen|LN=59.35|SourceNode=t_654
+5	τὸν	ὁ	DET	l-s---ma-	Case=a|Gender=m|Number=s	6	nmod	_	Gloss.en=the|SourceNode=t_655|Gloss.de=der|Gloss.la=ille
+6	χρόνον	χρόνος	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	4	obj	_	SourceNode=t_656|Gloss.en=time|Gloss.de=Zeit|Gloss.la=tempus
+7	,	,	PUNCT	u--------	_	8	punct	_	SourceNode=t_657
+8	ἀπέστειλεν	ἀποστέλλω	VERB	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	root	_	SourceNode=t_658|Gloss.en=<apesteilen>|Gloss.de=<apesteilen>|Gloss.la=<apesteilen>
+9	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	10	nmod	_	Gloss.en=the|SourceNode=t_659|Gloss.de=der|Gloss.la=ille
+10	θεὸς	θεός	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	8	nsubj	_	Gloss.en=God|Gloss.en.alt=god|Gloss.la=Deus|Gloss.de=Gott|LN=12.1|SourceNode=t_660
+11	τὸν	ὁ	DET	l-s---ma-	Case=a|Gender=m|Number=s	12	nmod	_	Gloss.en=the|SourceNode=t_661|Gloss.de=der|Gloss.la=ille
+12	υἱὸν	υἱός	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	8	obj	_	Gloss.en=son|Gloss.en.alt=child|Gloss.la=filius|Gloss.de=Sohn|LN=10.42|SourceNode=t_662
+13	αὐτοῦ	αὐτός	PRON	p-s---mg-	Case=g|Gender=m|Number=s	12	nmod	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_663
+14	.	.	PUNCT	u--------	_	8	punct	_	SourceNode=t_664
+
+# sent_id = zahn.galatians.u0036
+# unit_id = u0036
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἵνα τοὺς ὑπὸ νόμον ἐξαγοράσῃ , ἵνα τὴν υἱοθεσίαν ἀπολάβωμεν .
+# text_en = so that the under law redeem, so that the adoption receive.
+# text_de = damit der unter Gesetz loskaufen, damit der Sohnschaft empfangen.
+# text_la = ut ille sub lex redimere, ut ille adoptio accipere.
+1	ἵνα	ἵνα	SCONJ	c--------	_	0	mark	_	Gloss.en=so that|Gloss.en.alt=in order that|Gloss.la=ut|Gloss.de=damit|LN=89.59|SourceNode=t_665
+2	τοὺς	ὁ	DET	l-p---ma-	Case=a|Gender=m|Number=p	5	obj	_	Gloss.en=the|SourceNode=t_666|Gloss.de=der|Gloss.la=ille
+3	ὑπὸ	ὑπό	ADP	r--------	_	2	case	_	Gloss.en=under|Gloss.en.alt=by|Gloss.la=sub|Gloss.de=unter|LN=89.7|SourceNode=t_667
+4	νόμον	νόμος	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	3	nmod	_	Gloss.en=law|Gloss.en.alt=Torah|Gloss.la=lex|Gloss.de=Gesetz|LN=33.55|SourceNode=t_668
+5	ἐξαγοράσῃ	ἐξαγοράζω	VERB	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	0	root	_	Gloss.en=redeem|Gloss.en.alt=buy back|Gloss.la=redimere|Gloss.de=loskaufen|LN=37.22|SourceNode=t_669
+6	,	,	PUNCT	u--------	_	0	punct	_	SourceNode=t_670
+7	ἵνα	ἵνα	SCONJ	c--------	_	0	mark	_	Gloss.en=so that|Gloss.en.alt=in order that|Gloss.la=ut|Gloss.de=damit|LN=89.59|SourceNode=t_671
+8	τὴν	ὁ	DET	l-s---fa-	Case=a|Gender=f|Number=s	9	nmod	_	Gloss.en=the|SourceNode=t_672|Gloss.de=der|Gloss.la=ille
+9	υἱοθεσίαν	υἱοθεσία	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	10	obj	_	Gloss.en=adoption|Gloss.en.alt=sonship|Gloss.la=adoptio|Gloss.de=Sohnschaft|LN=36.1|SourceNode=t_673
+10	ἀπολάβωμεν	ἀπολαμβάνω	VERB	v1pasa---	Mood=s|Number=p|Person=1|Tense=a|Voice=a	7	advmod	_	SourceNode=t_674|Gloss.en=receive|Gloss.de=empfangen|Gloss.la=accipere
+11	.	.	PUNCT	u--------	_	0	punct	_	SourceNode=t_675
+
+# sent_id = zahn.galatians.u0037
+# unit_id = u0037
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὅτι οὖν ἐσμεν υἱοὶ θεοῦ , ἀπέστειλεν τὸ πνεῦμα αὐτοῦ εἰς τὰς καρδίας ἡμῶν , κρᾶζον ·
+# text_en = that therefore be son God, <apesteilen> the spirit he/she/it into the heart I, cry out·
+# text_de = dass daher sein Sohn Gott, <apesteilen> der Geist er/sie/es in der Herz ich, rufen·
+# text_la = quod ergo esse filius Deus, <apesteilen> ille spiritus ipse in ille cor ego, clamare·
+1	ὅτι	ὅτι	SCONJ	c--------	_	16	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_676
+2	οὖν	οὖν	ADV	d--------	_	16	advmod	_	SourceNode=t_677|Gloss.en=therefore|Gloss.de=daher|Gloss.la=ergo
+3	ἐσμεν	εἰμί	VERB	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	1	advmod	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_678
+4	υἱοὶ	υἱός	NOUN	n-p---mn-	Case=n|Gender=m|Number=p	3	nsubj	_	Gloss.en=son|Gloss.en.alt=child|Gloss.la=filius|Gloss.de=Sohn|LN=10.42|SourceNode=t_679
+5	θεοῦ	θεός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	4	nmod	_	Gloss.en=God|Gloss.en.alt=god|Gloss.la=Deus|Gloss.de=Gott|LN=12.1|SourceNode=t_680
+6	,	,	PUNCT	u--------	_	16	punct	_	SourceNode=t_681
+7	ἀπέστειλεν	ἀποστέλλω	VERB	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	1	advmod	_	SourceNode=t_682|Gloss.en=<apesteilen>|Gloss.de=<apesteilen>|Gloss.la=<apesteilen>
+8	τὸ	ὁ	DET	l-s---nn-	Case=n|Gender=n|Number=s	9	nmod	_	Gloss.en=the|SourceNode=t_683|Gloss.de=der|Gloss.la=ille
+9	πνεῦμα	πνεῦμα	NOUN	n-s---nn-	Case=n|Gender=n|Number=s	7	nsubj	_	Gloss.en=spirit|Gloss.en.alt=Spirit|Gloss.la=spiritus|Gloss.de=Geist|LN=12.18|SourceNode=t_684
+10	αὐτοῦ	αὐτός	PRON	p-s---mg-	Case=g|Gender=m|Number=s	9	nmod	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_685
+11	εἰς	εἰς	ADP	r--------	_	7	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_686
+12	τὰς	ὁ	DET	l-p---fa-	Case=a|Gender=f|Number=p	13	nmod	_	Gloss.en=the|SourceNode=t_687|Gloss.de=der|Gloss.la=ille
+13	καρδίας	καρδία	NOUN	n-p---fa-	Case=a|Gender=f|Number=p	11	obj	_	SourceNode=t_688|Gloss.en=heart|Gloss.de=Herz|Gloss.la=cor
+14	ἡμῶν	ἐγώ	PRON	p1p---cg-	Case=g|Gender=c|Number=p|Person=1	13	nmod	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_689
+15	,	,	PUNCT	u--------	_	16	punct	_	SourceNode=t_690
+16	κρᾶζον	κράζω	VERB	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	root	_	Gloss.en=cry out|Gloss.la=clamare|Gloss.de=rufen|LN=33.85|SourceNode=t_691
+17	·	·	PUNCT	u--------	_	16	punct	_	SourceNode=t_692
+
+# sent_id = zahn.galatians.u0038
+# unit_id = u0038
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = Ἀββᾶ ὁ πατήρ .
+# text_en = Abba the father.
+# text_de = Abba der Vater.
+# text_la = Abba ille pater.
+1	Ἀββᾶ	ἀββᾶς	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	0	root	_	Gloss.en=Abba|Gloss.en.alt=Father|Gloss.la=Abba|Gloss.de=Abba|LN=12.12|SourceNode=t_693
+2	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	3	nmod	_	Gloss.en=the|SourceNode=t_694|Gloss.de=der|Gloss.la=ille
+3	πατήρ	πατήρ	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	1	appos	_	Gloss.en=father|Gloss.la=pater|Gloss.de=Vater|LN=10.14|SourceNode=t_695
+4	.	.	PUNCT	u--------	_	0	punct	_	SourceNode=t_696
+
+# sent_id = zahn.galatians.u0039
+# unit_id = u0039
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = εἰ οὖν τοῖς ἐν τῇ φύσει οὖσι θεοῖς δουλεύετε , πῶς ἐπιστρέφετε πάλιν ἐπὶ τὰ ἀσθενῆ καὶ πτωχὰ στοιχεῖα , οἷς πάλιν ἄνωθεν δουλεῦσαι θέλετε ;
+# text_en = if therefore the in the nature be God serve, how turn back again on the weak and poor elemental spirit, which again from_above serve want;
+# text_de = wenn daher der in der Natur sein Gott dienen, wie umkehren wieder auf der schwach und arm Weltelement, welcher wieder von_oben dienen wollen;
+# text_la = si ergo ille in ille natura esse Deus servire, quomodo reverti rursus super ille infirmus et pauper elementum, qui rursus desuper servire velle;
+1	εἰ	εἰ	SCONJ	c--------	_	12	mark	_	Gloss.en=if|Gloss.la=si|Gloss.de=wenn|LN=89.65|SourceNode=t_697
+2	οὖν	οὖν	ADV	d--------	_	12	advmod	_	SourceNode=t_698|Gloss.en=therefore|Gloss.de=daher|Gloss.la=ergo
+3	τοῖς	ὁ	DET	l-p---md-	Case=d|Gender=m|Number=p	8	nmod	_	Gloss.en=the|SourceNode=t_699|Gloss.de=der|Gloss.la=ille
+4	ἐν	ἐν	ADP	r--------	_	7	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_700
+5	τῇ	ὁ	DET	l-s---fd-	Case=d|Gender=f|Number=s	6	nmod	_	Gloss.en=the|SourceNode=t_701|Gloss.de=der|Gloss.la=ille
+6	φύσει	φύσις	NOUN	n-s---fd-	Case=d|Gender=f|Number=s	4	nsubj	_	SourceNode=t_702|Gloss.en=nature|Gloss.de=Natur|Gloss.la=natura
+7	οὖσι	εἰμί	VERB	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	nmod	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_703
+8	θεοῖς	θεός	NOUN	n-p---md-	Case=d|Gender=m|Number=p	9	obj	_	Gloss.en=God|Gloss.en.alt=god|Gloss.la=Deus|Gloss.de=Gott|LN=12.1|SourceNode=t_704
+9	δουλεύετε	δουλεύω	VERB	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	1	advmod	_	Gloss.en=serve|Gloss.en.alt=be enslaved|Gloss.la=servire|Gloss.de=dienen|LN=87.77|SourceNode=t_705
+10	,	,	PUNCT	u--------	_	12	punct	_	SourceNode=t_706
+11	πῶς	πῶς	ADV	d--------	_	12	advmod	_	SourceNode=t_707|Gloss.en=how|Gloss.de=wie|Gloss.la=quomodo
+12	ἐπιστρέφετε	ἐπιστρέφω	VERB	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	0	root	_	Gloss.en=turn back|Gloss.en.alt=return|Gloss.la=reverti|Gloss.de=umkehren|LN=31.60|SourceNode=t_708
+13	πάλιν	πάλιν	ADV	d--------	_	12	advmod	_	SourceNode=t_709|Gloss.en=again|Gloss.de=wieder|Gloss.la=rursus
+14	ἐπὶ	ἐπί	ADP	r--------	_	12	case	_	SourceNode=t_710|Gloss.en=on|Gloss.de=auf|Gloss.la=super
+15	τὰ	ὁ	DET	l-p---na-	Case=a|Gender=n|Number=p	19	nmod	_	Gloss.en=the|SourceNode=t_711|Gloss.de=der|Gloss.la=ille
+16	ἀσθενῆ	ἀσθενής	ADJ	a-p---na-	Case=a|Gender=n|Number=p	17	nmod	_	SourceNode=t_712|Gloss.en=weak|Gloss.de=schwach|Gloss.la=infirmus
+17	καὶ	καί	CCONJ	c--------	_	19	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_713
+18	πτωχὰ	πτωχός	ADJ	a-p---na-	Case=a|Gender=n|Number=p	17	nmod	_	SourceNode=t_714|Gloss.en=poor|Gloss.de=arm|Gloss.la=pauper
+19	στοιχεῖα	στοιχεῖον	NOUN	n-p---na-	Case=a|Gender=n|Number=p	14	advmod	_	Gloss.en=elemental spirit|Gloss.en.alt=basic principle|Gloss.la=elementum|Gloss.de=Weltelement|LN=67.128|SourceNode=t_715
+20	,	,	PUNCT	u--------	_	12	punct	_	SourceNode=t_716
+21	οἷς	ὅς	PRON	p-p---nd-	Case=d|Gender=n|Number=p	24	obj	_	SourceNode=t_717|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+22	πάλιν	πάλιν	ADV	d--------	_	24	advmod	_	SourceNode=t_718|Gloss.en=again|Gloss.de=wieder|Gloss.la=rursus
+23	ἄνωθεν	ἄνωθεν	ADV	d--------	_	24	advmod	_	SourceNode=t_719|Gloss.en=from_above|Gloss.de=von_oben|Gloss.la=desuper
+24	δουλεῦσαι	δουλεύω	VERB	v--ana---	Mood=n|Tense=a|Voice=a	25	obj	_	Gloss.en=serve|Gloss.en.alt=be enslaved|Gloss.la=servire|Gloss.de=dienen|LN=87.77|SourceNode=t_720
+25	θέλετε	ἐθέλω	VERB	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	19	nmod	_	SourceNode=t_721|Gloss.en=want|Gloss.de=wollen|Gloss.la=velle
+26	;	;	PUNCT	u--------	_	12	punct	_	SourceNode=t_722
+
+# sent_id = zahn.galatians.u0040
+# unit_id = u0040
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἡμέρας παρατηρεῖσθε καὶ μῆνας καὶ καιροὺς καὶ ἐνιαυτούς ;
+# text_en = day observe and months and time and year;
+# text_de = Tag beobachten und Monate und Zeit und Jahr;
+# text_la = dies observare et menses et tempus et annus;
+1	ἡμέρας	ἡμέρα	NOUN	n-p---fa-	Case=a|Gender=f|Number=p	7	obj	_	Gloss.en=day|Gloss.la=dies|Gloss.de=Tag|LN=67.179|SourceNode=t_723
+2	παρατηρεῖσθε	παρατηρέω	VERB	v2ppme---	Mood=m|Number=p|Person=2|Tense=p|Voice=e	0	root	_	Gloss.en=observe|Gloss.en.alt=keep watch|Gloss.la=observare|Gloss.de=beobachten|LN=27.55|SourceNode=t_724
+3	καὶ	καί	ADV	d--------	_	7	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_725
+4	μῆνας	μείς	NOUN	n-p---ma-	Case=a|Gender=m|Number=p	7	advmod	_	SourceNode=t_726|Gloss.en=months|Gloss.de=Monate|Gloss.la=menses
+5	καὶ	καί	ADV	d--------	_	7	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_727
+6	καιροὺς	καιρός	NOUN	n-p---ma-	Case=a|Gender=m|Number=p	7	obj	_	Gloss.en=time|Gloss.en.alt=appointed time|Gloss.la=tempus|Gloss.de=Zeit|LN=67.1|SourceNode=t_728
+7	καὶ	καί	CCONJ	c--------	_	2	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_729
+8	ἐνιαυτούς	ἐνιαυτός	NOUN	n-p---ma-	Case=a|Gender=m|Number=p	7	advmod	_	Gloss.en=year|Gloss.la=annus|Gloss.de=Jahr|LN=67.175|SourceNode=t_730
+9	;	;	PUNCT	u--------	_	2	punct	_	SourceNode=t_731
+
+# sent_id = zahn.galatians.u0041
+# unit_id = u0041
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = γέγραπται γὰρ ὅτι Ἀβραὰμ δύο υἱοὺς ἔσχεν , ἕνα ἐκ τῆς παιδίσκης καὶ ἕνα ἐκ τῆς ἐλευθέρας .
+# text_en = write for that Abraham two son have, one from the slave girl and one from the free.
+# text_de = schreiben denn dass Abraham zwei Sohn haben, ein aus der Sklavin und ein aus der frei.
+# text_la = scribere enim quod Abraham duo filius habere, unus ex ille ancilla et unus ex ille liber.
+1	γέγραπται	γράφω	VERB	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	root	_	SourceNode=t_732|Gloss.en=write|Gloss.de=schreiben|Gloss.la=scribere
+2	γὰρ	γάρ	PART	d--------	_	1	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_733
+3	ὅτι	ὅτι	SCONJ	c--------	_	1	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_734
+4	Ἀβραὰμ	ἀβραάμ	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	7	nsubj	_	Gloss.en=Abraham|Gloss.la=Abraham|Gloss.de=Abraham|LN=93.101|SourceNode=t_735
+5	δύο	δύο	ADJ	a--------	Case=a|Gender=m|Number=d	6	nmod	_	Gloss.en=two|Gloss.la=duo|Gloss.de=zwei|LN=60.2|SourceNode=t_736
+6	υἱοὺς	υἱός	NOUN	n-p---ma-	Case=a|Gender=m|Number=p	7	obj	_	Gloss.en=son|Gloss.en.alt=child|Gloss.la=filius|Gloss.de=Sohn|LN=10.42|SourceNode=t_737
+7	ἔσχεν	ἔχω	VERB	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	3	obj	_	SourceNode=t_738|Gloss.en=have|Gloss.de=haben|Gloss.la=habere
+8	,	,	PUNCT	u--------	_	1	punct	_	SourceNode=t_739
+9	ἕνα	εἷς	NUM	m-s---ma-	Case=a|Gender=m|Number=s	13	appos	_	Gloss.en=one|Gloss.la=unus|Gloss.de=ein|LN=60.9|SourceNode=t_740
+10	ἐκ	ἐκ	ADP	r--------	_	9	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_741
+11	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	12	nmod	_	Gloss.en=the|SourceNode=t_742|Gloss.de=der|Gloss.la=ille
+12	παιδίσκης	παιδίσκη	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	10	nmod	_	Gloss.en=slave girl|Gloss.en.alt=maidservant|Gloss.la=ancilla|Gloss.de=Sklavin|LN=87.79|SourceNode=t_743
+13	καὶ	καί	CCONJ	c--------	_	6	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_744
+14	ἕνα	εἷς	NUM	m-s---ma-	Case=a|Gender=m|Number=s	13	appos	_	Gloss.en=one|Gloss.la=unus|Gloss.de=ein|LN=60.9|SourceNode=t_745
+15	ἐκ	ἐκ	ADP	r--------	_	14	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_746
+16	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	17	nmod	_	Gloss.en=the|SourceNode=t_747|Gloss.de=der|Gloss.la=ille
+17	ἐλευθέρας	ἐλεύθερος	ADJ	a-s---fg-	Case=g|Gender=f|Number=s	15	advmod	_	Gloss.en=free|Gloss.en.alt=freed|Gloss.la=liber|Gloss.de=frei|LN=37.11|SourceNode=t_748
+18	.	.	PUNCT	u--------	_	1	punct	_	SourceNode=t_749
+
+# sent_id = zahn.galatians.u0042
+# unit_id = u0042
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἀλλ᾽ ὁ μὲν ἐκ τῆς παιδίσκης κατὰ σάρκα γεγέννηται , ὁ δὲ ἐκ τῆς ἐλευθέρας διὰ τῆς ἐπαγγελίας [1] .
+# text_en = but the indeed from the slave girl according to flesh beget, the but from the free through the promise [1].
+# text_de = sondern der zwar aus der Sklavin nach Fleisch zeugen, der aber aus der frei durch der Verheißung [1].
+# text_la = sed ille quidem ex ille ancilla secundum caro generare, ille autem ex ille liber per ille promissio [1].
+1	ἀλλ᾽	ἀλλά	CCONJ	c--------	_	12	advmod	_	Gloss.en=but|Gloss.en.alt=rather|Gloss.la=sed|Gloss.de=sondern|LN=89.125|SourceNode=t_750
+2	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	9	nsubj	_	Gloss.en=the|SourceNode=t_751|Gloss.de=der|Gloss.la=ille
+3	μὲν	μέν	ADV	d--------	_	9	advmod	_	SourceNode=t_752|Gloss.en=indeed|Gloss.de=zwar|Gloss.la=quidem
+4	ἐκ	ἐκ	ADP	r--------	_	9	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_753
+5	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	6	nmod	_	Gloss.en=the|SourceNode=t_754|Gloss.de=der|Gloss.la=ille
+6	παιδίσκης	παιδίσκη	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	4	advmod	_	Gloss.en=slave girl|Gloss.en.alt=maidservant|Gloss.la=ancilla|Gloss.de=Sklavin|LN=87.79|SourceNode=t_755
+7	κατὰ	κατά	ADP	r--------	_	9	case	_	Gloss.en=according to|Gloss.en.alt=against|Gloss.la=secundum|Gloss.de=nach|LN=89.9|SourceNode=t_756
+8	σάρκα	σάρξ	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	7	advmod	_	Gloss.en=flesh|Gloss.en.alt=human nature|Gloss.la=caro|Gloss.de=Fleisch|LN=8.4|SourceNode=t_757
+9	γεγέννηται	γεννάω	VERB	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	root	_	Gloss.en=beget|Gloss.en.alt=bear|Gloss.la=generare|Gloss.de=zeugen|LN=23.52|SourceNode=t_758
+10	,	,	PUNCT	u--------	_	0	root	_	SourceNode=t_759
+11	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	0	nsubj	_	Gloss.en=the|SourceNode=t_760|Gloss.de=der|Gloss.la=ille
+12	δὲ	δέ	ADV	d--------	_	10	conj	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_761
+13	ἐκ	ἐκ	ADP	r--------	_	0	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_762
+14	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	15	nmod	_	Gloss.en=the|SourceNode=t_763|Gloss.de=der|Gloss.la=ille
+15	ἐλευθέρας	ἐλεύθερος	ADJ	a-s---fg-	Case=g|Gender=f|Number=s	13	advmod	_	Gloss.en=free|Gloss.en.alt=freed|Gloss.la=liber|Gloss.de=frei|LN=37.11|SourceNode=t_764
+16	διὰ	διά	ADP	r--------	_	0	case	_	Gloss.en=through|Gloss.en.alt=because of|Gloss.la=per|Gloss.de=durch|LN=89.76|SourceNode=t_765
+17	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	18	nmod	_	Gloss.en=the|SourceNode=t_766|Gloss.de=der|Gloss.la=ille
+18	ἐπαγγελίας	ἐπαγγελία	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	16	advmod	_	Gloss.en=promise|Gloss.la=promissio|Gloss.de=Verheißung|LN=33.288|SourceNode=t_767
+19	[1]	[1]	X	---------	_	0	nsubj	_	SourceNode=e_10|Gloss.en=[1]|Gloss.de=[1]|Gloss.la=[1]
+20	.	.	PUNCT	u--------	_	10	punct	_	SourceNode=t_768
+
+# sent_id = zahn.galatians.u0043
+# unit_id = u0043
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἅτινά ἐστιν ἀλληγορούμενα ·
+# text_en = which be speak allegorically·
+# text_de = welcher sein allegorisch reden·
+# text_la = quicumque esse allegorice dicere·
+1	ἅτινά	ὅστις	PRON	p-p---nn-	Case=n|Gender=n|Number=p	2	nsubj	_	SourceNode=t_769|Gloss.en=which|Gloss.de=welcher|Gloss.la=quicumque
+2	ἐστιν	εἰμί	VERB	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	root	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_770
+3	ἀλληγορούμενα	ἀλληγορέω	VERB	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	2	nsubj	_	Gloss.en=speak allegorically|Gloss.en.alt=interpret allegorically|Gloss.la=allegorice dicere|Gloss.de=allegorisch reden|LN=33.466|SourceNode=t_771
+4	·	·	PUNCT	u--------	_	2	punct	_	SourceNode=t_772
+
+# sent_id = zahn.galatians.u0044
+# unit_id = u0044
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = αὗται γάρ εἰσιν δύο διαθῆκαι , μία μὲν ἀπὸ ὄρους Σινᾶ εἰς τὴν συναγωγὴν τῶν Ἰουδαίων κατὰ τὸν νόμον γεννῶσα εἰς δουλείαν , μία ἄλλη , ἑτέρα δὲ ὑπεράνω πάσης ἀρχῆς καὶ δυνάμεως καὶ ἐξουσίας καὶ παντὸς ὀνόματος ὀνομαζομένου οὐ μόνον ἐν τῷ αἰῶνι τούτῳ , ἀλλὰ καὶ ἐν τῷ μέλλοντι , ἥτις ἐστὶν μήτηρ ἡμῶν , γεννῶσα εἰς ἣν ἐπηγγειλάμεθα ἁγίαν ἐκκλησίαν [1] .
+# text_en = this for be two covenant, one indeed from mountain Sinai into the correspond the Jew according to the law beget into slavery, one other, another but <uperano> all <arkhes> and power and <exousias> and all <onomatos> <onomazomenou> not only in the age this, but and in the about_to, which be mother I, beget into which <epeggeilametha> <agian> church [1].
+# text_de = dieser denn sein zwei Bund, ein zwar von Berg Sinai in der entsprechen der Jude nach der Gesetz zeugen in Sklaverei, ein anderer, ein anderer aber <uperano> all <arkhes> und Kraft und <exousias> und all <onomatos> <onomazomenou> nicht allein in der Zeitalter dieser, sondern und in der im_Begriff_zu, welcher sein Mutter ich, zeugen in welcher <epeggeilametha> <agian> Gemeinde [1].
+# text_la = hic enim esse duo testamentum, unus quidem ab mons Sina in ille respondere ille Iudaeus secundum ille lex generare in servitus, unus alius, alter autem <uperano> omnis <arkhes> et potentia et <exousias> et omnis <onomatos> <onomazomenou> non solus in ille saeculum hic, sed et in ille futurus, quicumque esse mater ego, generare in qui <epeggeilametha> <agian> ecclesia [1].
+1	αὗται	οὗτος	ADJ	a-p---fn-	Case=n|Gender=f|Number=p	5	nmod	_	Gloss.en=this|Gloss.la=hic|Gloss.de=dieser|LN=92.25|SourceNode=t_773
+2	γάρ	γάρ	PART	d--------	_	28	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_774
+3	εἰσιν	εἰμί	VERB	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	root	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_775
+4	δύο	δύο	ADJ	a--------	_	5	nmod	_	Gloss.en=two|Gloss.la=duo|Gloss.de=zwei|LN=60.2|SourceNode=t_776
+5	διαθῆκαι	διαθήκη	NOUN	n-p---fn-	Case=n|Gender=f|Number=p	3	nsubj	_	Gloss.en=covenant|Gloss.en.alt=testament|Gloss.la=testamentum|Gloss.de=Bund|LN=34.44|SourceNode=t_777
+6	,	,	PUNCT	u--------	_	0	root	_	SourceNode=t_778
+7	μία	εἷς	ADJ	a-s---fn-	Case=n|Gender=f|Number=s	11	nmod	_	Gloss.en=one|Gloss.la=unus|Gloss.de=ein|LN=60.9|SourceNode=t_779
+8	μὲν	μέν	ADV	d--------	_	28	advmod	_	SourceNode=t_780|Gloss.en=indeed|Gloss.de=zwar|Gloss.la=quidem
+9	ἀπὸ	ἀπό	ADP	r--------	_	7	case	_	Gloss.en=from|Gloss.en.alt=away from|Gloss.la=ab|Gloss.de=von|LN=84.15|SourceNode=t_781
+10	ὄρους	ὄρος	NOUN	n-s---ng-	Case=g|Gender=n|Number=s	9	nmod	_	SourceNode=t_782|Gloss.en=mountain|Gloss.de=Berg|Gloss.la=mons
+11	Σινᾶ	σινᾶ	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	0	nsubj	_	Gloss.en=Sinai|Gloss.la=Sina|Gloss.de=Sinai|LN=93.216|SourceNode=t_783
+12	εἰς	εἰς	ADP	r--------	_	20	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_784
+13	τὴν	ὁ	DET	l-s---fa-	Case=a|Gender=f|Number=s	14	nmod	_	Gloss.en=the|SourceNode=t_785|Gloss.de=der|Gloss.la=ille
+14	συναγωγὴν	συναγωγή	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	12	advmod	_	SourceNode=t_786|Gloss.en=correspond|Gloss.de=entsprechen|Gloss.la=respondere
+15	τῶν	ὁ	DET	l-p---mg-	Case=g|Gender=m|Number=p	16	nmod	_	Gloss.en=the|SourceNode=t_787|Gloss.de=der|Gloss.la=ille
+16	Ἰουδαίων	ἰουδαῖος	NOUN	n-p---mg-	Case=g|Gender=m|Number=p	14	nmod	_	Gloss.en=Jew|Gloss.en.alt=Jewish|Gloss.la=Iudaeus|Gloss.de=Jude|LN=93.163|SourceNode=t_788
+17	κατὰ	κατά	ADP	r--------	_	20	case	_	Gloss.en=according to|Gloss.en.alt=against|Gloss.la=secundum|Gloss.de=nach|LN=89.9|SourceNode=t_789
+18	τὸν	ὁ	DET	l-s---ma-	Case=a|Gender=m|Number=s	19	nmod	_	Gloss.en=the|SourceNode=t_790|Gloss.de=der|Gloss.la=ille
+19	νόμον	νόμος	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	17	advmod	_	Gloss.en=law|Gloss.en.alt=Torah|Gloss.la=lex|Gloss.de=Gesetz|LN=33.55|SourceNode=t_791
+20	γεννῶσα	γεννάω	VERB	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	7	nmod	_	Gloss.en=beget|Gloss.en.alt=bear|Gloss.la=generare|Gloss.de=zeugen|LN=23.52|SourceNode=t_792
+21	εἰς	εἰς	ADP	r--------	_	20	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_793
+22	δουλείαν	δουλεία	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	21	advmod	_	SourceNode=t_794|Gloss.en=slavery|Gloss.de=Sklaverei|Gloss.la=servitus
+23	,	,	PUNCT	u--------	_	6	punct	_	SourceNode=t_795
+24	μία	εἷς	ADJ	a-s---fn-	Case=n|Gender=f|Number=s	7	nmod	_	Gloss.en=one|Gloss.la=unus|Gloss.de=ein|LN=60.9|SourceNode=t_796
+25	ἄλλη	ἄλλος	ADJ	a-s---fn-	Case=n|Gender=f|Number=s	24	nmod	_	Gloss.en=other|Gloss.en.alt=another|Gloss.la=alius|Gloss.de=anderer|LN=58.37|SourceNode=t_797
+26	,	,	PUNCT	u--------	_	6	punct	_	SourceNode=t_798
+27	ἑτέρα	ἕτερος	ADJ	a-s---fn-	Case=n|Gender=f|Number=s	64	nsubj	_	Gloss.en=another|Gloss.en.alt=different|Gloss.la=alter|Gloss.de=ein anderer|LN=58.36|SourceNode=t_799
+28	δὲ	δέ	CCONJ	c--------	_	6	conj	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_800
+29	ὑπεράνω	ὑπεράνω	VERB	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	64	nsubj	_	SourceNode=t_801|Gloss.en=<uperano>|Gloss.de=<uperano>|Gloss.la=<uperano>
+30	πάσης	πᾶς	ADJ	a-s---fg-	Case=g|Gender=f|Number=s	31	nmod	_	Gloss.en=all|Gloss.en.alt=every|Gloss.la=omnis|Gloss.de=all|LN=59.23|SourceNode=t_802
+31	ἀρχῆς	ἀρχή	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	36	advmod	_	SourceNode=t_803|Gloss.en=<arkhes>|Gloss.de=<arkhes>|Gloss.la=<arkhes>
+32	καὶ	καί	ADV	d--------	_	36	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_804
+33	δυνάμεως	δύναμις	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	36	advmod	_	Gloss.en=power|Gloss.en.alt=ability|Gloss.la=potentia|Gloss.de=Kraft|LN=76.1|SourceNode=t_805
+34	καὶ	καί	ADV	d--------	_	36	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_806
+35	ἐξουσίας	ἐξουσία	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	36	advmod	_	SourceNode=t_807|Gloss.en=<exousias>|Gloss.de=<exousias>|Gloss.la=<exousias>
+36	καὶ	καί	CCONJ	c--------	_	29	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_808
+37	παντὸς	πᾶς	ADJ	a-s---ng-	Case=g|Gender=n|Number=s	38	nmod	_	Gloss.en=all|Gloss.en.alt=every|Gloss.la=omnis|Gloss.de=all|LN=59.23|SourceNode=t_809
+38	ὀνόματος	ὄνομα	NOUN	n-s---ng-	Case=g|Gender=n|Number=s	36	advmod	_	SourceNode=t_810|Gloss.en=<onomatos>|Gloss.de=<onomatos>|Gloss.la=<onomatos>
+39	ὀνομαζομένου	ὀνομάζω	VERB	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	47	advmod	_	SourceNode=t_811|Gloss.en=<onomazomenou>|Gloss.de=<onomazomenou>|Gloss.la=<onomazomenou>
+40	οὐ	οὐ	ADV	d--------	_	41	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_812
+41	μόνον	μόνος	ADJ	a-s---na-	Case=a|Gender=n|Number=s	44	advmod	_	Gloss.en=only|Gloss.en.alt=alone|Gloss.la=solus|Gloss.de=allein|LN=58.71|SourceNode=t_813
+42	ἐν	ἐν	ADP	r--------	_	39	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_814
+43	τῷ	ὁ	DET	l-s---md-	Case=d|Gender=m|Number=s	44	nmod	_	Gloss.en=the|SourceNode=t_815|Gloss.de=der|Gloss.la=ille
+44	αἰῶνι	αἰών	NOUN	n-s---md-	Case=d|Gender=m|Number=s	42	advmod	_	Gloss.en=age|Gloss.en.alt=eternity|Gloss.la=saeculum|Gloss.de=Zeitalter|LN=67.141|SourceNode=t_816
+45	τούτῳ	οὗτος	ADJ	a-s---md-	Case=d|Gender=m|Number=s	44	nmod	_	Gloss.en=this|Gloss.la=hic|Gloss.de=dieser|LN=92.25|SourceNode=t_817
+46	,	,	PUNCT	u--------	_	6	punct	_	SourceNode=t_818
+47	ἀλλὰ	ἀλλά	CCONJ	c--------	_	38	conj	_	Gloss.en=but|Gloss.en.alt=rather|Gloss.la=sed|Gloss.de=sondern|LN=89.125|SourceNode=t_819
+48	καὶ	καί	ADV	d--------	_	51	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_820
+49	ἐν	ἐν	ADP	r--------	_	47	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_821
+50	τῷ	ὁ	DET	l-s---md-	Case=d|Gender=n|Number=s	51	nmod	_	Gloss.en=the|SourceNode=t_822|Gloss.de=der|Gloss.la=ille
+51	μέλλοντι	μέλλω	VERB	v-sppand-	Case=d|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	49	advmod	_	SourceNode=t_823|Gloss.en=about_to|Gloss.de=im_Begriff_zu|Gloss.la=futurus
+52	,	,	PUNCT	u--------	_	6	punct	_	SourceNode=t_824
+53	ἥτις	ὅστις	PRON	p-s---fn-	Case=n|Gender=f|Number=s	54	nsubj	_	SourceNode=t_825|Gloss.en=which|Gloss.de=welcher|Gloss.la=quicumque
+54	ἐστὶν	εἰμί	VERB	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	47	nmod	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_826
+55	μήτηρ	μήτηρ	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	54	nsubj	_	Gloss.en=mother|Gloss.la=mater|Gloss.de=Mutter|LN=10.16|SourceNode=t_827
+56	ἡμῶν	ἐγώ	PRON	p1p---mg-	Case=g|Gender=m|Number=p|Person=1	55	nmod	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_828
+57	,	,	PUNCT	u--------	_	6	punct	_	SourceNode=t_829
+58	γεννῶσα	γεννάω	VERB	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	64	advmod	_	Gloss.en=beget|Gloss.en.alt=bear|Gloss.la=generare|Gloss.de=zeugen|LN=23.52|SourceNode=t_830
+59	εἰς	εἰς	ADP	r--------	_	58	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_831
+60	ἣν	ὅς	ADJ	a-s---fa-	Case=a|Gender=f|Number=s	63	nmod	_	SourceNode=t_832|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+61	ἐπηγγειλάμεθα	ἐπαγγέλλω	VERB	v1paim---	Mood=i|Number=p|Person=1|Tense=a|Voice=m	63	nmod	_	SourceNode=t_833|Gloss.en=<epeggeilametha>|Gloss.de=<epeggeilametha>|Gloss.la=<epeggeilametha>
+62	ἁγίαν	ἅγιος	ADJ	a-s---fa-	Case=a|Gender=f|Number=s	63	nmod	_	SourceNode=t_834|Gloss.en=<agian>|Gloss.de=<agian>|Gloss.la=<agian>
+63	ἐκκλησίαν	ἐκκλησία	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	59	obj	_	Gloss.en=church|Gloss.en.alt=assembly|Gloss.la=ecclesia|Gloss.de=Gemeinde|LN=11.32|SourceNode=t_835
+64	[1]	[1]	X	---------	_	0	root	_	SourceNode=e_12|Gloss.en=[1]|Gloss.de=[1]|Gloss.la=[1]
+65	.	.	PUNCT	u--------	_	6	punct	_	SourceNode=t_836
+
+# sent_id = zahn.galatians.u0045
+# unit_id = u0045
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = διό , ἀδελφοί , οὐκ ἐσμὲν παιδίσκης τέκνα ἀλλὰ τῆς ἐλευθέρας , ᾗ ἐλευθερίᾳ Χριστὸς ἡμᾶς ἠλευθέρωσεν .
+# text_en = therefore, brother, not be slave girl child but the free, which freedom Christ I <eleutherosen>.
+# text_de = darum, Bruder, nicht sein Sklavin Kind sondern der frei, welcher Freiheit Christus ich <eleutherosen>.
+# text_la = ideo, frater, non esse ancilla filius sed ille liber, qui libertas Christus ego <eleutherosen>.
+1	διό	διό	ADV	d--------	_	6	advmod	_	SourceNode=t_837|Gloss.en=therefore|Gloss.de=darum|Gloss.la=ideo
+2	,	,	PUNCT	u--------	_	6	punct	_	SourceNode=t_838
+3	ἀδελφοί	ἀδελφός	NOUN	n-p---mv-	Case=v|Gender=m|Number=p	6	dep	_	Gloss.en=brother|Gloss.en.alt=sibling|Gloss.la=frater|Gloss.de=Bruder|LN=11.23|SourceNode=t_839
+4	,	,	PUNCT	u--------	_	6	punct	_	SourceNode=t_840
+5	οὐκ	οὐ	ADV	d--------	_	7	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_841
+6	ἐσμὲν	εἰμί	VERB	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	root	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_842
+7	παιδίσκης	παιδίσκη	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	9	nmod	_	Gloss.en=slave girl|Gloss.en.alt=maidservant|Gloss.la=ancilla|Gloss.de=Sklavin|LN=87.79|SourceNode=t_843
+8	τέκνα	τέκνον	NOUN	n-p---nn-	Case=n|Gender=n|Number=p	6	nsubj	_	Gloss.en=child|Gloss.la=filius|Gloss.de=Kind|LN=10.29|SourceNode=t_844
+9	ἀλλὰ	ἀλλά	CCONJ	c--------	_	8	conj	_	Gloss.en=but|Gloss.en.alt=rather|Gloss.la=sed|Gloss.de=sondern|LN=89.125|SourceNode=t_845
+10	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	11	nmod	_	Gloss.en=the|SourceNode=t_846|Gloss.de=der|Gloss.la=ille
+11	ἐλευθέρας	ἐλεύθερος	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	9	nmod	_	Gloss.en=free|Gloss.en.alt=freed|Gloss.la=liber|Gloss.de=frei|LN=37.11|SourceNode=t_847
+12	,	,	PUNCT	u--------	_	6	punct	_	SourceNode=t_848
+13	ᾗ	ὅς	PRON	p-s---fd-	Case=d|Gender=f|Number=s	14	nmod	_	SourceNode=t_849|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+14	ἐλευθερίᾳ	ἐλευθερία	NOUN	n-s---fd-	Case=d|Gender=f|Number=s	17	advmod	_	Gloss.en=freedom|Gloss.en.alt=liberty|Gloss.la=libertas|Gloss.de=Freiheit|LN=37.13|SourceNode=t_850
+15	Χριστὸς	χριστός	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	17	nsubj	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_851
+16	ἡμᾶς	ἐγώ	PRON	p1p---ma-	Case=a|Gender=m|Number=p|Person=1	17	obj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_852
+17	ἠλευθέρωσεν	ἐλευθερόω	VERB	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	11	nmod	_	SourceNode=t_853|Gloss.en=<eleutherosen>|Gloss.de=<eleutherosen>|Gloss.la=<eleutherosen>
+18	.	.	PUNCT	u--------	_	6	punct	_	SourceNode=t_854
+
+# sent_id = zahn.galatians.u0046
+# unit_id = u0046
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = στήκετε οὖν καὶ μὴ πάλιν ζυγῷ δουλίας ἐνέχεσθε .
+# text_en = stand therefore and not again yoke female_slave <enekhesthe>.
+# text_de = stehen daher und nicht wieder Joch Sklavin <enekhesthe>.
+# text_la = stare ergo et ne rursus iugum ancilla <enekhesthe>.
+1	στήκετε	ἵστημι	VERB	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	0	root	_	Gloss.en=stand|Gloss.en.alt=establish|Gloss.la=stare|Gloss.de=stehen|LN=85.26|SourceNode=t_855
+2	οὖν	οὖν	ADV	d--------	_	1	advmod	_	SourceNode=t_856|Gloss.en=therefore|Gloss.de=daher|Gloss.la=ergo
+3	καὶ	καί	CCONJ	c--------	_	0	root	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_857
+4	μὴ	μή	ADV	d--------	_	8	advmod	_	Gloss.en=not|Gloss.en.alt=lest|Gloss.la=ne|Gloss.de=nicht|LN=69.4|SourceNode=t_858
+5	πάλιν	πάλιν	ADV	d--------	_	8	advmod	_	SourceNode=t_859|Gloss.en=again|Gloss.de=wieder|Gloss.la=rursus
+6	ζυγῷ	ζυγόν	NOUN	n-s---md-	Case=d|Gender=m|Number=s	8	obj	_	Gloss.en=yoke|Gloss.la=iugum|Gloss.de=Joch|LN=87.83|SourceNode=t_860
+7	δουλίας	δούλιος	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	6	nmod	_	SourceNode=t_861|Gloss.en=female_slave|Gloss.de=Sklavin|Gloss.la=ancilla
+8	ἐνέχεσθε	ἐνέχω	VERB	v2ppme---	Mood=m|Number=p|Person=2|Tense=p|Voice=e	0	root	_	SourceNode=t_862|Gloss.en=<enekhesthe>|Gloss.de=<enekhesthe>|Gloss.la=<enekhesthe>
+9	.	.	PUNCT	u--------	_	3	punct	_	SourceNode=t_863
+
+# sent_id = zahn.galatians.u0047
+# unit_id = u0047
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = μαρτύρομαι δὲ πάλιν , ὅτι ἄνθρωπος περιτετμημένος ὀφειλέτης ἐστὶν ὅλον τὸν νόμον πληρῶσαι .
+# text_en = <marturomai> but again, that human circumcise debtor be whole the law fulfil.
+# text_de = <marturomai> aber wieder, dass Mensch beschneiden Schuldner sein ganz der Gesetz erfüllen.
+# text_la = <marturomai> autem rursus, quod homo circumcidere debitor esse totus ille lex implere.
+1	μαρτύρομαι	μαρτύρομαι	VERB	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	root	_	SourceNode=t_864|Gloss.en=<marturomai>|Gloss.de=<marturomai>|Gloss.la=<marturomai>
+2	δὲ	δέ	ADV	d--------	_	1	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_865
+3	πάλιν	πάλιν	ADV	d--------	_	1	advmod	_	SourceNode=t_866|Gloss.en=again|Gloss.de=wieder|Gloss.la=rursus
+4	,	,	PUNCT	u--------	_	1	punct	_	SourceNode=t_867
+5	ὅτι	ὅτι	SCONJ	c--------	_	1	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_868
+6	ἄνθρωπος	ἄνθρωπος	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	9	nsubj	_	Gloss.en=human|Gloss.en.alt=man|Gloss.la=homo|Gloss.de=Mensch|LN=9.1|SourceNode=t_869
+7	περιτετμημένος	περιτέμνω	VERB	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	9	advmod	_	Gloss.en=circumcise|Gloss.la=circumcidere|Gloss.de=beschneiden|LN=53.44|SourceNode=t_870
+8	ὀφειλέτης	ὀφειλέτης	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	9	nsubj	_	SourceNode=t_871|Gloss.en=debtor|Gloss.de=Schuldner|Gloss.la=debitor
+9	ἐστὶν	εἰμί	VERB	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	obj	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_872
+10	ὅλον	ὅλος	ADJ	a-s---ma-	Case=a|Gender=m|Number=s	12	nmod	_	Gloss.en=whole|Gloss.en.alt=all|Gloss.la=totus|Gloss.de=ganz|LN=59.27|SourceNode=t_873
+11	τὸν	ὁ	DET	l-s---ma-	Case=a|Gender=m|Number=s	12	nmod	_	Gloss.en=the|SourceNode=t_874|Gloss.de=der|Gloss.la=ille
+12	νόμον	νόμος	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	13	obj	_	Gloss.en=law|Gloss.en.alt=Torah|Gloss.la=lex|Gloss.de=Gesetz|LN=33.55|SourceNode=t_875
+13	πληρῶσαι	πληρόω	VERB	v--ana---	Mood=n|Tense=a|Voice=a	8	advmod	_	Gloss.en=fulfil|Gloss.en.alt=fill|Gloss.la=implere|Gloss.de=erfüllen|LN=59.35|SourceNode=t_876
+14	.	.	PUNCT	u--------	_	1	punct	_	SourceNode=t_877
+
+# sent_id = zahn.galatians.u0048
+# unit_id = u0048
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἐν γὰρ Χριστῷ Ἰησοῦ οὔ τε περιτομή τι ἰσχύει οὔ τε ἀκροβυστία , ἀλλὰ πίστις δι᾽ ἀγάπης πληρουμένη .
+# text_en = in for Christ Jesus not and circumcision someone <iskhuei> not and uncircumcision, but faith through love fulfil.
+# text_de = in denn Christus Jesus nicht und Beschneidung jemand <iskhuei> nicht und Vorhaut, sondern Glaube durch Liebe erfüllen.
+# text_la = in enim Christus Iesus non et circumcisio aliquis <iskhuei> non et praeputium, sed fides per caritas implere.
+1	ἐν	ἐν	ADP	r--------	_	9	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_878
+2	γὰρ	γάρ	PART	d--------	_	9	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_879
+3	Χριστῷ	χριστός	NOUN	n-s---md-	Case=d|Gender=m|Number=s	1	advmod	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_880
+4	Ἰησοῦ	ἰησοῦς	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	3	nmod	_	Gloss.en=Jesus|Gloss.la=Iesus|Gloss.de=Jesus|LN=93.2|SourceNode=t_881
+5	οὔ	οὐ	ADV	d--------	_	7	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_882
+6	τε	τε	PART	g--------	_	11	advmod	_	SourceNode=t_883|Gloss.en=and|Gloss.de=und|Gloss.la=et
+7	περιτομή	περιτομή	ADJ	a-s---fn-	Case=n|Gender=f|Number=s	11	nsubj	_	Gloss.en=circumcision|Gloss.la=circumcisio|Gloss.de=Beschneidung|LN=53.45|SourceNode=t_884
+8	τι	τις	PRON	p-s---na-	Case=a|Gender=n|Number=s	7	nmod	_	SourceNode=t_885|Gloss.en=someone|Gloss.de=jemand|Gloss.la=aliquis
+9	ἰσχύει	ἰσχύω	VERB	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	root	_	SourceNode=t_886|Gloss.en=<iskhuei>|Gloss.de=<iskhuei>|Gloss.la=<iskhuei>
+10	οὔ	οὐ	ADV	d--------	_	12	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_887
+11	τε	τε	PART	c--------	_	14	conj	_	SourceNode=t_888|Gloss.en=and|Gloss.de=und|Gloss.la=et
+12	ἀκροβυστία	ἀκροβυστία	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	11	nsubj	_	Gloss.en=uncircumcision|Gloss.en.alt=foreskin|Gloss.la=praeputium|Gloss.de=Vorhaut|LN=53.43|SourceNode=t_889
+13	,	,	PUNCT	u--------	_	9	punct	_	SourceNode=t_890
+14	ἀλλὰ	ἀλλά	CCONJ	c--------	_	9	conj	_	Gloss.en=but|Gloss.en.alt=rather|Gloss.la=sed|Gloss.de=sondern|LN=89.125|SourceNode=t_891
+15	πίστις	πίστις	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	14	nsubj	_	Gloss.en=faith|Gloss.en.alt=faithfulness|Gloss.la=fides|Gloss.de=Glaube|LN=31.85|SourceNode=t_892
+16	δι᾽	διά	ADP	r--------	_	18	case	_	Gloss.en=through|Gloss.en.alt=because of|Gloss.la=per|Gloss.de=durch|LN=89.76|SourceNode=t_893
+17	ἀγάπης	ἀγάπη	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	16	advmod	_	Gloss.en=love|Gloss.en.alt=charity|Gloss.la=caritas|Gloss.de=Liebe|LN=25.43|SourceNode=t_894
+18	πληρουμένη	πληρόω	VERB	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	15	nmod	_	Gloss.en=fulfil|Gloss.en.alt=fill|Gloss.la=implere|Gloss.de=erfüllen|LN=59.35|SourceNode=t_895
+19	.	.	PUNCT	u--------	_	9	punct	_	SourceNode=t_896
+
+# sent_id = zahn.galatians.u0049
+# unit_id = u0049
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = μικρὰ ζύμη ὅλον τὸ φύραμα δολοῖ .
+# text_en = little leaven whole the lump persuade.
+# text_de = klein Sauerteig ganz der Teigmasse überreden.
+# text_la = parvus fermentum totus ille massa persuadere.
+1	μικρὰ	μικρός	ADJ	a-s---fn-	Case=n|Gender=f|Number=s	2	nmod	_	SourceNode=t_897|Gloss.en=little|Gloss.de=klein|Gloss.la=parvus
+2	ζύμη	ζύμη	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	0	nsubj	_	SourceNode=t_898|Gloss.en=leaven|Gloss.de=Sauerteig|Gloss.la=fermentum
+3	ὅλον	ὅλος	ADJ	a-s---na-	Case=a|Gender=n|Number=s	5	nmod	_	Gloss.en=whole|Gloss.en.alt=all|Gloss.la=totus|Gloss.de=ganz|LN=59.27|SourceNode=t_899
+4	τὸ	ὁ	DET	l-s---nn-	Case=n|Gender=n|Number=s	5	nmod	_	Gloss.en=the|SourceNode=t_900|Gloss.de=der|Gloss.la=ille
+5	φύραμα	φύραμα	NOUN	n-s---nn-	Case=n|Gender=n|Number=s	6	nsubj	_	SourceNode=t_901|Gloss.en=lump|Gloss.de=Teigmasse|Gloss.la=massa
+6	δολοῖ	δολόω	VERB	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	root	_	SourceNode=t_902|Gloss.en=persuade|Gloss.de=überreden|Gloss.la=persuadere
+7	.	.	PUNCT	u--------	_	6	punct	_	SourceNode=t_903
+
+# sent_id = zahn.galatians.u0050
+# unit_id = u0050
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἐγὼ πέποιθα εἰς ὑμᾶς ἐν κυρίῳ ὅτι οὐδὲν ἄλλο φρονήσετε ·
+# text_en = I persuade into you in Lord that no_one other think·
+# text_de = ich überzeugen in du in Herr dass niemand anderer denken·
+# text_la = ego persuadere in tu in Dominus quod nemo alius sapere·
+1	ἐγὼ	ἐγώ	PRON	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	2	nsubj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_904
+2	πέποιθα	πείθω	VERB	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	root	_	Gloss.en=persuade|Gloss.en.alt=convince|Gloss.la=persuadere|Gloss.de=überzeugen|LN=31.68|SourceNode=t_905
+3	εἰς	εἰς	ADP	r--------	_	2	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_906
+4	ὑμᾶς	σύ	PRON	p-p---ma-	Case=a|Gender=m|Number=p	3	obj	_	Gloss.en=you|Gloss.la=tu|Gloss.de=du|LN=92.2|SourceNode=t_907
+5	ἐν	ἐν	ADP	r--------	_	2	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_908
+6	κυρίῳ	κύριος	NOUN	n-s---md-	Case=d|Gender=m|Number=s	5	advmod	_	Gloss.en=Lord|Gloss.en.alt=master|Gloss.la=Dominus|Gloss.de=Herr|LN=12.9|SourceNode=t_909
+7	ὅτι	ὅτι	SCONJ	c--------	_	2	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_910
+8	οὐδὲν	οὐδείς	PRON	p-s---na-	Case=a|Gender=n|Number=s	10	obj	_	SourceNode=t_911|Gloss.en=no_one|Gloss.de=niemand|Gloss.la=nemo
+9	ἄλλο	ἄλλος	ADJ	a-s---na-	Case=a|Gender=n|Number=s	8	nmod	_	Gloss.en=other|Gloss.en.alt=another|Gloss.la=alius|Gloss.de=anderer|LN=58.37|SourceNode=t_912
+10	φρονήσετε	φρονέω	VERB	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=a	7	obj	_	Gloss.en=think|Gloss.en.alt=set mind on|Gloss.la=sapere|Gloss.de=denken|LN=26.16|SourceNode=t_913
+11	·	·	PUNCT	u--------	_	2	punct	_	SourceNode=t_914
+
+# sent_id = zahn.galatians.u0051
+# unit_id = u0051
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὁ δὲ ταράσσων ὑμᾶς βαστάσει τὸ κρίμα , ὅστις ἐὰν ᾖ .
+# text_en = the but trouble you bear the judgment, which if be.
+# text_de = der aber verwirren du tragen der Gericht, welcher wenn sein.
+# text_la = ille autem turbare tu portare ille iudicium, quicumque si esse.
+1	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	3	nmod	_	Gloss.en=the|SourceNode=t_915|Gloss.de=der|Gloss.la=ille
+2	δὲ	δέ	ADV	d--------	_	5	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_916
+3	ταράσσων	ταράσσω	VERB	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	nsubj	_	SourceNode=t_917|Gloss.en=trouble|Gloss.de=verwirren|Gloss.la=turbare
+4	ὑμᾶς	σύ	PRON	p-p---ma-	Case=a|Gender=m|Number=p	3	obj	_	Gloss.en=you|Gloss.la=tu|Gloss.de=du|LN=92.2|SourceNode=t_918
+5	βαστάσει	βαστάζω	VERB	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	root	_	Gloss.en=bear|Gloss.en.alt=carry|Gloss.la=portare|Gloss.de=tragen|LN=15.193|SourceNode=t_919
+6	τὸ	ὁ	DET	l-s---na-	Case=a|Gender=n|Number=s	7	nmod	_	Gloss.en=the|SourceNode=t_920|Gloss.de=der|Gloss.la=ille
+7	κρίμα	κρίμα	NOUN	n-s---na-	Case=a|Gender=n|Number=s	5	obj	_	SourceNode=t_921|Gloss.en=judgment|Gloss.de=Gericht|Gloss.la=iudicium
+8	,	,	PUNCT	u--------	_	5	punct	_	SourceNode=t_922
+9	ὅστις	ὅστις	PRON	p-s---mn-	Case=n|Gender=m|Number=s	11	nsubj	_	SourceNode=t_923|Gloss.en=which|Gloss.de=welcher|Gloss.la=quicumque
+10	ἐὰν	ἐάν	ADV	d--------	_	11	advmod	_	SourceNode=t_924|Gloss.en=if|Gloss.de=wenn|Gloss.la=si
+11	ᾖ	εἰμί	VERB	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	5	advmod	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_925
+12	.	.	PUNCT	u--------	_	5	punct	_	SourceNode=t_926
+
+# sent_id = zahn.galatians.u0052
+# unit_id = u0052
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὄφελον καὶ ἀποκόψονται οἱ ἀναστατοῦντες ὑμᾶς .
+# text_en = <ophelon> and <apokopsontai> the <anastatountes> you.
+# text_de = <ophelon> und <apokopsontai> der <anastatountes> du.
+# text_la = <ophelon> et <apokopsontai> ille <anastatountes> tu.
+1	ὄφελον	ὀφείλω	VERB	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	root	_	SourceNode=t_927|Gloss.en=<ophelon>|Gloss.de=<ophelon>|Gloss.la=<ophelon>
+2	καὶ	καί	CCONJ	c--------	_	0	root	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_928
+3	ἀποκόψονται	ἀποκόπτω	VERB	v3pfim---	Mood=i|Number=p|Person=3|Tense=f|Voice=m	0	root	_	SourceNode=t_929|Gloss.en=<apokopsontai>|Gloss.de=<apokopsontai>|Gloss.la=<apokopsontai>
+4	οἱ	ὁ	DET	l-p---mn-	Case=n|Gender=m|Number=p	5	nmod	_	Gloss.en=the|SourceNode=t_930|Gloss.de=der|Gloss.la=ille
+5	ἀναστατοῦντες	ἀναστατέω	VERB	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	3	nsubj	_	SourceNode=t_931|Gloss.en=<anastatountes>|Gloss.de=<anastatountes>|Gloss.la=<anastatountes>
+6	ὑμᾶς	σύ	PRON	p-p---ma-	Case=a|Gender=m|Number=p	3	obj	_	Gloss.en=you|Gloss.la=tu|Gloss.de=du|LN=92.2|SourceNode=t_932
+7	.	.	PUNCT	u--------	_	2	punct	_	SourceNode=t_933
+
+# sent_id = zahn.galatians.u0053
+# unit_id = u0053
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὁ γὰρ πᾶς νόμος ἐν ὑμῖν πεπλήρωται ·
+# text_en = the for all law in you fulfil·
+# text_de = der denn all Gesetz in du erfüllen·
+# text_la = ille enim omnis lex in tu implere·
+1	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	4	nmod	_	Gloss.en=the|SourceNode=t_934|Gloss.de=der|Gloss.la=ille
+2	γὰρ	γάρ	PART	d--------	_	7	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_935
+3	πᾶς	πᾶς	ADJ	a-s---mn-	Case=n|Gender=m|Number=s	4	nmod	_	Gloss.en=all|Gloss.en.alt=every|Gloss.la=omnis|Gloss.de=all|LN=59.23|SourceNode=t_936
+4	νόμος	νόμος	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	7	nsubj	_	Gloss.en=law|Gloss.en.alt=Torah|Gloss.la=lex|Gloss.de=Gesetz|LN=33.55|SourceNode=t_937
+5	ἐν	ἐν	ADP	r--------	_	7	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_938
+6	ὑμῖν	σύ	PRON	p-p---md-	Case=d|Gender=m|Number=p	5	advmod	_	Gloss.en=you|Gloss.la=tu|Gloss.de=du|LN=92.2|SourceNode=t_939
+7	πεπλήρωται	πληρόω	VERB	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	root	_	Gloss.en=fulfil|Gloss.en.alt=fill|Gloss.la=implere|Gloss.de=erfüllen|LN=59.35|SourceNode=t_940
+8	·	·	PUNCT	u--------	_	7	punct	_	SourceNode=t_941
+
+# sent_id = zahn.galatians.u0054
+# unit_id = u0054
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν .
+# text_en = <agapeseis> the <plesion> you as <seauton>.
+# text_de = <agapeseis> der <plesion> du wie <seauton>.
+# text_la = <agapeseis> ille <plesion> tu sicut <seauton>.
+1	ἀγαπήσεις	ἀγαπάω	VERB	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	0	root	_	SourceNode=t_942|Gloss.en=<agapeseis>|Gloss.de=<agapeseis>|Gloss.la=<agapeseis>
+2	τὸν	ὁ	DET	l-s---ma-	Case=a|Gender=m|Number=s	3	nmod	_	Gloss.en=the|SourceNode=t_943|Gloss.de=der|Gloss.la=ille
+3	πλησίον	πλησίος	ADJ	a-s---ma-	Case=a|Gender=m|Number=s	1	obj	_	SourceNode=t_944|Gloss.en=<plesion>|Gloss.de=<plesion>|Gloss.la=<plesion>
+4	σου	σύ	PRON	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	3	nmod	_	Gloss.en=you|Gloss.la=tu|Gloss.de=du|LN=92.2|SourceNode=t_945
+5	ὡς	ὡς	CCONJ	c--------	_	1	mark	_	SourceNode=t_946|Gloss.en=as|Gloss.de=wie|Gloss.la=sicut
+6	σεαυτόν	σεαυτοῦ	PRON	p2s---ma-	Case=a|Gender=m|Number=s|Person=2	0	obj	_	SourceNode=t_947|Gloss.en=<seauton>|Gloss.de=<seauton>|Gloss.la=<seauton>
+7	.	.	PUNCT	u--------	_	1	punct	_	SourceNode=t_948
+
+# sent_id = zahn.galatians.u0055
+# unit_id = u0055
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = φανερὰ δέ ἐστιν τὰ ἔργα τῆς σαρκός , ἅτινά ἐστιν πορνεία , ἀκαθαρσία , ἀσέλγεια , εἰδωλολατρία , φαρμακεία , ἔχθραι , ἔρις , ζῆλος , θυμοί , ἐριθείαι , διχοστασίαι , αἱρέσεις , μέθαι , κῶμοι , ἃ προλέγω ὑμῖν καθὼς καὶ προεῖπον , ὅτι οἱ τὰ τοιαῦτα πράσσοντες βασιλείαν θεοῦ οὐ κληρονομήσουσιν .
+# text_en = <phanera> but be the work the flesh, which be sexual immorality, <akatharsia>, licentiousness, idolatry, <pharmakeia>, enmity, <eris>, <zelos>, anger, selfish ambition, division, <aireseis>, drunkenness, carousing, which <prolego> you <kathos> and <proeipon>, that the the <toiauta> <prassontes> <basileian> God not <kleronomesousin>.
+# text_de = <phanera> aber sein der Werk der Fleisch, welcher sein Unzucht, <akatharsia>, Ausschweifung, Götzendienst, <pharmakeia>, Feindschaft, <eris>, <zelos>, Zorn, Eigensucht, Spaltung, <aireseis>, Trunkenheit, Schwelgerei, welcher <prolego> du <kathos> und <proeipon>, dass der der <toiauta> <prassontes> <basileian> Gott nicht <kleronomesousin>.
+# text_la = <phanera> autem esse ille opus ille caro, quicumque esse fornicatio, <akatharsia>, lascivia, idolorum servitus, <pharmakeia>, inimicitia, <eris>, <zelos>, ira, contentio, dissensio, <aireseis>, ebrietas, comissatio, qui <prolego> tu <kathos> et <proeipon>, quod ille ille <toiauta> <prassontes> <basileian> Deus non <kleronomesousin>.
+1	φανερὰ	φανερός	ADJ	a-p---nn-	Case=n|Gender=n|Number=p	3	nsubj	_	SourceNode=t_949|Gloss.en=<phanera>|Gloss.de=<phanera>|Gloss.la=<phanera>
+2	δέ	δέ	CCONJ	d--------	_	3	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_950
+3	ἐστιν	εἰμί	VERB	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	root	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_951
+4	τὰ	ὁ	DET	l-p---nn-	Case=n|Gender=n|Number=p	5	nmod	_	Gloss.en=the|SourceNode=t_952|Gloss.de=der|Gloss.la=ille
+5	ἔργα	ἔργον	NOUN	n-p---nn-	Case=n|Gender=n|Number=p	3	nsubj	_	Gloss.en=work|Gloss.en.alt=deed|Gloss.la=opus|Gloss.de=Werk|LN=42.11|SourceNode=t_953
+6	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	7	nmod	_	Gloss.en=the|SourceNode=t_954|Gloss.de=der|Gloss.la=ille
+7	σαρκός	σάρξ	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	5	nmod	_	Gloss.en=flesh|Gloss.en.alt=human nature|Gloss.la=caro|Gloss.de=Fleisch|LN=8.4|SourceNode=t_955
+8	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_956
+9	ἅτινά	ὅστις	PRON	p-p---nn-	Case=n|Gender=n|Number=p	10	nsubj	_	SourceNode=t_957|Gloss.en=which|Gloss.de=welcher|Gloss.la=quicumque
+10	ἐστιν	εἰμί	VERB	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	nmod	_	Gloss.en=be|Gloss.en.alt=am/is/are|Gloss.la=esse|Gloss.de=sein|LN=85.1|SourceNode=t_958
+11	πορνεία	πορνεία	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	36	nsubj	_	Gloss.en=sexual immorality|Gloss.en.alt=fornication|Gloss.la=fornicatio|Gloss.de=Unzucht|LN=88.271|SourceNode=t_959
+12	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_960
+13	ἀκαθαρσία	ἀκαθαρσία	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	36	nsubj	_	SourceNode=t_961|Gloss.en=<akatharsia>|Gloss.de=<akatharsia>|Gloss.la=<akatharsia>
+14	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_962
+15	ἀσέλγεια	ἀσέλγεια	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	36	nsubj	_	Gloss.en=licentiousness|Gloss.en.alt=debauchery|Gloss.la=lascivia|Gloss.de=Ausschweifung|LN=88.275|SourceNode=t_963
+16	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_964
+17	εἰδωλολατρία	εἰδωλολατρία	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	36	nsubj	_	Gloss.en=idolatry|Gloss.la=idolorum servitus|Gloss.de=Götzendienst|LN=53.96|SourceNode=t_965
+18	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_966
+19	φαρμακεία	φαρμακεία	NOUN	n-p---nn-	Case=n|Gender=n|Number=p	36	nsubj	_	SourceNode=t_967|Gloss.en=<pharmakeia>|Gloss.de=<pharmakeia>|Gloss.la=<pharmakeia>
+20	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_968
+21	ἔχθραι	ἔχθρα	NOUN	n-p---fn-	Case=n|Gender=f|Number=p	36	nsubj	_	Gloss.en=enmity|Gloss.en.alt=hostility|Gloss.la=inimicitia|Gloss.de=Feindschaft|LN=88.145|SourceNode=t_969
+22	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_970
+23	ἔρις	ἔρις	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	36	nsubj	_	SourceNode=t_971|Gloss.en=<eris>|Gloss.de=<eris>|Gloss.la=<eris>
+24	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_972
+25	ζῆλος	ζῆλος	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	36	nsubj	_	SourceNode=t_973|Gloss.en=<zelos>|Gloss.de=<zelos>|Gloss.la=<zelos>
+26	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_974
+27	θυμοί	θυμός	NOUN	n-p---mn-	Case=n|Gender=m|Number=p	36	nsubj	_	Gloss.en=anger|Gloss.en.alt=wrath|Gloss.la=ira|Gloss.de=Zorn|LN=88.178|SourceNode=t_975
+28	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_976
+29	ἐριθείαι	ἐριθεία	NOUN	n-p---fn-	Case=n|Gender=f|Number=p	43	nsubj	_	Gloss.en=selfish ambition|Gloss.en.alt=factionalism|Gloss.la=contentio|Gloss.de=Eigensucht|LN=88.165|SourceNode=t_977
+30	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_978
+31	διχοστασίαι	διχοστασία	NOUN	n-p---fn-	Case=n|Gender=f|Number=p	36	nsubj	_	Gloss.en=division|Gloss.en.alt=dissension|Gloss.la=dissensio|Gloss.de=Spaltung|LN=88.237|SourceNode=t_979
+32	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_980
+33	αἱρέσεις	αἵρεσις	NOUN	n-p---fn-	Case=n|Gender=f|Number=p	36	nsubj	_	SourceNode=t_981|Gloss.en=<aireseis>|Gloss.de=<aireseis>|Gloss.la=<aireseis>
+34	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_982
+35	μέθαι	μέθη	NOUN	n-p---fn-	Case=n|Gender=f|Number=p	36	nsubj	_	Gloss.en=drunkenness|Gloss.la=ebrietas|Gloss.de=Trunkenheit|LN=88.282|SourceNode=t_983
+36	,	,	PUNCT	u--------	_	3	conj	_	SourceNode=t_984
+37	κῶμοι	κῶμος	NOUN	n-p---mv-	Case=n|Gender=m|Number=p	36	dep	_	Gloss.en=carousing|Gloss.en.alt=revelry|Gloss.la=comissatio|Gloss.de=Schwelgerei|LN=88.284|SourceNode=t_985
+38	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_986
+39	ἃ	ὅς	PRON	p-p---na-	Case=a|Gender=n|Number=p	43	obj	_	SourceNode=t_987|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+40	προλέγω	προλέγω1	VERB	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	43	nmod	_	SourceNode=t_988|Gloss.en=<prolego>|Gloss.de=<prolego>|Gloss.la=<prolego>
+41	ὑμῖν	σύ	PRON	p-p---md-	Case=d|Gender=m|Number=p	40	obj	_	Gloss.en=you|Gloss.la=tu|Gloss.de=du|LN=92.2|SourceNode=t_989
+42	καθὼς	καθώς	VERB	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	43	advmod	_	SourceNode=t_990|Gloss.en=<kathos>|Gloss.de=<kathos>|Gloss.la=<kathos>
+43	καὶ	καί	CCONJ	c--------	_	36	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_991
+44	προεῖπον	προεῖπον	VERB	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	43	nmod	_	SourceNode=t_992|Gloss.en=<proeipon>|Gloss.de=<proeipon>|Gloss.la=<proeipon>
+45	,	,	PUNCT	u--------	_	3	punct	_	SourceNode=t_993
+46	ὅτι	ὅτι	SCONJ	c--------	_	45	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_994
+47	οἱ	ὁ	DET	l-p---mn-	Case=n|Gender=m|Number=p	50	nmod	_	Gloss.en=the|SourceNode=t_995|Gloss.de=der|Gloss.la=ille
+48	τὰ	ὁ	DET	l-p---na-	Case=a|Gender=n|Number=p	49	nmod	_	Gloss.en=the|SourceNode=t_996|Gloss.de=der|Gloss.la=ille
+49	τοιαῦτα	τοιοῦτος	PRON	p-p---na-	Case=a|Gender=n|Number=p	50	obj	_	SourceNode=t_997|Gloss.en=<toiauta>|Gloss.de=<toiauta>|Gloss.la=<toiauta>
+50	πράσσοντες	πράσσω	VERB	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	54	nsubj	_	SourceNode=t_998|Gloss.en=<prassontes>|Gloss.de=<prassontes>|Gloss.la=<prassontes>
+51	βασιλείαν	βασιλεία	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	54	obj	_	SourceNode=t_999|Gloss.en=<basileian>|Gloss.de=<basileian>|Gloss.la=<basileian>
+52	θεοῦ	θεός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	51	nmod	_	Gloss.en=God|Gloss.en.alt=god|Gloss.la=Deus|Gloss.de=Gott|LN=12.1|SourceNode=t_1000
+53	οὐ	οὐ	ADV	d--------	_	54	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_1001
+54	κληρονομήσουσιν	κτάομαι	VERB	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	46	obj	_	SourceNode=t_1002|Gloss.en=<kleronomesousin>|Gloss.de=<kleronomesousin>|Gloss.la=<kleronomesousin>
+55	.	.	PUNCT	u--------	_	3	punct	_	SourceNode=t_1003
+
+# sent_id = zahn.galatians.u0056
+# unit_id = u0056
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = οἱ δὲ τοῦ Χριστοῦ τὴν σάρκα ἐσταύρωσαν σὺν τοῖς παθήμασιν καὶ ταῖς ἐπιθυμίαις .
+# text_en = the but the Christ the flesh crucify with the <pathemasin> and the desire.
+# text_de = der aber der Christus der Fleisch kreuzigen mit der <pathemasin> und der Begierde.
+# text_la = ille autem ille Christus ille caro crucifigere cum ille <pathemasin> et ille concupiscentia.
+1	οἱ	ὁ	DET	l-p---mn-	Case=n|Gender=m|Number=p	7	nsubj	_	Gloss.en=the|SourceNode=t_1004|Gloss.de=der|Gloss.la=ille
+2	δὲ	δέ	ADV	d--------	_	7	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_1005
+3	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	4	nmod	_	Gloss.en=the|SourceNode=t_1006|Gloss.de=der|Gloss.la=ille
+4	Χριστοῦ	χριστός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	1	nmod	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_1007
+5	τὴν	ὁ	DET	l-s---fa-	Case=a|Gender=f|Number=s	6	nmod	_	Gloss.en=the|SourceNode=t_1008|Gloss.de=der|Gloss.la=ille
+6	σάρκα	σάρξ	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	7	obj	_	Gloss.en=flesh|Gloss.en.alt=human nature|Gloss.la=caro|Gloss.de=Fleisch|LN=8.4|SourceNode=t_1009
+7	ἐσταύρωσαν	σταυρόω	VERB	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	root	_	Gloss.en=crucify|Gloss.la=crucifigere|Gloss.de=kreuzigen|LN=20.75|SourceNode=t_1010
+8	σὺν	σύν	ADP	r--------	_	7	case	_	Gloss.en=with|Gloss.en.alt=together with|Gloss.la=cum|Gloss.de=mit|LN=89.107|SourceNode=t_1011
+9	τοῖς	ὁ	DET	l-p---nd-	Case=d|Gender=n|Number=p	10	nmod	_	Gloss.en=the|SourceNode=t_1012|Gloss.de=der|Gloss.la=ille
+10	παθήμασιν	πάθημα	NOUN	n-p---nd-	Case=d|Gender=n|Number=p	11	advmod	_	SourceNode=t_1013|Gloss.en=<pathemasin>|Gloss.de=<pathemasin>|Gloss.la=<pathemasin>
+11	καὶ	καί	CCONJ	c--------	_	8	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_1014
+12	ταῖς	ὁ	DET	l-p---fd-	Case=d|Gender=f|Number=p	13	nmod	_	Gloss.en=the|SourceNode=t_1015|Gloss.de=der|Gloss.la=ille
+13	ἐπιθυμίαις	ἐπιθυμία	NOUN	n-p---fd-	Case=d|Gender=f|Number=p	11	advmod	_	Gloss.en=desire|Gloss.en.alt=lust|Gloss.la=concupiscentia|Gloss.de=Begierde|LN=25.20|SourceNode=t_1016
+14	.	.	PUNCT	u--------	_	7	punct	_	SourceNode=t_1017
+
+# sent_id = zahn.galatians.u0057
+# unit_id = u0057
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἀλλήλων τὰ βάρη βαστάζετε , καὶ οὕτως ἀναπληρώσετε τὸν νόμον τοῦ Χριστοῦ .
+# text_en = one another the <bare> bear, and thus fulfil the law the Christ.
+# text_de = einander der <bare> tragen, und so erfüllen der Gesetz der Christus.
+# text_la = invicem ille <bare> portare, et ita implere ille lex ille Christus.
+1	ἀλλήλων	ἀλλήλων	PRON	p-p---mg-	Case=g|Gender=m|Number=p	3	nmod	_	Gloss.en=one another|Gloss.en.alt=each other|Gloss.la=invicem|Gloss.de=einander|LN=92.23|SourceNode=t_1018
+2	τὰ	ὁ	DET	l-p---na-	Case=a|Gender=n|Number=p	3	nmod	_	Gloss.en=the|SourceNode=t_1019|Gloss.de=der|Gloss.la=ille
+3	βάρη	βάρος	NOUN	n-p---na-	Case=a|Gender=n|Number=p	4	obj	_	SourceNode=t_1020|Gloss.en=<bare>|Gloss.de=<bare>|Gloss.la=<bare>
+4	βαστάζετε	βαστάζω	VERB	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	0	root	_	Gloss.en=bear|Gloss.en.alt=carry|Gloss.la=portare|Gloss.de=tragen|LN=15.193|SourceNode=t_1021
+5	,	,	PUNCT	u--------	_	0	root	_	SourceNode=t_1022
+6	καὶ	καί	CCONJ	c--------	_	5	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_1023
+7	οὕτως	οὕτως	ADV	d--------	_	8	advmod	_	SourceNode=t_1024|Gloss.en=thus|Gloss.de=so|Gloss.la=ita
+8	ἀναπληρώσετε	ἀναπληρόω	VERB	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	0	root	_	Gloss.en=fulfil|Gloss.en.alt=complete|Gloss.la=implere|Gloss.de=erfüllen|LN=59.41|SourceNode=t_1025
+9	τὸν	ὁ	DET	l-s---ma-	Case=a|Gender=m|Number=s	10	nmod	_	Gloss.en=the|SourceNode=t_1026|Gloss.de=der|Gloss.la=ille
+10	νόμον	νόμος	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	8	obj	_	Gloss.en=law|Gloss.en.alt=Torah|Gloss.la=lex|Gloss.de=Gesetz|LN=33.55|SourceNode=t_1027
+11	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	12	nmod	_	Gloss.en=the|SourceNode=t_1028|Gloss.de=der|Gloss.la=ille
+12	Χριστοῦ	χριστός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	10	nmod	_	Gloss.en=Christ|Gloss.en.alt=Anointed One|Gloss.la=Christus|Gloss.de=Christus|LN=53.82|SourceNode=t_1029
+13	.	.	PUNCT	u--------	_	5	punct	_	SourceNode=t_1030
+
+# sent_id = zahn.galatians.u0058
+# unit_id = u0058
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = κοινωνείτω δὲ ὁ κατηχούμενος τὸν λόγον τῷ κατηχοῦντι ἐν πᾶσιν ἀγαθοῖς .
+# text_en = share but the <katekhoumenos> the word the <katekhounti> in all good.
+# text_de = teilhaben aber der <katekhoumenos> der Wort der <katekhounti> in all gut.
+# text_la = participare autem ille <katekhoumenos> ille verbum ille <katekhounti> in omnis bonus.
+1	κοινωνείτω	κοινωνέω	VERB	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	0	root	_	Gloss.en=share|Gloss.en.alt=participate|Gloss.la=participare|Gloss.de=teilhaben|LN=57.98|SourceNode=t_1031
+2	δὲ	δέ	ADV	d--------	_	1	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_1032
+3	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	4	nmod	_	Gloss.en=the|SourceNode=t_1033|Gloss.de=der|Gloss.la=ille
+4	κατηχούμενος	κατηχούμενος	VERB	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	1	nsubj	_	SourceNode=t_1034|Gloss.en=<katekhoumenos>|Gloss.de=<katekhoumenos>|Gloss.la=<katekhoumenos>
+5	τὸν	ὁ	DET	l-s---ma-	Case=a|Gender=m|Number=s	6	nmod	_	Gloss.en=the|SourceNode=t_1035|Gloss.de=der|Gloss.la=ille
+6	λόγον	λόγος	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	1	obj	_	Gloss.en=word|Gloss.en.alt=message|Gloss.la=verbum|Gloss.de=Wort|LN=33.98|SourceNode=t_1036
+7	τῷ	ὁ	DET	l-s---md-	Case=d|Gender=m|Number=s	8	nmod	_	Gloss.en=the|SourceNode=t_1037|Gloss.de=der|Gloss.la=ille
+8	κατηχοῦντι	κατηχέω	VERB	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	obj	_	SourceNode=t_1038|Gloss.en=<katekhounti>|Gloss.de=<katekhounti>|Gloss.la=<katekhounti>
+9	ἐν	ἐν	ADP	r--------	_	1	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_1039
+10	πᾶσιν	πᾶς	ADJ	a-p---nd-	Case=d|Gender=n|Number=p	11	nmod	_	Gloss.en=all|Gloss.en.alt=every|Gloss.la=omnis|Gloss.de=all|LN=59.23|SourceNode=t_1040
+11	ἀγαθοῖς	ἀγαθός	ADJ	a-p---nd-	Case=d|Gender=n|Number=p	9	advmod	_	Gloss.en=good|Gloss.la=bonus|Gloss.de=gut|LN=88.4|SourceNode=t_1041
+12	.	.	PUNCT	u--------	_	1	punct	_	SourceNode=t_1042
+
+# sent_id = zahn.galatians.u0059
+# unit_id = u0059
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = πλανᾶσθε , θεὸς οὐ μυκτηρίζεται .
+# text_en = deceive, God not <mukterizetai>.
+# text_de = irreführen, Gott nicht <mukterizetai>.
+# text_la = seducere, Deus non <mukterizetai>.
+1	πλανᾶσθε	πλανάω	VERB	v2ppme---	Mood=m|Number=p|Person=2|Tense=p|Voice=e	0	root	_	Gloss.en=deceive|Gloss.en.alt=lead astray|Gloss.la=seducere|Gloss.de=irreführen|LN=31.8|SourceNode=t_1043
+2	,	,	PUNCT	u--------	_	0	root	_	SourceNode=t_1044
+3	θεὸς	θεός	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	5	nsubj	_	Gloss.en=God|Gloss.en.alt=god|Gloss.la=Deus|Gloss.de=Gott|LN=12.1|SourceNode=t_1045
+4	οὐ	οὐ	ADV	d--------	_	5	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_1046
+5	μυκτηρίζεται	μυκτηρίζω	VERB	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	root	_	SourceNode=t_1047|Gloss.en=<mukterizetai>|Gloss.de=<mukterizetai>|Gloss.la=<mukterizetai>
+6	.	.	PUNCT	u--------	_	2	punct	_	SourceNode=t_1048
+
+# sent_id = zahn.galatians.u0060
+# unit_id = u0060
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὃ γὰρ ἐὰν σπείρῃ ἄνθρωπος , τοῦτο καὶ θερίσει ·
+# text_en = which for if sow human, this and sow·
+# text_de = welcher denn wenn säen Mensch, dieser und säen·
+# text_la = qui enim si serere homo, hic et serere·
+1	ὃ	ὅς	PRON	p-s---na-	Case=a|Gender=n|Number=s	4	obj	_	SourceNode=t_1049|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+2	γὰρ	γάρ	PART	d--------	_	9	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_1050
+3	ἐὰν	ἐάν	CCONJ	c--------	_	9	mark	_	SourceNode=t_1051|Gloss.en=if|Gloss.de=wenn|Gloss.la=si
+4	σπείρῃ	σπείρω	VERB	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	3	advmod	_	Gloss.en=sow|Gloss.la=serere|Gloss.de=säen|LN=43.2|SourceNode=t_1052
+5	ἄνθρωπος	ἄνθρωπος	NOUN	n-s---mn-	Case=n|Gender=f|Number=s	4	nsubj	_	Gloss.en=human|Gloss.en.alt=man|Gloss.la=homo|Gloss.de=Mensch|LN=9.1|SourceNode=t_1053
+6	,	,	PUNCT	u--------	_	9	punct	_	SourceNode=t_1054
+7	τοῦτο	οὗτος	PRON	p-s---na-	Case=a|Gender=n|Number=s	9	obj	_	Gloss.en=this|Gloss.la=hic|Gloss.de=dieser|LN=92.25|SourceNode=t_1055
+8	καὶ	καί	ADV	d--------	_	9	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_1056
+9	θερίσει	σπείρω	VERB	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	root	_	Gloss.en=sow|Gloss.la=serere|Gloss.de=säen|LN=43.2|SourceNode=t_1057
+10	·	·	PUNCT	u--------	_	9	punct	_	SourceNode=t_1058
+
+# sent_id = zahn.galatians.u0061
+# unit_id = u0061
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ὅτι ὁ σπείρων εἰς τὴν σάρκα ἑαυτοῦ ἐκ τῆς σαρκὸς θερίσει φθοράν , ὁ δὲ σπείρων εἰς τὸ πνεῦμα ἐκ τοῦ πνεύματος θερίσει ζωὴν αἰώνιον .
+# text_en = that the sow into the flesh himself from the flesh sow <phthoran>, the but sow into the spirit from the spirit sow life eternal.
+# text_de = dass der säen in der Fleisch sich selbst aus der Fleisch säen <phthoran>, der aber säen in der Geist aus der Geist säen Leben ewig.
+# text_la = quod ille serere in ille caro se ex ille caro serere <phthoran>, ille autem serere in ille spiritus ex ille spiritus serere vita aeternus.
+1	ὅτι	ὅτι	SCONJ	c--------	_	0	mark	_	Gloss.en=that|Gloss.en.alt=because|Gloss.la=quod|Gloss.de=dass|LN=89.30|SourceNode=t_1059
+2	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	3	nmod	_	Gloss.en=the|SourceNode=t_1060|Gloss.de=der|Gloss.la=ille
+3	σπείρων	σπείρω	VERB	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	0	root	_	Gloss.en=sow|Gloss.la=serere|Gloss.de=säen|LN=43.2|SourceNode=t_1061
+4	εἰς	εἰς	ADP	r--------	_	11	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_1062
+5	τὴν	ὁ	DET	l-s---fa-	Case=a|Gender=f|Number=s	6	nmod	_	Gloss.en=the|SourceNode=t_1063|Gloss.de=der|Gloss.la=ille
+6	σάρκα	σάρξ	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	4	obj	_	Gloss.en=flesh|Gloss.en.alt=human nature|Gloss.la=caro|Gloss.de=Fleisch|LN=8.4|SourceNode=t_1064
+7	ἑαυτοῦ	ἑαυτοῦ	PRON	p-s---mg-	Case=g|Gender=m|Number=s	6	nmod	_	Gloss.en=himself|Gloss.en.alt=oneself|Gloss.la=se|Gloss.de=sich selbst|LN=92.28|SourceNode=t_1065
+8	ἐκ	ἐκ	ADP	r--------	_	11	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_1066
+9	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	10	nmod	_	Gloss.en=the|SourceNode=t_1067|Gloss.de=der|Gloss.la=ille
+10	σαρκὸς	σάρξ	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	8	advmod	_	Gloss.en=flesh|Gloss.en.alt=human nature|Gloss.la=caro|Gloss.de=Fleisch|LN=8.4|SourceNode=t_1068
+11	θερίσει	σπείρω	VERB	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	15	obj	_	Gloss.en=sow|Gloss.la=serere|Gloss.de=säen|LN=43.2|SourceNode=t_1069
+12	φθοράν	φθορά	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	11	obj	_	SourceNode=t_1070|Gloss.en=<phthoran>|Gloss.de=<phthoran>|Gloss.la=<phthoran>
+13	,	,	PUNCT	u--------	_	11	punct	_	SourceNode=t_1071
+14	ὁ	ὁ	DET	l-s---mn-	Case=n|Gender=m|Number=s	16	nmod	_	Gloss.en=the|SourceNode=t_1072|Gloss.de=der|Gloss.la=ille
+15	δὲ	δέ	ADV	d--------	_	1	conj	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_1073
+16	σπείρων	σπείρω	VERB	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	23	nsubj	_	Gloss.en=sow|Gloss.la=serere|Gloss.de=säen|LN=43.2|SourceNode=t_1074
+17	εἰς	εἰς	ADP	r--------	_	16	case	_	Gloss.en=into|Gloss.en.alt=for|Gloss.la=in|Gloss.de=in|LN=84.23|SourceNode=t_1075
+18	τὸ	ὁ	DET	l-s---na-	Case=a|Gender=n|Number=s	19	nmod	_	Gloss.en=the|SourceNode=t_1076|Gloss.de=der|Gloss.la=ille
+19	πνεῦμα	πνεῦμα	NOUN	n-s---na-	Case=a|Gender=n|Number=s	17	obj	_	Gloss.en=spirit|Gloss.en.alt=Spirit|Gloss.la=spiritus|Gloss.de=Geist|LN=12.18|SourceNode=t_1077
+20	ἐκ	ἐκ	ADP	r--------	_	23	case	_	Gloss.en=from|Gloss.en.alt=out of|Gloss.la=ex|Gloss.de=aus|LN=84.14|SourceNode=t_1078
+21	τοῦ	ὁ	DET	l-s---ng-	Case=g|Gender=n|Number=s	22	nmod	_	Gloss.en=the|SourceNode=t_1079|Gloss.de=der|Gloss.la=ille
+22	πνεύματος	πνεῦμα	NOUN	n-s---ng-	Case=g|Gender=n|Number=s	20	advmod	_	Gloss.en=spirit|Gloss.en.alt=Spirit|Gloss.la=spiritus|Gloss.de=Geist|LN=12.18|SourceNode=t_1080
+23	θερίσει	σπείρω	VERB	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	15	obj	_	Gloss.en=sow|Gloss.la=serere|Gloss.de=säen|LN=43.2|SourceNode=t_1081
+24	ζωὴν	ζωή	NOUN	n-s---fa-	Case=a|Gender=f|Number=s	23	obj	_	Gloss.en=life|Gloss.la=vita|Gloss.de=Leben|LN=23.88|SourceNode=t_1082
+25	αἰώνιον	αἰώνιος	ADJ	a-s---fa-	Case=a|Gender=f|Number=s	24	nmod	_	Gloss.en=eternal|Gloss.en.alt=everlasting|Gloss.la=aeternus|Gloss.de=ewig|LN=67.96|SourceNode=t_1083
+26	.	.	PUNCT	u--------	_	0	punct	_	SourceNode=t_1084
+
+# sent_id = zahn.galatians.u0062
+# unit_id = u0062
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = τὸ δὲ καλὸν ποιοῦντες μὴ ἐνκακῶμεν ·
+# text_en = the but good do not <enkakomen>·
+# text_de = der aber gut tun nicht <enkakomen>·
+# text_la = ille autem bonus facere ne <enkakomen>·
+1	τὸ	ὁ	DET	l-s---na-	Case=a|Gender=n|Number=s	3	nmod	_	Gloss.en=the|SourceNode=t_1085|Gloss.de=der|Gloss.la=ille
+2	δὲ	δέ	ADV	d--------	_	6	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_1086
+3	καλὸν	καλός	ADJ	a-s---na-	Case=a|Gender=n|Number=s	4	obj	_	SourceNode=t_1087|Gloss.en=good|Gloss.de=gut|Gloss.la=bonus
+4	ποιοῦντες	ποιέω	VERB	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	advmod	_	Gloss.en=do|Gloss.en.alt=make|Gloss.la=facere|Gloss.de=tun|LN=42.9|SourceNode=t_1088
+5	μὴ	μή	ADV	d--------	_	6	advmod	_	Gloss.en=not|Gloss.en.alt=lest|Gloss.la=ne|Gloss.de=nicht|LN=69.4|SourceNode=t_1089
+6	ἐνκακῶμεν	ἐνκακέω	VERB	v1ppsa---	Mood=s|Number=p|Person=1|Tense=p|Voice=a	0	root	_	SourceNode=t_1090|Gloss.en=<enkakomen>|Gloss.de=<enkakomen>|Gloss.la=<enkakomen>
+7	·	·	PUNCT	u--------	_	6	punct	_	SourceNode=t_1091
+
+# sent_id = zahn.galatians.u0063
+# unit_id = u0063
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = καιρῷ γὰρ ἰδίῳ θερίσομεν μὴ ἐκλυόμενοι .
+# text_en = time for <idio> reap not <ekluomenoi>.
+# text_de = Zeit denn <idio> ernten nicht <ekluomenoi>.
+# text_la = tempus enim <idio> metere ne <ekluomenoi>.
+1	καιρῷ	καιρός	NOUN	n-s---md-	Case=d|Gender=m|Number=s	4	advmod	_	Gloss.en=time|Gloss.en.alt=appointed time|Gloss.la=tempus|Gloss.de=Zeit|LN=67.1|SourceNode=t_1092
+2	γὰρ	γάρ	PART	g--------	_	4	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_1093
+3	ἰδίῳ	ἴδιος	ADJ	a-s---md-	Case=d|Gender=m|Number=s	1	nmod	_	SourceNode=t_1094|Gloss.en=<idio>|Gloss.de=<idio>|Gloss.la=<idio>
+4	θερίσομεν	θερίζω	VERB	v1pfia---	Mood=i|Number=p|Person=1|Tense=f|Voice=a	0	root	_	Gloss.en=reap|Gloss.en.alt=harvest|Gloss.la=metere|Gloss.de=ernten|LN=43.11|SourceNode=t_1095
+5	μὴ	μή	CCONJ	c--------	_	6	advmod	_	Gloss.en=not|Gloss.en.alt=lest|Gloss.la=ne|Gloss.de=nicht|LN=69.4|SourceNode=t_1096
+6	ἐκλυόμενοι	ἐκλύω	VERB	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	4	advmod	_	SourceNode=t_1097|Gloss.en=<ekluomenoi>|Gloss.de=<ekluomenoi>|Gloss.la=<ekluomenoi>
+7	.	.	PUNCT	u--------	_	4	punct	_	SourceNode=t_1098
+
+# sent_id = zahn.galatians.u0064
+# unit_id = u0064
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἄρα οὖν ὡς καιρὸν ἔχωμεν , ἐργαζώμεθα τὸ ἀγαθὸν πρὸς πάντας , μάλιστα δὲ πρὸς τοὺς οἰκείους τῆς πίστεως .
+# text_en = therefore therefore as time have, <ergazometha> the good to all, <malista> but to the <oikeious> the faith.
+# text_de = also daher wie Zeit haben, <ergazometha> der gut zu all, <malista> aber zu der <oikeious> der Glaube.
+# text_la = igitur ergo sicut tempus habere, <ergazometha> ille bonus ad omnis, <malista> autem ad ille <oikeious> ille fides.
+1	ἄρα	ἄρα	ADV	d--------	_	7	advmod	_	SourceNode=t_1099|Gloss.en=therefore|Gloss.de=also|Gloss.la=igitur
+2	οὖν	οὖν	ADV	d--------	_	7	advmod	_	SourceNode=t_1100|Gloss.en=therefore|Gloss.de=daher|Gloss.la=ergo
+3	ὡς	ὡς	CCONJ	c--------	_	7	mark	_	SourceNode=t_1101|Gloss.en=as|Gloss.de=wie|Gloss.la=sicut
+4	καιρὸν	καιρός	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	5	advmod	_	Gloss.en=time|Gloss.en.alt=appointed time|Gloss.la=tempus|Gloss.de=Zeit|LN=67.1|SourceNode=t_1102
+5	ἔχωμεν	ἔχω	VERB	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	3	advmod	_	SourceNode=t_1103|Gloss.en=have|Gloss.de=haben|Gloss.la=habere
+6	,	,	PUNCT	u--------	_	7	punct	_	SourceNode=t_1104
+7	ἐργαζώμεθα	ἐργάζομαι	VERB	v1ppse---	Mood=s|Number=p|Person=1|Tense=p|Voice=e	0	root	_	SourceNode=t_1105|Gloss.en=<ergazometha>|Gloss.de=<ergazometha>|Gloss.la=<ergazometha>
+8	τὸ	ὁ	DET	l-s---na-	Case=a|Gender=n|Number=s	9	nmod	_	Gloss.en=the|SourceNode=t_1106|Gloss.de=der|Gloss.la=ille
+9	ἀγαθὸν	ἀγαθός	ADJ	a-s---na-	Case=a|Gender=n|Number=s	7	obj	_	Gloss.en=good|Gloss.la=bonus|Gloss.de=gut|LN=88.4|SourceNode=t_1107
+10	πρὸς	πρός	ADP	r--------	_	14	case	_	Gloss.en=to|Gloss.en.alt=with|Gloss.la=ad|Gloss.de=zu|LN=84.24|SourceNode=t_1108
+11	πάντας	πᾶς	ADJ	a-p---ma-	Case=a|Gender=m|Number=p	10	advmod	_	Gloss.en=all|Gloss.en.alt=every|Gloss.la=omnis|Gloss.de=all|LN=59.23|SourceNode=t_1109
+12	,	,	PUNCT	u--------	_	7	punct	_	SourceNode=t_1110
+13	μάλιστα	μάλιστα	ADV	d--------	_	17	advmod	_	SourceNode=t_1111|Gloss.en=<malista>|Gloss.de=<malista>|Gloss.la=<malista>
+14	δὲ	δέ	CCONJ	c--------	_	7	conj	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_1112
+15	πρὸς	πρός	ADP	r--------	_	14	case	_	Gloss.en=to|Gloss.en.alt=with|Gloss.la=ad|Gloss.de=zu|LN=84.24|SourceNode=t_1113
+16	τοὺς	ὁ	DET	l-p---ma-	Case=a|Gender=m|Number=p	17	nmod	_	Gloss.en=the|SourceNode=t_1114|Gloss.de=der|Gloss.la=ille
+17	οἰκείους	οἰκεῖος	ADJ	a-p---ma-	Case=a|Gender=m|Number=p	15	advmod	_	SourceNode=t_1115|Gloss.en=<oikeious>|Gloss.de=<oikeious>|Gloss.la=<oikeious>
+18	τῆς	ὁ	DET	l-s---fg-	Case=g|Gender=f|Number=s	19	nmod	_	Gloss.en=the|SourceNode=t_1116|Gloss.de=der|Gloss.la=ille
+19	πίστεως	πίστις	NOUN	n-s---fg-	Case=g|Gender=f|Number=s	17	nmod	_	Gloss.en=faith|Gloss.en.alt=faithfulness|Gloss.la=fides|Gloss.de=Glaube|LN=31.85|SourceNode=t_1117
+20	.	.	PUNCT	u--------	_	7	punct	_	SourceNode=t_1118
+
+# sent_id = zahn.galatians.u0065
+# unit_id = u0065
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = οὐ δὲ γὰρ οἱ περιτεμνόμενοι αὐτοὶ νόμον φυλάσσουσιν , δι᾽ οὗ ἐμοὶ κόσμος ἐσταύρωται κ ἀγὼ κόσμῳ ·
+# text_en = not but for the circumcise he/she/it law <phulassousin>, through which I world crucify and I world·
+# text_de = nicht aber denn der beschneiden er/sie/es Gesetz <phulassousin>, durch welcher ich Welt kreuzigen und ich Welt·
+# text_la = non autem enim ille circumcidere ipse lex <phulassousin>, per qui ego mundus crucifigere et ego mundus·
+1	οὐ	οὐ	ADV	d--------	_	8	advmod	_	Gloss.en=not|Gloss.la=non|Gloss.de=nicht|LN=69.3|SourceNode=t_1119
+2	δὲ	δέ	CCONJ	c--------	_	1	advmod	_	Gloss.en=but|Gloss.en.alt=and|Gloss.la=autem|Gloss.de=aber|LN=89.94|SourceNode=t_1120
+3	γὰρ	γάρ	PART	d--------	_	8	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_1121
+4	οἱ	ὁ	DET	l-p---mn-	Case=n|Gender=m|Number=p	5	nmod	_	Gloss.en=the|SourceNode=t_1122|Gloss.de=der|Gloss.la=ille
+5	περιτεμνόμενοι	περιτέμνω	VERB	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	8	nsubj	_	Gloss.en=circumcise|Gloss.la=circumcidere|Gloss.de=beschneiden|LN=53.44|SourceNode=t_1123
+6	αὐτοὶ	αὐτός	PRON	p-p---mn-	Case=n|Gender=m|Number=p	5	nmod	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_1124
+7	νόμον	νόμος	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	8	obj	_	Gloss.en=law|Gloss.en.alt=Torah|Gloss.la=lex|Gloss.de=Gesetz|LN=33.55|SourceNode=t_1125
+8	φυλάσσουσιν	φυλάσσω	VERB	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	0	root	_	SourceNode=t_1126|Gloss.en=<phulassousin>|Gloss.de=<phulassousin>|Gloss.la=<phulassousin>
+9	,	,	PUNCT	u--------	_	8	punct	_	SourceNode=t_1127
+10	δι᾽	διά	ADP	r--------	_	14	case	_	Gloss.en=through|Gloss.en.alt=because of|Gloss.la=per|Gloss.de=durch|LN=89.76|SourceNode=t_1128
+11	οὗ	ὅς	PRON	p-s---mg-	Case=g|Gender=m|Number=s	10	advmod	_	SourceNode=t_1129|Gloss.en=which|Gloss.de=welcher|Gloss.la=qui
+12	ἐμοὶ	ἐγώ	PRON	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	14	obj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_1130
+13	κόσμος	κόσμος	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	14	nsubj	_	Gloss.en=world|Gloss.la=mundus|Gloss.de=Welt|LN=1.1|SourceNode=t_1131
+14	ἐσταύρωται	σταυρόω	VERB	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	7	nmod	_	Gloss.en=crucify|Gloss.la=crucifigere|Gloss.de=kreuzigen|LN=20.75|SourceNode=t_1132
+15	κ	καί	ADV	d--------	_	16	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_1133
+16	ἀγὼ	ἐγώ	PRON	p-s---mn-	Case=n|Gender=m|Number=s	14	nsubj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_1134
+17	κόσμῳ	κόσμος	NOUN	n-s---md-	Case=d|Gender=m|Number=s	14	advmod	_	Gloss.en=world|Gloss.la=mundus|Gloss.de=Welt|LN=1.1|SourceNode=t_1135
+18	·	·	PUNCT	u--------	_	8	punct	_	SourceNode=t_1136
+
+# sent_id = zahn.galatians.u0066
+# unit_id = u0066
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = καὶ ὅσοι τῷ κανόνι τούτῳ στοιχήσουσιν , εἰρήνη ἐπ᾽ αὐτοὺς καὶ ἔλεος , καὶ ἐπὶ τὸν Ἰσραὴλ τοῦ θεοῦ .
+# text_en = and <osoi> the <kanoni> this walk in line, peace on he/she/it and <eleos>, and on the <israel> the God.
+# text_de = und <osoi> der <kanoni> dieser wandeln nach, Friede auf er/sie/es und <eleos>, und auf der <israel> der Gott.
+# text_la = et <osoi> ille <kanoni> hic ambulare, pax super ipse et <eleos>, et super ille <israel> ille Deus.
+1	καὶ	καί	ADV	d--------	_	0	advmod	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_1137
+2	ὅσοι	ὅσος	ADJ	a-p---mn-	Case=n|Gender=m|Number=p	6	nsubj	_	SourceNode=t_1138|Gloss.en=<osoi>|Gloss.de=<osoi>|Gloss.la=<osoi>
+3	τῷ	ὁ	DET	l-s---md-	Case=d|Gender=m|Number=s	4	nmod	_	Gloss.en=the|SourceNode=t_1139|Gloss.de=der|Gloss.la=ille
+4	κανόνι	κανών	NOUN	n-s---md-	Case=d|Gender=m|Number=s	6	obj	_	SourceNode=t_1140|Gloss.en=<kanoni>|Gloss.de=<kanoni>|Gloss.la=<kanoni>
+5	τούτῳ	οὗτος	ADJ	a-s---md-	Case=d|Gender=m|Number=s	4	nmod	_	Gloss.en=this|Gloss.la=hic|Gloss.de=dieser|LN=92.25|SourceNode=t_1141
+6	στοιχήσουσιν	στοιχέω	VERB	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	0	root	_	Gloss.en=walk in line|Gloss.en.alt=follow|Gloss.la=ambulare|Gloss.de=wandeln nach|LN=41.14|SourceNode=t_1142
+7	,	,	PUNCT	u--------	_	0	punct	_	SourceNode=t_1143
+8	εἰρήνη	εἰρήνη	NOUN	n-s---fn-	Case=n|Gender=f|Number=s	0	nsubj	_	Gloss.en=peace|Gloss.la=pax|Gloss.de=Friede|LN=22.42|SourceNode=t_1144
+9	ἐπ᾽	ἐπί	ADP	r--------	_	14	case	_	SourceNode=t_1145|Gloss.en=on|Gloss.de=auf|Gloss.la=super
+10	αὐτοὺς	αὐτός	PRON	p-p---ma-	Case=a|Gender=m|Number=p	9	advmod	_	Gloss.en=he/she/it|Gloss.en.alt=same|Gloss.la=ipse|Gloss.de=er/sie/es|LN=92.26|SourceNode=t_1146
+11	καὶ	καί	CCONJ	c--------	_	0	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_1147
+12	ἔλεος	ἔλεος	NOUN	n-s---mn-	Case=n|Gender=m|Number=s	11	nmod	_	SourceNode=t_1148|Gloss.en=<eleos>|Gloss.de=<eleos>|Gloss.la=<eleos>
+13	,	,	PUNCT	u--------	_	0	punct	_	SourceNode=t_1149
+14	καὶ	καί	CCONJ	c--------	_	0	conj	_	Gloss.en=and|Gloss.en.alt=also|Gloss.la=et|Gloss.de=und|LN=89.87|SourceNode=t_1150
+15	ἐπὶ	ἐπί	ADP	r--------	_	14	case	_	SourceNode=t_1151|Gloss.en=on|Gloss.de=auf|Gloss.la=super
+16	τὸν	ὁ	DET	l-s---ma-	Case=a|Gender=m|Number=s	17	nmod	_	Gloss.en=the|SourceNode=t_1152|Gloss.de=der|Gloss.la=ille
+17	Ἰσραὴλ	ἰσραήλ	NOUN	n-s---ma-	Case=a|Gender=m|Number=s	15	advmod	_	SourceNode=t_1153|Gloss.en=<israel>|Gloss.de=<israel>|Gloss.la=<israel>
+18	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	19	nmod	_	Gloss.en=the|SourceNode=t_1154|Gloss.de=der|Gloss.la=ille
+19	θεοῦ	θεός	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	17	nmod	_	Gloss.en=God|Gloss.en.alt=god|Gloss.la=Deus|Gloss.de=Gott|LN=12.1|SourceNode=t_1155
+20	.	.	PUNCT	u--------	_	0	punct	_	SourceNode=t_1156
+
+# sent_id = zahn.galatians.u0067
+# unit_id = u0067
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = τῶν δ᾽ἄλλων εἰκῇ κόπους μοι μηδεὶς παρέχεσθω ·
+# text_en = the other in_vain <kopous> I <medeis> <parekhestho>·
+# text_de = der anderer vergeblich <kopous> ich <medeis> <parekhestho>·
+# text_la = ille alius frustra <kopous> ego <medeis> <parekhestho>·
+1	τῶν	ὁ	DET	l-p---mg-	Case=g|Gender=m|Number=p	2	nmod	_	Gloss.en=the|SourceNode=t_1157|Gloss.de=der|Gloss.la=ille
+2	δ᾽ἄλλων	ἄλλος	ADJ	a-p---mg-	Case=g|Gender=m|Number=p	4	nmod	_	Gloss.en=other|Gloss.en.alt=another|Gloss.la=alius|Gloss.de=anderer|LN=58.37|SourceNode=t_1158
+3	εἰκῇ	εἰκῇ	ADV	d--------	_	7	advmod	_	SourceNode=t_1159|Gloss.en=in_vain|Gloss.de=vergeblich|Gloss.la=frustra
+4	κόπους	κόπος	NOUN	n-p---ma-	Case=a|Gender=m|Number=p	7	obj	_	SourceNode=t_1160|Gloss.en=<kopous>|Gloss.de=<kopous>|Gloss.la=<kopous>
+5	μοι	ἐγώ	PRON	p-s---md-	Case=d|Gender=m|Number=s	7	obj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_1161
+6	μηδεὶς	μηδείς	PRON	p-s---mn-	Case=n|Gender=m|Number=s	7	nsubj	_	SourceNode=t_1162|Gloss.en=<medeis>|Gloss.de=<medeis>|Gloss.la=<medeis>
+7	παρέχεσθω	παρέχω	VERB	v3spme---	Mood=m|Number=s|Person=3|Tense=p|Voice=e	0	root	_	SourceNode=t_1163|Gloss.en=<parekhestho>|Gloss.de=<parekhestho>|Gloss.la=<parekhestho>
+8	·	·	PUNCT	u--------	_	7	punct	_	SourceNode=t_1164
+
+# sent_id = zahn.galatians.u0068
+# unit_id = u0068
+# reconstruction = Zahn
+# work = Galatians
+# ref = [none]
+# text = ἐγὼ γὰρ τὰ στίγματα τοῦ Ἰησοῦ ἐν τῷ σώματί μου βαστάζω .
+# text_en = I for the mark the Jesus in the body I bear.
+# text_de = ich denn der Mal der Jesus in der Leib ich tragen.
+# text_la = ego enim ille stigma ille Iesus in ille corpus ego portare.
+1	ἐγὼ	ἐγώ	PRON	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	11	nsubj	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_1165
+2	γὰρ	γάρ	PART	d--------	_	11	advmod	_	Gloss.en=for|Gloss.en.alt=because|Gloss.la=enim|Gloss.de=denn|LN=89.23|SourceNode=t_1166
+3	τὰ	ὁ	DET	l-p---na-	Case=a|Gender=n|Number=p	4	nmod	_	Gloss.en=the|SourceNode=t_1167|Gloss.de=der|Gloss.la=ille
+4	στίγματα	στίγμα	NOUN	n-p---na-	Case=a|Gender=n|Number=p	11	obj	_	Gloss.en=mark|Gloss.en.alt=brand|Gloss.la=stigma|Gloss.de=Mal|LN=8.55|SourceNode=t_1168
+5	τοῦ	ὁ	DET	l-s---mg-	Case=g|Gender=m|Number=s	6	nmod	_	Gloss.en=the|SourceNode=t_1169|Gloss.de=der|Gloss.la=ille
+6	Ἰησοῦ	ἰησοῦς	NOUN	n-s---mg-	Case=g|Gender=m|Number=s	4	nmod	_	Gloss.en=Jesus|Gloss.la=Iesus|Gloss.de=Jesus|LN=93.2|SourceNode=t_1170
+7	ἐν	ἐν	ADP	r--------	_	11	case	_	Gloss.en=in|Gloss.en.alt=by|Gloss.la=in|Gloss.de=in|LN=83.13|SourceNode=t_1171
+8	τῷ	ὁ	DET	l-s---nd-	Case=d|Gender=n|Number=s	9	nmod	_	Gloss.en=the|SourceNode=t_1172|Gloss.de=der|Gloss.la=ille
+9	σώματί	σῶμα	NOUN	n-s---nd-	Case=d|Gender=n|Number=s	7	advmod	_	Gloss.en=body|Gloss.la=corpus|Gloss.de=Leib|LN=8.1|SourceNode=t_1173
+10	μου	ἐγώ	PRON	p-s---mg-	Case=g|Gender=m|Number=s	9	nmod	_	Gloss.en=I|Gloss.la=ego|Gloss.de=ich|LN=92.1|SourceNode=t_1174
+11	βαστάζω	βαστάζω	VERB	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	root	_	Gloss.en=bear|Gloss.en.alt=carry|Gloss.la=portare|Gloss.de=tragen|LN=15.193|SourceNode=t_1175
+12	.	.	PUNCT	u--------	_	11	punct	_	SourceNode=t_1176

@@ -1,19 +1,231 @@
 import { useState, useRef, useCallback, useEffect } from "react"
-import data from "../data/text.json"
+import type { ReactNode, MouseEvent } from "react"
+import rawConllu from "../data/zahn_galatians.conllu?raw"
 
-// ── constants ────────────────────────────────────────────────────────────────
+// ── types ─────────────────────────────────────────────────────────────────────
 
-const LANG_ORDER = ["grc", "lat", "eng"]
+interface Word {
+  id:     number
+  form:   string
+  lemma:  string
+  upos:   string
+  xpos:   string
+  feats:  string
+  head:   number
+  deprel: string
+  deps:   string
+  misc:   Record<string, string>
+}
 
-const LANG_META = {
+interface Sentence {
+  id:     number
+  lang:   string
+  verse:  string
+  source: string
+  text:   string
+  words:  Word[]
+}
+
+interface LangMeta {
+  label:  string
+  short:  string
+  script: string
+  sigil:  string
+}
+
+interface ConlluData {
+  model:      string
+  dimensions: number
+  meta:       { description: string; work: string }
+  langLabels: Partial<Record<string, LangMeta>>
+  sentences:  Sentence[]
+}
+
+type LangKey = "grc" | "lat" | "eng"
+
+// active word carries its lang alongside the word fields
+type ActiveWord = Word & { lang: string }
+
+// ── CoNLL-U parser ────────────────────────────────────────────────────────────
+//
+// FORMAT A — explicit lang per sentence:
+//   # lang  = grc | lat | eng
+//   # verse = Luke 2:1
+//   # text  = …
+//
+// FORMAT B — Zahn/embedded-translation style:
+//   # work     = Galatians
+//   # text     = (Greek)
+//   # text_en  = (English gloss)
+//   # text_la  = (Latin gloss)
+//   MISC field: Gloss.en=…|Gloss.la=…|Gloss.de=…|LN=…
+
+function parseMisc(raw: string | undefined): Record<string, string> {
+  if (!raw || raw === "_") return {}
+  const out: Record<string, string> = {}
+  raw.split("|").forEach(pair => {
+    const eq = pair.indexOf("=")
+    if (eq > 0) out[pair.slice(0, eq)] = pair.slice(eq + 1)
+  })
+  return out
+}
+
+function glossWords(text: string): Word[] {
+  return text.split(/\s+/).filter(Boolean).map((form, i) => ({
+    id: i + 1, form, lemma: form,
+    upos: "_gloss_", xpos: "_", feats: "_",
+    head: 0, deprel: "_", deps: "_", misc: {},
+  }))
+}
+
+function parseConllu(raw: string): ConlluData {
+  const globalMeta: Record<string, string | number> = {
+    model: "conllu", dimensions: 0, description: "", work: "",
+  }
+  const sentences: Sentence[] = []
+  const blocks = raw.split(/\n\n+/).map(b => b.trim()).filter(Boolean)
+
+  for (const block of blocks) {
+    const comments: Record<string, string> = {}
+    const words: Word[] = []
+
+    for (const line of block.split("\n")) {
+      if (line.startsWith("#")) {
+        const m = line.match(/^#\s*([^=]+?)\s*=\s*(.+)$/)
+        if (!m) continue
+        const k = m[1].trim()
+        const v = m[2].trim()
+        if (k.startsWith("global.")) {
+          const gk = k.slice(7)
+          globalMeta[gk] = gk === "dimensions" ? Number(v) : v
+        } else {
+          comments[k] = v
+          if (k === "work" && !globalMeta.work) globalMeta.work = v
+        }
+      } else if (line && !line.startsWith("#")) {
+        const cols = line.split("\t")
+        if (cols.length < 8) continue
+        if (cols[0].includes("-") || cols[0].includes(".")) continue
+        words.push({
+          id:     Number(cols[0]),
+          form:   cols[1],
+          lemma:  cols[2],
+          upos:   cols[3],
+          xpos:   cols[4],
+          feats:  cols[5] === "_" ? "_" : cols[5],
+          head:   Number(cols[6]),
+          deprel: cols[7],
+          deps:   cols[8] ?? "_",
+          misc:   parseMisc(cols[9]),
+        })
+      }
+    }
+
+    if (words.length === 0) continue
+
+    // FORMAT A — explicit lang
+    if ("lang" in comments) {
+      sentences.push({
+        id:     sentences.length,
+        lang:   comments.lang ?? "und",
+        verse:  comments.verse ?? comments.sent_id ?? `sentence-${sentences.length}`,
+        source: comments.sent_id ?? "",
+        text:   comments.text ?? words.map(w => w.form).join(" "),
+        words,
+      })
+      continue
+    }
+
+    // FORMAT B — Zahn embedded
+    const unitNum = (comments.unit_id ?? comments.sent_id ?? "")
+      .replace(/.*\D(\d+)$/, "$1")
+    const work  = comments.work || String(globalMeta.work) || ""
+    const verse = work && unitNum
+      ? `${work} §${parseInt(unitNum, 10)}`
+      : (comments.sent_id ?? `s${sentences.length}`)
+
+    sentences.push({
+      id: sentences.length, lang: "grc", verse,
+      source: comments.sent_id ?? "",
+      text:   comments.text ?? words.map(w => w.form).join(" "),
+      words,
+    })
+    if (comments.text_en) {
+      sentences.push({
+        id: sentences.length, lang: "eng", verse,
+        source: comments.sent_id ?? "", text: comments.text_en,
+        words: glossWords(comments.text_en),
+      })
+    }
+    if (comments.text_la) {
+      sentences.push({
+        id: sentences.length, lang: "lat", verse,
+        source: comments.sent_id ?? "", text: comments.text_la,
+        words: glossWords(comments.text_la),
+      })
+    }
+  }
+
+  const langLabels: Partial<Record<string, LangMeta>> = {}
+  const hasGloss = sentences.some(s => s.lang !== "grc" && s.words[0]?.upos === "_gloss_")
+  if (hasGloss) {
+    const workStr = String(globalMeta.work) || "Ancient Greek"
+    langLabels.grc = { label: workStr,          short: "Greek",   script: "Ἑλληνική", sigil: "Α" }
+    langLabels.eng = { label: "English Gloss",  short: "English", script: "Gloss",    sigil: "E" }
+    langLabels.lat = { label: "Latin Gloss",    short: "Latin",   script: "Gloss",    sigil: "L" }
+  }
+
+  const modelStr = String(globalMeta.model)
+  return {
+    model:      modelStr !== "conllu" ? modelStr : (String(globalMeta.work) || "conllu"),
+    dimensions: Number(globalMeta.dimensions),
+    meta:       { description: String(globalMeta.description || globalMeta.work || ""), work: String(globalMeta.work) },
+    langLabels,
+    sentences,
+  }
+}
+
+const data: ConlluData = parseConllu(rawConllu)
+
+// ── constants ─────────────────────────────────────────────────────────────────
+
+const LANG_ORDER: LangKey[] = ["grc", "lat", "eng"]
+
+const BASE_LANG_META: Record<LangKey, LangMeta> = {
   grc: { label: "Ancient Greek", short: "Greek",   script: "Ἑλληνική", sigil: "Α" },
   lat: { label: "Latin Vulgate", short: "Latin",   script: "Latina",   sigil: "L" },
   eng: { label: "King James",    short: "English",  script: "English",  sigil: "E" },
 }
+const LANG_META: Record<string, LangMeta> = { ...BASE_LANG_META, ...data.langLabels }
+
+const FONT_SIZES:  readonly string[] = ["Small", "Medium", "Large"]
+const THEMES:      readonly string[] = ["Dark", "Sepia", "High Contrast"]
+const ANNO_LEVELS: readonly string[] = ["None", "POS only", "Full morphology"]
+
+// ── helpers ───────────────────────────────────────────────────────────────────
+
+function groupByVerse(sentences: Sentence[]): [string, Record<string, Sentence>][] {
+  const map: Record<string, Record<string, Sentence>> = {}
+  sentences.forEach(s => {
+    if (!map[s.verse]) map[s.verse] = {}
+    map[s.verse][s.lang] = s
+  })
+  return Object.entries(map)
+}
+
+function parseFeat(raw: string): Record<string, string> {
+  if (!raw || raw === "_") return {}
+  const out: Record<string, string> = {}
+  raw.split("|").forEach(pair => {
+    const [k, v] = pair.split("=")
+    if (k && v) out[k] = v
+  })
+  return out
+}
 
 // ── icons ─────────────────────────────────────────────────────────────────────
 
-function GearIcon({ className = "" }) {
+function GearIcon({ className = "" }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none"
       stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
@@ -29,7 +241,7 @@ function GearIcon({ className = "" }) {
   )
 }
 
-function CloseIcon({ className = "" }) {
+function CloseIcon({ className = "" }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none"
       stroke="currentColor" strokeWidth="2" strokeLinecap="round">
@@ -41,11 +253,11 @@ function CloseIcon({ className = "" }) {
 
 // ── settings modal ────────────────────────────────────────────────────────────
 
-const FONT_SIZES   = ["Small", "Medium", "Large"]
-const THEMES       = ["Dark", "Sepia", "High Contrast"]
-const ANNO_LEVELS  = ["None", "POS only", "Full morphology"]
-
-function Toggle({ checked, onChange }) {
+interface ToggleProps {
+  checked:  boolean
+  onChange: (v: boolean) => void
+}
+function Toggle({ checked, onChange }: ToggleProps) {
   return (
     <button
       role="switch"
@@ -66,7 +278,12 @@ function Toggle({ checked, onChange }) {
   )
 }
 
-function SegmentedControl({ options, value, onChange }) {
+interface SegmentedControlProps {
+  options:  readonly string[]
+  value:    string
+  onChange: (v: string) => void
+}
+function SegmentedControl({ options, value, onChange }: SegmentedControlProps) {
   return (
     <div className="flex rounded-lg overflow-hidden border border-stone-200 bg-stone-100">
       {options.map(opt => (
@@ -87,7 +304,12 @@ function SegmentedControl({ options, value, onChange }) {
   )
 }
 
-function SettingsRow({ label, hint, children }) {
+interface SettingsRowProps {
+  label:    string
+  hint?:    string
+  children: ReactNode
+}
+function SettingsRow({ label, hint, children }: SettingsRowProps) {
   return (
     <div className="flex items-center justify-between gap-4 py-4 border-b border-stone-100 last:border-0">
       <div className="min-w-0">
@@ -99,7 +321,11 @@ function SettingsRow({ label, hint, children }) {
   )
 }
 
-function SettingsSection({ title, children }) {
+interface SettingsSectionProps {
+  title:    string
+  children: ReactNode
+}
+function SettingsSection({ title, children }: SettingsSectionProps) {
   return (
     <section className="mb-6">
       <h3 className="text-[10px] font-semibold tracking-widest uppercase text-stone-400 mb-1 px-1">
@@ -112,8 +338,11 @@ function SettingsSection({ title, children }) {
   )
 }
 
-function SettingsModal({ open, onClose }) {
-  // dummy state — not wired to anything real yet
+interface SettingsModalProps {
+  open:    boolean
+  onClose: () => void
+}
+function SettingsModal({ open, onClose }: SettingsModalProps) {
   const [fontSize,     setFontSize]     = useState("Medium")
   const [theme,        setTheme]        = useState("Dark")
   const [annoLevel,    setAnnoLevel]    = useState("Full morphology")
@@ -122,15 +351,13 @@ function SettingsModal({ open, onClose }) {
   const [showLemmas,   setShowLemmas]   = useState(true)
   const [autoScroll,   setAutoScroll]   = useState(false)
 
-  // close on Escape
   useEffect(() => {
     if (!open) return
-    const handler = e => { if (e.key === "Escape") onClose() }
+    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose() }
     window.addEventListener("keydown", handler)
     return () => window.removeEventListener("keydown", handler)
   }, [open, onClose])
 
-  // lock body scroll while open
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : ""
     return () => { document.body.style.overflow = "" }
@@ -139,54 +366,43 @@ function SettingsModal({ open, onClose }) {
   if (!open) return null
 
   return (
-    // backdrop
     <div
       className="fixed inset-0 z-50 flex items-end sm:items-center justify-center"
-      onClick={e => { if (e.target === e.currentTarget) onClose() }}
+      onClick={(e: MouseEvent<HTMLDivElement>) => { if (e.target === e.currentTarget) onClose() }}
     >
-      {/* dim overlay */}
-      <div className="absolute inset-0 bg-black/20" onClick={onClose} />
+      <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" onClick={onClose} />
 
-      {/* panel — fullscreen on mobile, centered card on desktop */}
       <div
         className={[
           "relative z-10 flex flex-col",
           "bg-white/90 backdrop-blur-xl border-stone-200",
-          // mobile: slide up from bottom, full width, rounded top corners
           "w-full max-h-[92dvh] rounded-t-2xl border-t border-x",
-          // desktop: fixed-width centered card, fully rounded
           "sm:w-[480px] sm:max-h-[80vh] sm:rounded-2xl sm:border",
         ].join(" ")}
         style={{ fontFamily: "'EB Garamond', Georgia, serif" }}
       >
-
-        {/* drag handle (mobile only) */}
         <div className="sm:hidden flex justify-center pt-3 pb-1 shrink-0">
-          <div className="w-10 h-1 rounded-full bg-stone-700" />
+          <div className="w-10 h-1 rounded-full bg-stone-300" />
         </div>
 
-        {/* modal header */}
-        <div className="shrink-0 flex items-center justify-between px-5 py-4 border-b border-stone-800">
+        <div className="shrink-0 flex items-center justify-between px-5 py-4 border-b border-stone-100">
           <div className="flex items-center gap-2.5">
-            <GearIcon className="w-4 h-4 text-amber-400" />
-            <h2 className="text-base font-semibold text-stone-100 tracking-wide">
-              Settings
-            </h2>
+            <GearIcon className="w-4 h-4 text-amber-500" />
+            <h2 className="text-base font-semibold text-stone-800 tracking-wide">Settings</h2>
           </div>
           <button
             onClick={onClose}
-            className="w-7 h-7 rounded-full bg-stone-800 border border-stone-700
+            className="w-7 h-7 rounded-full bg-stone-100 border border-stone-200
                        flex items-center justify-center text-stone-400
-                       hover:text-stone-200 hover:bg-stone-700 transition-colors"
+                       hover:text-stone-600 hover:bg-stone-200 transition-colors"
             aria-label="Close settings"
           >
             <CloseIcon className="w-3.5 h-3.5" />
           </button>
         </div>
 
-        {/* scrollable body */}
         <div className="flex-1 overflow-y-auto px-5 py-5"
-             style={{ scrollbarWidth: "thin", scrollbarColor: "#292524 transparent" }}>
+             style={{ scrollbarWidth: "thin", scrollbarColor: "#d6d3d1 transparent" }}>
 
           <SettingsSection title="Display">
             <SettingsRow label="Font size" hint="Size of the scripture text in each pane">
@@ -220,22 +436,20 @@ function SettingsModal({ open, onClose }) {
 
           <SettingsSection title="About">
             <SettingsRow label="Model" hint={data.meta?.description ?? "—"}>
-              <span className="text-xs font-mono text-stone-500 text-right max-w-[140px] leading-snug">
+              <span className="text-xs font-mono text-stone-400 text-right max-w-[140px] leading-snug">
                 {data.model}
               </span>
             </SettingsRow>
             <SettingsRow label="Sentences">
-              <span className="text-xs font-mono text-stone-400">{data.sentences.length}</span>
+              <span className="text-xs font-mono text-stone-500">{data.sentences.length}</span>
             </SettingsRow>
             <SettingsRow label="Dimensions">
-              <span className="text-xs font-mono text-stone-400">{data.dimensions}</span>
+              <span className="text-xs font-mono text-stone-500">{data.dimensions}</span>
             </SettingsRow>
           </SettingsSection>
-
         </div>
 
-        {/* footer */}
-        <div className="shrink-0 px-5 py-4 border-t border-stone-800">
+        <div className="shrink-0 px-5 py-4 border-t border-stone-100">
           <button
             onClick={onClose}
             className="w-full py-2.5 rounded-xl bg-amber-400 text-stone-950
@@ -245,38 +459,28 @@ function SettingsModal({ open, onClose }) {
             Done
           </button>
         </div>
-
       </div>
     </div>
   )
 }
 
-// ── helpers ──────────────────────────────────────────────────────────────────
+// ── word chip ─────────────────────────────────────────────────────────────────
 
-function groupByVerse(sentences) {
-  const map = {}
-  sentences.forEach(s => {
-    if (!map[s.verse]) map[s.verse] = {}
-    map[s.verse][s.lang] = s
-  })
-  return Object.entries(map)
+interface WordChipProps {
+  word:     Word
+  lang:     string
+  isActive: boolean
+  onEnter:  (word: Word, lang: string) => void
+  onLeave:  () => void
+  onTap:    (word: Word, lang: string) => void
 }
-
-function parseFeat(raw) {
-  if (!raw || raw === "_") return {}
-  const out = {}
-  raw.split("|").forEach(pair => {
-    const [k, v] = pair.split("=")
-    if (k && v) out[k] = v
-  })
-  return out
-}
-
-// ── sub-components ───────────────────────────────────────────────────────────
-
-function WordChip({ word, lang, isActive, onEnter, onLeave, onTap }) {
+function WordChip({ word, lang, isActive, onEnter, onLeave, onTap }: WordChipProps) {
   const isPunct = word.upos === "u" || word.upos === "PUNCT"
+    || word.form === "," || word.form === "." || word.form === "·" || word.form === ";"
+  const isGloss = word.upos === "_gloss_"
+
   if (isPunct) return <span className="text-stone-600 mx-0.5">{word.form}</span>
+  if (isGloss) return <span className="text-stone-400 inline-block leading-relaxed px-0.5">{word.form}</span>
 
   return (
     <span
@@ -296,71 +500,14 @@ function WordChip({ word, lang, isActive, onEnter, onLeave, onTap }) {
   )
 }
 
-function WordDetail({ word }) {
-  if (!word) return null
-  const chips = Object.entries(parseFeat(word.feats))
+// ── word detail strip ─────────────────────────────────────────────────────────
 
-  return (
-    <div className="flex flex-wrap items-center gap-x-5 gap-y-1.5 px-4 py-3 sm:px-6">
-
-      {/* form → lemma */}
-      <div className="flex items-baseline gap-2 min-w-0">
-        <span className="text-base sm:text-lg font-semibold text-amber-200 tracking-wide">
-          {word.form}
-        </span>
-        <span className="text-stone-400 text-sm shrink-0">→</span>
-        <span className="text-stone-300 italic text-sm">{word.lemma}</span>
-      </div>
-
-      <div className="hidden sm:block h-4 w-px bg-stone-700" />
-
-      {/* pos + deprel tags */}
-      <div className="flex gap-2 items-center">
-        <Tag color="sky">{word.upos}</Tag>
-        {word.deprel && word.deprel !== "_" && (
-          <Tag color="violet">{word.deprel}</Tag>
-        )}
-      </div>
-
-      {/* morphological features — full on desktop, compact on mobile */}
-      {chips.length > 0 && (
-        <>
-          <div className="hidden sm:block h-4 w-px bg-stone-700" />
-          <div className="hidden sm:flex flex-wrap gap-1.5">
-            {chips.map(([key, val]) => (
-              <span key={key}
-                className="text-xs bg-stone-800 border border-stone-700
-                           rounded px-1.5 py-0.5 text-stone-300">
-                <span className="text-stone-500">{key}=</span>{val}
-              </span>
-            ))}
-          </div>
-          <div className="flex sm:hidden flex-wrap gap-1">
-            {chips.map(([key, val]) => (
-              <span key={key}
-                className="text-[10px] bg-stone-800 border border-stone-700
-                           rounded px-1 py-0.5 text-stone-400">
-                {val}
-              </span>
-            ))}
-          </div>
-        </>
-      )}
-
-      {word.head !== undefined && (
-        <>
-          <div className="hidden sm:block h-4 w-px bg-stone-700" />
-          <span className="hidden sm:inline text-xs text-stone-500">
-            head <span className="text-stone-300">{word.head}</span>
-          </span>
-        </>
-      )}
-    </div>
-  )
+interface TagProps {
+  color:    "sky" | "violet"
+  children: ReactNode
 }
-
-function Tag({ color, children }) {
-  const palette = {
+function Tag({ color, children }: TagProps) {
+  const palette: Record<"sky" | "violet", string> = {
     sky:    "bg-sky-950 text-sky-300 border-sky-800",
     violet: "bg-violet-950 text-violet-300 border-violet-800",
   }
@@ -371,7 +518,104 @@ function Tag({ color, children }) {
   )
 }
 
-function PaneHeader({ lang }) {
+function WordDetail({ word }: { word: ActiveWord | null }) {
+  if (!word) return null
+  const chips   = Object.entries(parseFeat(word.feats))
+  const misc    = word.misc ?? {}
+  const glossEn = misc["Gloss.en"]
+  const glossLa = misc["Gloss.la"]
+  const glossDe = misc["Gloss.de"]
+  const altEn   = misc["Gloss.en.alt"]
+  const ln      = misc["LN"]
+  const hasGloss = glossEn || glossLa || glossDe
+
+  return (
+    <div className="flex flex-wrap items-start gap-x-5 gap-y-1.5 px-4 py-3 sm:px-6">
+
+      <div className="flex items-baseline gap-2 min-w-0">
+        <span className="text-base sm:text-lg font-semibold text-amber-200 tracking-wide">
+          {word.form}
+        </span>
+        <span className="text-stone-400 text-sm shrink-0">→</span>
+        <span className="text-stone-300 italic text-sm">{word.lemma}</span>
+        {altEn && <span className="text-stone-500 text-xs italic">/ {altEn}</span>}
+      </div>
+
+      {hasGloss && (
+        <>
+          <div className="hidden sm:block h-4 w-px bg-stone-700 self-center" />
+          <div className="flex flex-wrap gap-x-3 gap-y-0.5 items-center">
+            {glossEn && (
+              <span className="text-xs text-stone-300">
+                <span className="text-stone-600 mr-1">en</span>{glossEn}
+              </span>
+            )}
+            {glossLa && (
+              <span className="text-xs text-stone-400 hidden sm:inline">
+                <span className="text-stone-600 mr-1">la</span>{glossLa}
+              </span>
+            )}
+            {glossDe && (
+              <span className="text-xs text-stone-500 hidden sm:inline">
+                <span className="text-stone-600 mr-1">de</span>{glossDe}
+              </span>
+            )}
+            {ln && (
+              <span className="text-[10px] font-mono text-stone-600 hidden sm:inline">LN {ln}</span>
+            )}
+          </div>
+        </>
+      )}
+
+      {word.upos && word.upos !== "_" && word.upos !== "_gloss_" && (
+        <>
+          <div className="hidden sm:block h-4 w-px bg-stone-700 self-center" />
+          <div className="flex gap-2 items-center">
+            <Tag color="sky">{word.upos}</Tag>
+            {word.deprel && word.deprel !== "_" && (
+              <Tag color="violet">{word.deprel}</Tag>
+            )}
+          </div>
+        </>
+      )}
+
+      {chips.length > 0 && (
+        <>
+          <div className="hidden sm:block h-4 w-px bg-stone-700 self-center" />
+          <div className="hidden sm:flex flex-wrap gap-1.5">
+            {chips.map(([key, val]) => (
+              <span key={key}
+                className="text-xs bg-stone-800 border border-stone-700 rounded px-1.5 py-0.5 text-stone-300">
+                <span className="text-stone-500">{key}=</span>{val}
+              </span>
+            ))}
+          </div>
+          <div className="flex sm:hidden flex-wrap gap-1">
+            {chips.map(([key, val]) => (
+              <span key={key}
+                className="text-[10px] bg-stone-800 border border-stone-700 rounded px-1 py-0.5 text-stone-400">
+                {val}
+              </span>
+            ))}
+          </div>
+        </>
+      )}
+
+      {!hasGloss && word.head !== undefined && word.head !== 0 && (
+        <>
+          <div className="hidden sm:block h-4 w-px bg-stone-700 self-center" />
+          <span className="hidden sm:inline text-xs text-stone-500">
+            head <span className="text-stone-300">{word.head}</span>
+          </span>
+        </>
+      )}
+    </div>
+  )
+}
+
+// ── pane header ───────────────────────────────────────────────────────────────
+
+function PaneHeader({ lang }: { lang: string }) {
   const m = LANG_META[lang]
   return (
     <div className="sticky top-0 z-10 flex items-center gap-3 px-4 sm:px-5 py-3
@@ -388,12 +632,19 @@ function PaneHeader({ lang }) {
   )
 }
 
-function SentenceCard({ sentence, activeWord, onWordEnter, onWordLeave, onWordTap }) {
+// ── sentence card ─────────────────────────────────────────────────────────────
+
+interface SentenceCardProps {
+  sentence?:    Sentence
+  activeWord:   ActiveWord | null
+  onWordEnter:  (word: Word, lang: string) => void
+  onWordLeave:  () => void
+  onWordTap:    (word: Word, lang: string) => void
+}
+function SentenceCard({ sentence, activeWord, onWordEnter, onWordLeave, onWordTap }: SentenceCardProps) {
   if (!sentence) {
     return (
-      <div className="px-4 sm:px-5 py-6 text-stone-700 text-sm italic">
-        — not available —
-      </div>
+      <div className="px-4 sm:px-5 py-6 text-stone-700 text-sm italic">— not available —</div>
     )
   }
   return (
@@ -420,7 +671,11 @@ function SentenceCard({ sentence, activeWord, onWordEnter, onWordLeave, onWordTa
 
 // ── mobile tab bar ────────────────────────────────────────────────────────────
 
-function MobileTabBar({ activeLang, onChange }) {
+interface MobileTabBarProps {
+  activeLang: string
+  onChange:   (lang: string) => void
+}
+function MobileTabBar({ activeLang, onChange }: MobileTabBarProps) {
   return (
     <nav className="shrink-0 sm:hidden flex border-t border-stone-800 bg-stone-950">
       {LANG_ORDER.map(lang => {
@@ -433,9 +688,7 @@ function MobileTabBar({ activeLang, onChange }) {
             className={[
               "flex-1 flex flex-col items-center gap-1 py-2.5 transition-colors duration-150",
               "border-t-2 -mt-px",
-              active
-                ? "border-amber-400 text-amber-300"
-                : "border-transparent text-stone-500 active:text-stone-300",
+              active ? "border-amber-400 text-amber-300" : "border-transparent text-stone-500 active:text-stone-300",
             ].join(" ")}
           >
             <span className={[
@@ -447,9 +700,7 @@ function MobileTabBar({ activeLang, onChange }) {
             ].join(" ")}>
               {m.sigil}
             </span>
-            <span className="text-[10px] font-semibold tracking-wide leading-none">
-              {m.short}
-            </span>
+            <span className="text-[10px] font-semibold tracking-wide leading-none">{m.short}</span>
           </button>
         )
       })}
@@ -457,21 +708,19 @@ function MobileTabBar({ activeLang, onChange }) {
   )
 }
 
-// ── main component ───────────────────────────────────────────────────────────
+// ── main component ────────────────────────────────────────────────────────────
 
 export default function PolyglotViewer() {
-  // desktop: hovered word; mobile: tapped/pinned word
-  const [hoveredWord,  setHoveredWord]  = useState(null)
-  const [pinnedWord,   setPinnedWord]   = useState(null)
-  const [activeLang,   setActiveLang]   = useState("grc") // mobile active pane
-  const [settingsOpen, setSettingsOpen] = useState(false)
+  const [hoveredWord,  setHoveredWord]  = useState<ActiveWord | null>(null)
+  const [pinnedWord,   setPinnedWord]   = useState<ActiveWord | null>(null)
+  const [activeLang,   setActiveLang]   = useState<string>("grc")
+  const [settingsOpen, setSettingsOpen] = useState<boolean>(false)
 
-  const paneRefs   = useRef([null, null, null])
-  const scrollLock = useRef(false)
+  const paneRefs   = useRef<(HTMLDivElement | null)[]>([null, null, null])
+  const scrollLock = useRef<boolean>(false)
 
   const verses = groupByVerse(data.sentences)
 
-  // inject Google Font once
   useEffect(() => {
     const id = "polyglot-font"
     if (document.getElementById(id)) return
@@ -482,40 +731,35 @@ export default function PolyglotViewer() {
     document.head.appendChild(link)
   }, [])
 
-  // proportional sync scroll across all three desktop panes
-  const handleScroll = useCallback((srcIdx) => {
+  const handleScroll = useCallback((srcIdx: number) => {
     if (scrollLock.current) return
     scrollLock.current = true
     const src = paneRefs.current[srcIdx]
     if (!src) { scrollLock.current = false; return }
-
     const ratio = src.scrollTop / (src.scrollHeight - src.clientHeight || 1)
-
     paneRefs.current.forEach((pane, i) => {
       if (i === srcIdx || !pane) return
       pane.scrollTop = ratio * (pane.scrollHeight - pane.clientHeight)
     })
-
     requestAnimationFrame(() => { scrollLock.current = false })
   }, [])
 
-  // desktop: hover to preview
-  const handleWordEnter  = useCallback((w, l) => setHoveredWord({ ...w, lang: l }), [])
-  const handleWordLeave  = useCallback(() => setHoveredWord(null), [])
+  const handleWordEnter = useCallback((w: Word, l: string) => {
+    setHoveredWord({ ...w, lang: l })
+  }, [])
+  const handleWordLeave = useCallback(() => setHoveredWord(null), [])
 
-  // mobile: tap to pin, tap again to unpin
-  const handleWordTap = useCallback((w, l) => {
+  const handleWordTap = useCallback((w: Word, l: string) => {
     setPinnedWord(prev =>
       prev?.id === w.id && prev?.lang === l ? null : { ...w, lang: l }
     )
   }, [])
 
-  // tap empty area to dismiss pinned word
-  const handleBgTap = useCallback(e => {
-    if (e.target.tagName === "P" || e.target.tagName === "DIV") setPinnedWord(null)
+  const handleBgTap = useCallback((e: MouseEvent<HTMLDivElement>) => {
+    const tag = (e.target as HTMLElement).tagName
+    if (tag === "P" || tag === "DIV") setPinnedWord(null)
   }, [])
 
-  // what to show: hover takes priority on desktop, pin on mobile
   const displayWord = hoveredWord ?? pinnedWord
 
   return (
@@ -523,34 +767,25 @@ export default function PolyglotViewer() {
       className="h-[100dvh] flex flex-col bg-stone-950 text-stone-200 overflow-hidden"
       style={{ fontFamily: "'EB Garamond', Georgia, serif" }}
     >
-
-      {/* ── top bar ───────────────────────────────────────────────────────── */}
-      <header className="shrink-0 flex items-center justify-between
-                          px-4 sm:px-6 py-3 border-b border-stone-800">
-
+      {/* ── top bar ─────────────────────────────────────────────────────────── */}
+      <header className="shrink-0 flex items-center justify-between px-4 sm:px-6 py-3 border-b border-stone-800">
         <div className="flex items-center gap-2 sm:gap-3">
           <div className="w-2 h-2 rounded-full bg-amber-400 shrink-0" />
           <h1 className="text-xs sm:text-sm font-semibold tracking-widest uppercase text-stone-300">
             Polyglot Viewer
           </h1>
         </div>
-
-        {/* desktop: language pills */}
         <div className="hidden sm:flex items-center gap-2">
           {LANG_ORDER.map(lang => (
             <span key={lang}
-              className="text-[10px] font-mono px-2 py-0.5 rounded border
-                         border-stone-700 text-stone-500">
+              className="text-[10px] font-mono px-2 py-0.5 rounded border border-stone-700 text-stone-500">
               {LANG_META[lang].label}
             </span>
           ))}
         </div>
-
         <p className="hidden sm:block text-[11px] text-stone-600 font-mono tabular-nums">
           {data.sentences.length} sentences
         </p>
-
-        {/* gear button */}
         <button
           onClick={() => setSettingsOpen(true)}
           className="w-8 h-8 rounded-full flex items-center justify-center
@@ -560,20 +795,19 @@ export default function PolyglotViewer() {
         >
           <GearIcon className="w-4 h-4" />
         </button>
-
       </header>
 
       <SettingsModal open={settingsOpen} onClose={() => setSettingsOpen(false)} />
 
-      {/* ── pane area ─────────────────────────────────────────────────────── */}
+      {/* ── pane area ───────────────────────────────────────────────────────── */}
       <div className="flex-1 overflow-hidden">
 
-        {/* DESKTOP ≥640px — three columns, synchronized scroll */}
+        {/* DESKTOP — three synchronized columns */}
         <div className="hidden sm:flex h-full divide-x divide-stone-800">
           {LANG_ORDER.map((lang, idx) => (
             <div
               key={lang}
-              ref={el => (paneRefs.current[idx] = el)}
+              ref={el => { paneRefs.current[idx] = el }}
               onScroll={() => handleScroll(idx)}
               className="flex-1 overflow-y-scroll overscroll-none"
               style={{ scrollbarWidth: "thin", scrollbarColor: "#292524 transparent" }}
@@ -594,12 +828,12 @@ export default function PolyglotViewer() {
           ))}
         </div>
 
-        {/* MOBILE <640px — one pane at a time, toggled by tab bar */}
+        {/* MOBILE — single pane, toggled by tab bar */}
         <div className="flex sm:hidden h-full flex-col">
           {LANG_ORDER.map((lang, idx) => (
             <div
               key={lang}
-              ref={el => (paneRefs.current[idx] = el)}
+              ref={el => { paneRefs.current[idx] = el }}
               onClick={handleBgTap}
               className={[
                 "h-full overflow-y-scroll overscroll-none",
@@ -622,19 +856,17 @@ export default function PolyglotViewer() {
             </div>
           ))}
         </div>
-
       </div>
 
-      {/* ── word detail strip ─────────────────────────────────────────────── */}
+      {/* ── word detail strip ───────────────────────────────────────────────── */}
       <div
         className={[
           "relative shrink-0 border-t border-stone-800 bg-stone-900/90 backdrop-blur",
           "transition-all duration-200 overflow-hidden",
-          displayWord ? "max-h-24 sm:max-h-16" : "max-h-0 border-transparent",
+          displayWord ? "max-h-28 sm:max-h-16" : "max-h-0 border-transparent",
         ].join(" ")}
         style={{ fontFamily: "'JetBrains Mono', monospace" }}
       >
-        {/* mobile dismiss button */}
         <button
           onClick={() => setPinnedWord(null)}
           className={[
@@ -651,12 +883,11 @@ export default function PolyglotViewer() {
         <WordDetail word={displayWord} />
       </div>
 
-      {/* ── mobile tab bar ────────────────────────────────────────────────── */}
-      <MobileTabBar activeLang={activeLang} onChange={lang => {
-        setActiveLang(lang)
-        setPinnedWord(null)
-      }} />
-
+      {/* ── mobile tab bar ──────────────────────────────────────────────────── */}
+      <MobileTabBar
+        activeLang={activeLang}
+        onChange={lang => { setActiveLang(lang); setPinnedWord(null) }}
+      />
     </div>
   )
 }
