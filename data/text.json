@@ -1,0 +1,6722 @@
+{
+  "model": "sample/multilingual-bible-conllu",
+  "dimensions": 768,
+  "meta": {
+    "description": "Sample CoNLL-U JSON — Luke 2:1–14 in Ancient Greek, Latin, and English",
+    "languages": [
+      "grc",
+      "lat",
+      "eng"
+    ],
+    "sources": {
+      "grc": "Nestle-Aland Greek New Testament (NA28)",
+      "lat": "Vulgate (Jerome, 405 AD)",
+      "eng": "King James Version (1611)"
+    },
+    "annotation_notes": {
+      "grc": "Perseus tagset, Prague-style deprels",
+      "lat": "Perseus tagset, Prague-style deprels",
+      "eng": "Universal Dependencies tagset"
+    }
+  },
+  "sentences": [
+    {
+      "id": 0,
+      "lang": "grc",
+      "verse": "Luke 2:1",
+      "source": "NA28.luke.2.1.grc.conllu",
+      "text": "Ἐγένετο δὲ ἐν ταῖς ἡμέραις ἐκείναις ἐξῆλθεν δόγμα παρὰ Καίσαρος Αὐγούστου ἀπογράφεσθαι πᾶσαν τὴν οἰκουμένην .",
+      "words": [
+        {
+          "id": 1,
+          "form": "Ἐγένετο",
+          "lemma": "γίγνομαι",
+          "upos": "v",
+          "xpos": "v3saie---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=e",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 2,
+          "form": "δὲ",
+          "lemma": "δέ",
+          "upos": "g",
+          "xpos": "g--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 3,
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 7,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 4,
+          "form": "ταῖς",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-p---fd-",
+          "feats": "Case=d|Gender=f|Number=p",
+          "head": 5,
+          "deprel": "ATR"
+        },
+        {
+          "id": 5,
+          "form": "ἡμέραις",
+          "lemma": "ἡμέρα",
+          "upos": "n",
+          "xpos": "n-p---fd-",
+          "feats": "Case=d|Gender=f|Number=p",
+          "head": 3,
+          "deprel": "ADV"
+        },
+        {
+          "id": 6,
+          "form": "ἐκείναις",
+          "lemma": "ἐκεῖνος",
+          "upos": "a",
+          "xpos": "a-p---fd-",
+          "feats": "Case=d|Gender=f|Number=p",
+          "head": 5,
+          "deprel": "ATR"
+        },
+        {
+          "id": 7,
+          "form": "ἐξῆλθεν",
+          "lemma": "ἐξέρχομαι",
+          "upos": "v",
+          "xpos": "v3saia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=a",
+          "head": 1,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 8,
+          "form": "δόγμα",
+          "lemma": "δόγμα",
+          "upos": "n",
+          "xpos": "n-s---nn-",
+          "feats": "Case=n|Gender=n|Number=s",
+          "head": 7,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 9,
+          "form": "παρὰ",
+          "lemma": "παρά",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 7,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 10,
+          "form": "Καίσαρος",
+          "lemma": "καῖσαρ",
+          "upos": "n",
+          "xpos": "n-s---mg-",
+          "feats": "Case=g|Gender=m|Number=s",
+          "head": 9,
+          "deprel": "ADV"
+        },
+        {
+          "id": 11,
+          "form": "Αὐγούστου",
+          "lemma": "αὔγουστος",
+          "upos": "n",
+          "xpos": "n-s---mg-",
+          "feats": "Case=g|Gender=m|Number=s",
+          "head": 10,
+          "deprel": "ATR"
+        },
+        {
+          "id": 12,
+          "form": "ἀπογράφεσθαι",
+          "lemma": "ἀπογράφω",
+          "upos": "v",
+          "xpos": "v--pnm---",
+          "feats": "Tense=p|VerbForm=inf|Voice=m",
+          "head": 7,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 13,
+          "form": "πᾶσαν",
+          "lemma": "πᾶς",
+          "upos": "a",
+          "xpos": "a-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 15,
+          "deprel": "ATR"
+        },
+        {
+          "id": 14,
+          "form": "τὴν",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 15,
+          "deprel": "ATR"
+        },
+        {
+          "id": 15,
+          "form": "οἰκουμένην",
+          "lemma": "οἰκουμένη",
+          "upos": "n",
+          "xpos": "n-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 12,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 16,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "lang": "lat",
+      "verse": "Luke 2:1",
+      "source": "vulgate.luke.2.1.lat.conllu",
+      "text": "Factum est autem in diebus illis exiit edictum a Caesare Augusto ut describeretur universus orbis .",
+      "words": [
+        {
+          "id": 1,
+          "form": "Factum",
+          "lemma": "facio",
+          "upos": "v",
+          "xpos": "v-srpp-n-",
+          "feats": "Case=n|Gender=n|Number=s|Tense=p|VerbForm=part|Voice=p",
+          "head": 2,
+          "deprel": "ATR"
+        },
+        {
+          "id": 2,
+          "form": "est",
+          "lemma": "sum",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 3,
+          "form": "autem",
+          "lemma": "autem",
+          "upos": "g",
+          "xpos": "g--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 4,
+          "form": "in",
+          "lemma": "in",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 7,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 5,
+          "form": "diebus",
+          "lemma": "dies",
+          "upos": "n",
+          "xpos": "n-p---mb-",
+          "feats": "Case=b|Gender=m|Number=p",
+          "head": 4,
+          "deprel": "ADV"
+        },
+        {
+          "id": 6,
+          "form": "illis",
+          "lemma": "ille",
+          "upos": "a",
+          "xpos": "a-p---mb-",
+          "feats": "Case=b|Gender=m|Number=p",
+          "head": 5,
+          "deprel": "ATR"
+        },
+        {
+          "id": 7,
+          "form": "exiit",
+          "lemma": "exeo",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 2,
+          "deprel": "ADV"
+        },
+        {
+          "id": 8,
+          "form": "edictum",
+          "lemma": "edictum",
+          "upos": "n",
+          "xpos": "n-s---nn-",
+          "feats": "Case=n|Gender=n|Number=s",
+          "head": 7,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 9,
+          "form": "a",
+          "lemma": "a",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 7,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 10,
+          "form": "Caesare",
+          "lemma": "caesar",
+          "upos": "n",
+          "xpos": "n-s---mb-",
+          "feats": "Case=b|Gender=m|Number=s",
+          "head": 9,
+          "deprel": "ADV"
+        },
+        {
+          "id": 11,
+          "form": "Augusto",
+          "lemma": "augustus",
+          "upos": "n",
+          "xpos": "n-s---mb-",
+          "feats": "Case=b|Gender=m|Number=s",
+          "head": 10,
+          "deprel": "ATR"
+        },
+        {
+          "id": 12,
+          "form": "ut",
+          "lemma": "ut",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 7,
+          "deprel": "AuxC"
+        },
+        {
+          "id": 13,
+          "form": "describeretur",
+          "lemma": "describo",
+          "upos": "v",
+          "xpos": "v3sipps--",
+          "feats": "Mood=s|Number=s|Person=3|Tense=i|Voice=p",
+          "head": 12,
+          "deprel": "ADV"
+        },
+        {
+          "id": 14,
+          "form": "universus",
+          "lemma": "universus",
+          "upos": "a",
+          "xpos": "a-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 15,
+          "deprel": "ATR"
+        },
+        {
+          "id": 15,
+          "form": "orbis",
+          "lemma": "orbis",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 13,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 16,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "lang": "eng",
+      "verse": "Luke 2:1",
+      "source": "KJV.luke.2.1.eng.conllu",
+      "text": "And it came to pass in those days that there went out a decree from Caesar Augustus that all the world should be taxed .",
+      "words": [
+        {
+          "id": 1,
+          "form": "And",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 3,
+          "deprel": "cc"
+        },
+        {
+          "id": 2,
+          "form": "it",
+          "lemma": "it",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Nom|Number=Sing",
+          "head": 3,
+          "deprel": "expl"
+        },
+        {
+          "id": 3,
+          "form": "came",
+          "lemma": "come",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Tense=Past",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 4,
+          "form": "to",
+          "lemma": "to",
+          "upos": "PART",
+          "xpos": "TO",
+          "feats": "_",
+          "head": 5,
+          "deprel": "mark"
+        },
+        {
+          "id": 5,
+          "form": "pass",
+          "lemma": "pass",
+          "upos": "VERB",
+          "xpos": "VB",
+          "feats": "VerbForm=Inf",
+          "head": 3,
+          "deprel": "xcomp"
+        },
+        {
+          "id": 6,
+          "form": "in",
+          "lemma": "in",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 8,
+          "deprel": "case"
+        },
+        {
+          "id": 7,
+          "form": "those",
+          "lemma": "those",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Number=Plur",
+          "head": 8,
+          "deprel": "det"
+        },
+        {
+          "id": 8,
+          "form": "days",
+          "lemma": "day",
+          "upos": "NOUN",
+          "xpos": "NNS",
+          "feats": "Number=Plur",
+          "head": 5,
+          "deprel": "obl"
+        },
+        {
+          "id": 9,
+          "form": "that",
+          "lemma": "that",
+          "upos": "SCONJ",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 11,
+          "deprel": "mark"
+        },
+        {
+          "id": 10,
+          "form": "there",
+          "lemma": "there",
+          "upos": "PRON",
+          "xpos": "EX",
+          "feats": "_",
+          "head": 11,
+          "deprel": "expl"
+        },
+        {
+          "id": 11,
+          "form": "went",
+          "lemma": "go",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Tense=Past",
+          "head": 5,
+          "deprel": "advcl"
+        },
+        {
+          "id": 12,
+          "form": "out",
+          "lemma": "out",
+          "upos": "ADP",
+          "xpos": "RP",
+          "feats": "_",
+          "head": 11,
+          "deprel": "compound:prt"
+        },
+        {
+          "id": 13,
+          "form": "a",
+          "lemma": "a",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Ind",
+          "head": 14,
+          "deprel": "det"
+        },
+        {
+          "id": 14,
+          "form": "decree",
+          "lemma": "decree",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 11,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 15,
+          "form": "from",
+          "lemma": "from",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 17,
+          "deprel": "case"
+        },
+        {
+          "id": 16,
+          "form": "Caesar",
+          "lemma": "Caesar",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 17,
+          "deprel": "compound"
+        },
+        {
+          "id": 17,
+          "form": "Augustus",
+          "lemma": "Augustus",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 14,
+          "deprel": "nmod"
+        },
+        {
+          "id": 18,
+          "form": "that",
+          "lemma": "that",
+          "upos": "SCONJ",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 21,
+          "deprel": "mark"
+        },
+        {
+          "id": 19,
+          "form": "all",
+          "lemma": "all",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "_",
+          "head": 21,
+          "deprel": "det"
+        },
+        {
+          "id": 20,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 21,
+          "deprel": "det"
+        },
+        {
+          "id": 21,
+          "form": "world",
+          "lemma": "world",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 23,
+          "deprel": "nsubj:pass"
+        },
+        {
+          "id": 22,
+          "form": "should",
+          "lemma": "should",
+          "upos": "AUX",
+          "xpos": "MD",
+          "feats": "VerbForm=Fin",
+          "head": 23,
+          "deprel": "aux"
+        },
+        {
+          "id": 23,
+          "form": "be",
+          "lemma": "be",
+          "upos": "AUX",
+          "xpos": "VB",
+          "feats": "VerbForm=Inf",
+          "head": 14,
+          "deprel": "acl"
+        },
+        {
+          "id": 24,
+          "form": "taxed",
+          "lemma": "tax",
+          "upos": "VERB",
+          "xpos": "VBN",
+          "feats": "Tense=Past|VerbForm=Part|Voice=Pass",
+          "head": 23,
+          "deprel": "xcomp"
+        },
+        {
+          "id": 25,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 3,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "lang": "grc",
+      "verse": "Luke 2:2",
+      "source": "NA28.luke.2.2.grc.conllu",
+      "text": "αὕτη ἀπογραφὴ πρώτη ἐγένετο ἡγεμονεύοντος τῆς Συρίας Κυρηνίου .",
+      "words": [
+        {
+          "id": 1,
+          "form": "αὕτη",
+          "lemma": "οὗτος",
+          "upos": "p",
+          "xpos": "p-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 2,
+          "deprel": "ATR"
+        },
+        {
+          "id": 2,
+          "form": "ἀπογραφὴ",
+          "lemma": "ἀπογραφή",
+          "upos": "n",
+          "xpos": "n-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 4,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 3,
+          "form": "πρώτη",
+          "lemma": "πρῶτος",
+          "upos": "a",
+          "xpos": "a-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 2,
+          "deprel": "ATR"
+        },
+        {
+          "id": 4,
+          "form": "ἐγένετο",
+          "lemma": "γίγνομαι",
+          "upos": "v",
+          "xpos": "v3saie---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=e",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 5,
+          "form": "ἡγεμονεύοντος",
+          "lemma": "ἡγεμονεύω",
+          "upos": "v",
+          "xpos": "v-sppamg-",
+          "feats": "Case=g|Gender=m|Number=s|Tense=p|VerbForm=part|Voice=a",
+          "head": 4,
+          "deprel": "ADV"
+        },
+        {
+          "id": 6,
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 7,
+          "deprel": "ATR"
+        },
+        {
+          "id": 7,
+          "form": "Συρίας",
+          "lemma": "συρία",
+          "upos": "n",
+          "xpos": "n-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 5,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 8,
+          "form": "Κυρηνίου",
+          "lemma": "κυρήνιος",
+          "upos": "n",
+          "xpos": "n-s---mg-",
+          "feats": "Case=g|Gender=m|Number=s",
+          "head": 5,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 9,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 4,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "lang": "lat",
+      "verse": "Luke 2:2",
+      "source": "vulgate.luke.2.2.lat.conllu",
+      "text": "haec descriptio prima facta est praeside Syriae Cyrino .",
+      "words": [
+        {
+          "id": 1,
+          "form": "haec",
+          "lemma": "hic",
+          "upos": "p",
+          "xpos": "p-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 2,
+          "deprel": "ATR"
+        },
+        {
+          "id": 2,
+          "form": "descriptio",
+          "lemma": "descriptio",
+          "upos": "n",
+          "xpos": "n-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 5,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 3,
+          "form": "prima",
+          "lemma": "primus",
+          "upos": "a",
+          "xpos": "a-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 2,
+          "deprel": "ATR"
+        },
+        {
+          "id": 4,
+          "form": "facta",
+          "lemma": "facio",
+          "upos": "v",
+          "xpos": "v-srpp-f-",
+          "feats": "Case=n|Gender=f|Number=s|Tense=p|VerbForm=part|Voice=p",
+          "head": 5,
+          "deprel": "ATR"
+        },
+        {
+          "id": 5,
+          "form": "est",
+          "lemma": "sum",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 6,
+          "form": "praeside",
+          "lemma": "praeses",
+          "upos": "n",
+          "xpos": "n-s---mb-",
+          "feats": "Case=b|Gender=m|Number=s",
+          "head": 5,
+          "deprel": "ADV"
+        },
+        {
+          "id": 7,
+          "form": "Syriae",
+          "lemma": "syria",
+          "upos": "n",
+          "xpos": "n-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 6,
+          "deprel": "ATR"
+        },
+        {
+          "id": 8,
+          "form": "Cyrino",
+          "lemma": "cyrinus",
+          "upos": "n",
+          "xpos": "n-s---mb-",
+          "feats": "Case=b|Gender=m|Number=s",
+          "head": 6,
+          "deprel": "ATR"
+        },
+        {
+          "id": 9,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 5,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "lang": "eng",
+      "verse": "Luke 2:2",
+      "source": "KJV.luke.2.2.eng.conllu",
+      "text": "And this taxing was first made when Cyrenius was governor of Syria .",
+      "words": [
+        {
+          "id": 1,
+          "form": "And",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 4,
+          "deprel": "cc"
+        },
+        {
+          "id": 2,
+          "form": "this",
+          "lemma": "this",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Number=Sing",
+          "head": 3,
+          "deprel": "det"
+        },
+        {
+          "id": 3,
+          "form": "taxing",
+          "lemma": "taxing",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 4,
+          "deprel": "nsubj:pass"
+        },
+        {
+          "id": 4,
+          "form": "was",
+          "lemma": "be",
+          "upos": "AUX",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 5,
+          "form": "first",
+          "lemma": "first",
+          "upos": "ADV",
+          "xpos": "RB",
+          "feats": "_",
+          "head": 6,
+          "deprel": "advmod"
+        },
+        {
+          "id": 6,
+          "form": "made",
+          "lemma": "make",
+          "upos": "VERB",
+          "xpos": "VBN",
+          "feats": "Tense=Past|VerbForm=Part|Voice=Pass",
+          "head": 4,
+          "deprel": "xcomp"
+        },
+        {
+          "id": 7,
+          "form": "when",
+          "lemma": "when",
+          "upos": "SCONJ",
+          "xpos": "WRB",
+          "feats": "_",
+          "head": 9,
+          "deprel": "mark"
+        },
+        {
+          "id": 8,
+          "form": "Cyrenius",
+          "lemma": "Cyrenius",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 9,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 9,
+          "form": "was",
+          "lemma": "be",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past",
+          "head": 6,
+          "deprel": "advcl"
+        },
+        {
+          "id": 10,
+          "form": "governor",
+          "lemma": "governor",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 9,
+          "deprel": "xcomp"
+        },
+        {
+          "id": 11,
+          "form": "of",
+          "lemma": "of",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 12,
+          "deprel": "case"
+        },
+        {
+          "id": 12,
+          "form": "Syria",
+          "lemma": "Syria",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 10,
+          "deprel": "nmod"
+        },
+        {
+          "id": 13,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 4,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "lang": "grc",
+      "verse": "Luke 2:3",
+      "source": "NA28.luke.2.3.grc.conllu",
+      "text": "καὶ ἐπορεύοντο πάντες ἀπογράφεσθαι ἕκαστος εἰς τὴν ἑαυτοῦ πόλιν .",
+      "words": [
+        {
+          "id": 1,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "ἐπορεύοντο",
+          "lemma": "πορεύομαι",
+          "upos": "v",
+          "xpos": "v3ipie---",
+          "feats": "Mood=i|Number=p|Person=3|Tense=i|Voice=e",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 3,
+          "form": "πάντες",
+          "lemma": "πᾶς",
+          "upos": "a",
+          "xpos": "a-p---mn-",
+          "feats": "Case=n|Gender=m|Number=p",
+          "head": 2,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 4,
+          "form": "ἀπογράφεσθαι",
+          "lemma": "ἀπογράφω",
+          "upos": "v",
+          "xpos": "v--pnm---",
+          "feats": "Tense=p|VerbForm=inf|Voice=m",
+          "head": 2,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 5,
+          "form": "ἕκαστος",
+          "lemma": "ἕκαστος",
+          "upos": "a",
+          "xpos": "a-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 2,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 6,
+          "form": "εἰς",
+          "lemma": "εἰς",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 7,
+          "form": "τὴν",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 9,
+          "deprel": "ATR"
+        },
+        {
+          "id": 8,
+          "form": "ἑαυτοῦ",
+          "lemma": "ἑαυτοῦ",
+          "upos": "p",
+          "xpos": "p-s---mg-",
+          "feats": "Case=g|Gender=m|Number=s",
+          "head": 9,
+          "deprel": "ATR"
+        },
+        {
+          "id": 9,
+          "form": "πόλιν",
+          "lemma": "πόλις",
+          "upos": "n",
+          "xpos": "n-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 6,
+          "deprel": "ADV"
+        },
+        {
+          "id": 10,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "lang": "lat",
+      "verse": "Luke 2:3",
+      "source": "vulgate.luke.2.3.lat.conllu",
+      "text": "Et ibant omnes ut profiterentur singuli in suam civitatem .",
+      "words": [
+        {
+          "id": 1,
+          "form": "Et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "ibant",
+          "lemma": "eo",
+          "upos": "v",
+          "xpos": "v3ipia---",
+          "feats": "Mood=i|Number=p|Person=3|Tense=i|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 3,
+          "form": "omnes",
+          "lemma": "omnis",
+          "upos": "a",
+          "xpos": "a-p---mn-",
+          "feats": "Case=n|Gender=m|Number=p",
+          "head": 2,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 4,
+          "form": "ut",
+          "lemma": "ut",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxC"
+        },
+        {
+          "id": 5,
+          "form": "profiterentur",
+          "lemma": "profiteor",
+          "upos": "v",
+          "xpos": "v3sippa--",
+          "feats": "Mood=s|Number=p|Person=3|Tense=i|Voice=p",
+          "head": 4,
+          "deprel": "ADV"
+        },
+        {
+          "id": 6,
+          "form": "singuli",
+          "lemma": "singulus",
+          "upos": "a",
+          "xpos": "a-p---mn-",
+          "feats": "Case=n|Gender=m|Number=p",
+          "head": 5,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 7,
+          "form": "in",
+          "lemma": "in",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 5,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 8,
+          "form": "suam",
+          "lemma": "suus",
+          "upos": "a",
+          "xpos": "a-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 9,
+          "deprel": "ATR"
+        },
+        {
+          "id": 9,
+          "form": "civitatem",
+          "lemma": "civitas",
+          "upos": "n",
+          "xpos": "n-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 7,
+          "deprel": "ADV"
+        },
+        {
+          "id": 10,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "lang": "eng",
+      "verse": "Luke 2:3",
+      "source": "KJV.luke.2.3.eng.conllu",
+      "text": "And all went to be taxed every one into his own city .",
+      "words": [
+        {
+          "id": 1,
+          "form": "And",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 3,
+          "deprel": "cc"
+        },
+        {
+          "id": 2,
+          "form": "all",
+          "lemma": "all",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "_",
+          "head": 3,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 3,
+          "form": "went",
+          "lemma": "go",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Tense=Past",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 4,
+          "form": "to",
+          "lemma": "to",
+          "upos": "PART",
+          "xpos": "TO",
+          "feats": "_",
+          "head": 6,
+          "deprel": "mark"
+        },
+        {
+          "id": 5,
+          "form": "be",
+          "lemma": "be",
+          "upos": "AUX",
+          "xpos": "VB",
+          "feats": "VerbForm=Inf",
+          "head": 6,
+          "deprel": "aux:pass"
+        },
+        {
+          "id": 6,
+          "form": "taxed",
+          "lemma": "tax",
+          "upos": "VERB",
+          "xpos": "VBN",
+          "feats": "Tense=Past|VerbForm=Part|Voice=Pass",
+          "head": 3,
+          "deprel": "xcomp"
+        },
+        {
+          "id": 7,
+          "form": "every",
+          "lemma": "every",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "_",
+          "head": 8,
+          "deprel": "det"
+        },
+        {
+          "id": 8,
+          "form": "one",
+          "lemma": "one",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 6,
+          "deprel": "nsubj:pass"
+        },
+        {
+          "id": 9,
+          "form": "into",
+          "lemma": "into",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 12,
+          "deprel": "case"
+        },
+        {
+          "id": 10,
+          "form": "his",
+          "lemma": "his",
+          "upos": "PRON",
+          "xpos": "PRP$",
+          "feats": "Case=Gen|Gender=Masc|Number=Sing",
+          "head": 12,
+          "deprel": "nmod:poss"
+        },
+        {
+          "id": 11,
+          "form": "own",
+          "lemma": "own",
+          "upos": "ADJ",
+          "xpos": "JJ",
+          "feats": "_",
+          "head": 12,
+          "deprel": "amod"
+        },
+        {
+          "id": 12,
+          "form": "city",
+          "lemma": "city",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 6,
+          "deprel": "obl"
+        },
+        {
+          "id": 13,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 3,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "lang": "grc",
+      "verse": "Luke 2:4",
+      "source": "NA28.luke.2.4.grc.conllu",
+      "text": "ἀνέβη δὲ καὶ Ἰωσὴφ ἀπὸ τῆς Γαλιλαίας ἐκ πόλεως Ναζαρὲθ εἰς τὴν Ἰουδαίαν εἰς πόλιν Δαυὶδ ἥτις καλεῖται Βηθλέεμ .",
+      "words": [
+        {
+          "id": 1,
+          "form": "ἀνέβη",
+          "lemma": "ἀναβαίνω",
+          "upos": "v",
+          "xpos": "v3saia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 2,
+          "form": "δὲ",
+          "lemma": "δέ",
+          "upos": "g",
+          "xpos": "g--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 3,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 4,
+          "form": "Ἰωσὴφ",
+          "lemma": "ἰωσήφ",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 1,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 5,
+          "form": "ἀπὸ",
+          "lemma": "ἀπό",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 6,
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 7,
+          "deprel": "ATR"
+        },
+        {
+          "id": 7,
+          "form": "Γαλιλαίας",
+          "lemma": "γαλιλαία",
+          "upos": "n",
+          "xpos": "n-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 5,
+          "deprel": "ADV"
+        },
+        {
+          "id": 8,
+          "form": "ἐκ",
+          "lemma": "ἐκ",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 9,
+          "form": "πόλεως",
+          "lemma": "πόλις",
+          "upos": "n",
+          "xpos": "n-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 8,
+          "deprel": "ADV"
+        },
+        {
+          "id": 10,
+          "form": "Ναζαρὲθ",
+          "lemma": "ναζαρέθ",
+          "upos": "n",
+          "xpos": "n-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 9,
+          "deprel": "ATR"
+        },
+        {
+          "id": 11,
+          "form": "εἰς",
+          "lemma": "εἰς",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 12,
+          "form": "τὴν",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 13,
+          "deprel": "ATR"
+        },
+        {
+          "id": 13,
+          "form": "Ἰουδαίαν",
+          "lemma": "ἰουδαία",
+          "upos": "n",
+          "xpos": "n-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 11,
+          "deprel": "ADV"
+        },
+        {
+          "id": 14,
+          "form": "εἰς",
+          "lemma": "εἰς",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 15,
+          "form": "πόλιν",
+          "lemma": "πόλις",
+          "upos": "n",
+          "xpos": "n-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 14,
+          "deprel": "ADV"
+        },
+        {
+          "id": 16,
+          "form": "Δαυὶδ",
+          "lemma": "δαυίδ",
+          "upos": "n",
+          "xpos": "n-s---mg-",
+          "feats": "Case=g|Gender=m|Number=s",
+          "head": 15,
+          "deprel": "ATR"
+        },
+        {
+          "id": 17,
+          "form": "ἥτις",
+          "lemma": "ὅστις",
+          "upos": "p",
+          "xpos": "p-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 18,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 18,
+          "form": "καλεῖται",
+          "lemma": "καλέω",
+          "upos": "v",
+          "xpos": "v3spie---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=e",
+          "head": 15,
+          "deprel": "ATR"
+        },
+        {
+          "id": 19,
+          "form": "Βηθλέεμ",
+          "lemma": "βηθλέεμ",
+          "upos": "n",
+          "xpos": "n-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 18,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 20,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "lang": "lat",
+      "verse": "Luke 2:4",
+      "source": "vulgate.luke.2.4.lat.conllu",
+      "text": "Ascendit autem et Ioseph a Galilaea de civitate Nazareth in Iudaeam in civitatem David quae vocatur Bethleem .",
+      "words": [
+        {
+          "id": 1,
+          "form": "Ascendit",
+          "lemma": "ascendo",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 2,
+          "form": "autem",
+          "lemma": "autem",
+          "upos": "g",
+          "xpos": "g--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 3,
+          "form": "et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 4,
+          "form": "Ioseph",
+          "lemma": "ioseph",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 1,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 5,
+          "form": "a",
+          "lemma": "a",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 6,
+          "form": "Galilaea",
+          "lemma": "galilaea",
+          "upos": "n",
+          "xpos": "n-s---fb-",
+          "feats": "Case=b|Gender=f|Number=s",
+          "head": 5,
+          "deprel": "ADV"
+        },
+        {
+          "id": 7,
+          "form": "de",
+          "lemma": "de",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 8,
+          "form": "civitate",
+          "lemma": "civitas",
+          "upos": "n",
+          "xpos": "n-s---fb-",
+          "feats": "Case=b|Gender=f|Number=s",
+          "head": 7,
+          "deprel": "ADV"
+        },
+        {
+          "id": 9,
+          "form": "Nazareth",
+          "lemma": "nazareth",
+          "upos": "n",
+          "xpos": "n-s---fb-",
+          "feats": "Case=b|Gender=f|Number=s",
+          "head": 8,
+          "deprel": "ATR"
+        },
+        {
+          "id": 10,
+          "form": "in",
+          "lemma": "in",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 11,
+          "form": "Iudaeam",
+          "lemma": "iudaea",
+          "upos": "n",
+          "xpos": "n-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 10,
+          "deprel": "ADV"
+        },
+        {
+          "id": 12,
+          "form": "in",
+          "lemma": "in",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 13,
+          "form": "civitatem",
+          "lemma": "civitas",
+          "upos": "n",
+          "xpos": "n-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 12,
+          "deprel": "ADV"
+        },
+        {
+          "id": 14,
+          "form": "David",
+          "lemma": "david",
+          "upos": "n",
+          "xpos": "n-s---mg-",
+          "feats": "Case=g|Gender=m|Number=s",
+          "head": 13,
+          "deprel": "ATR"
+        },
+        {
+          "id": 15,
+          "form": "quae",
+          "lemma": "qui",
+          "upos": "p",
+          "xpos": "p-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 16,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 16,
+          "form": "vocatur",
+          "lemma": "voco",
+          "upos": "v",
+          "xpos": "v3spip---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=p",
+          "head": 13,
+          "deprel": "ATR"
+        },
+        {
+          "id": 17,
+          "form": "Bethleem",
+          "lemma": "bethleem",
+          "upos": "n",
+          "xpos": "n-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 16,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 18,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "lang": "eng",
+      "verse": "Luke 2:4",
+      "source": "KJV.luke.2.4.eng.conllu",
+      "text": "And Joseph also went up from Galilee out of the city of Nazareth into Judaea unto the city of David which is called Bethlehem .",
+      "words": [
+        {
+          "id": 1,
+          "form": "And",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 4,
+          "deprel": "cc"
+        },
+        {
+          "id": 2,
+          "form": "Joseph",
+          "lemma": "Joseph",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 4,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 3,
+          "form": "also",
+          "lemma": "also",
+          "upos": "ADV",
+          "xpos": "RB",
+          "feats": "_",
+          "head": 4,
+          "deprel": "advmod"
+        },
+        {
+          "id": 4,
+          "form": "went",
+          "lemma": "go",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Tense=Past",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 5,
+          "form": "up",
+          "lemma": "up",
+          "upos": "ADP",
+          "xpos": "RP",
+          "feats": "_",
+          "head": 4,
+          "deprel": "compound:prt"
+        },
+        {
+          "id": 6,
+          "form": "from",
+          "lemma": "from",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 7,
+          "deprel": "case"
+        },
+        {
+          "id": 7,
+          "form": "Galilee",
+          "lemma": "Galilee",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 4,
+          "deprel": "obl"
+        },
+        {
+          "id": 8,
+          "form": "out",
+          "lemma": "out",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 11,
+          "deprel": "case"
+        },
+        {
+          "id": 9,
+          "form": "of",
+          "lemma": "of",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 11,
+          "deprel": "case"
+        },
+        {
+          "id": 10,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 11,
+          "deprel": "det"
+        },
+        {
+          "id": 11,
+          "form": "city",
+          "lemma": "city",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 4,
+          "deprel": "obl"
+        },
+        {
+          "id": 12,
+          "form": "of",
+          "lemma": "of",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 13,
+          "deprel": "case"
+        },
+        {
+          "id": 13,
+          "form": "Nazareth",
+          "lemma": "Nazareth",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 11,
+          "deprel": "nmod"
+        },
+        {
+          "id": 14,
+          "form": "into",
+          "lemma": "into",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 16,
+          "deprel": "case"
+        },
+        {
+          "id": 15,
+          "form": "Judaea",
+          "lemma": "Judaea",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 4,
+          "deprel": "obl"
+        },
+        {
+          "id": 16,
+          "form": "unto",
+          "lemma": "unto",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 18,
+          "deprel": "case"
+        },
+        {
+          "id": 17,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 18,
+          "deprel": "det"
+        },
+        {
+          "id": 18,
+          "form": "city",
+          "lemma": "city",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 15,
+          "deprel": "nmod"
+        },
+        {
+          "id": 19,
+          "form": "of",
+          "lemma": "of",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 20,
+          "deprel": "case"
+        },
+        {
+          "id": 20,
+          "form": "David",
+          "lemma": "David",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 18,
+          "deprel": "nmod"
+        },
+        {
+          "id": 21,
+          "form": "which",
+          "lemma": "which",
+          "upos": "PRON",
+          "xpos": "WDT",
+          "feats": "_",
+          "head": 22,
+          "deprel": "nsubj:pass"
+        },
+        {
+          "id": 22,
+          "form": "is",
+          "lemma": "be",
+          "upos": "AUX",
+          "xpos": "VBZ",
+          "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres",
+          "head": 22,
+          "deprel": "aux:pass"
+        },
+        {
+          "id": 23,
+          "form": "called",
+          "lemma": "call",
+          "upos": "VERB",
+          "xpos": "VBN",
+          "feats": "Tense=Past|VerbForm=Part|Voice=Pass",
+          "head": 18,
+          "deprel": "acl:relcl"
+        },
+        {
+          "id": 24,
+          "form": "Bethlehem",
+          "lemma": "Bethlehem",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 22,
+          "deprel": "xcomp"
+        },
+        {
+          "id": 25,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 4,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "lang": "grc",
+      "verse": "Luke 2:5",
+      "source": "NA28.luke.2.5.grc.conllu",
+      "text": "ἀπογράψασθαι σὺν Μαριὰμ τῇ ἐμνηστευμένῃ αὐτῷ οὔσῃ ἐγκύῳ .",
+      "words": [
+        {
+          "id": 1,
+          "form": "ἀπογράψασθαι",
+          "lemma": "ἀπογράφω",
+          "upos": "v",
+          "xpos": "v--anm---",
+          "feats": "Tense=a|VerbForm=inf|Voice=m",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 2,
+          "form": "σὺν",
+          "lemma": "σύν",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 3,
+          "form": "Μαριὰμ",
+          "lemma": "μαριάμ",
+          "upos": "n",
+          "xpos": "n-s---fd-",
+          "feats": "Case=d|Gender=f|Number=s",
+          "head": 2,
+          "deprel": "ADV"
+        },
+        {
+          "id": 4,
+          "form": "τῇ",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---fd-",
+          "feats": "Case=d|Gender=f|Number=s",
+          "head": 5,
+          "deprel": "ATR"
+        },
+        {
+          "id": 5,
+          "form": "ἐμνηστευμένῃ",
+          "lemma": "μνηστεύω",
+          "upos": "v",
+          "xpos": "v-srppfd-",
+          "feats": "Case=d|Gender=f|Number=s|Tense=p|VerbForm=part|Voice=p",
+          "head": 3,
+          "deprel": "ATR"
+        },
+        {
+          "id": 6,
+          "form": "αὐτῷ",
+          "lemma": "αὐτός",
+          "upos": "p",
+          "xpos": "p-s---md-",
+          "feats": "Case=d|Gender=m|Number=s",
+          "head": 5,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 7,
+          "form": "οὔσῃ",
+          "lemma": "εἰμί",
+          "upos": "v",
+          "xpos": "v-sppafd-",
+          "feats": "Case=d|Gender=f|Number=s|Tense=p|VerbForm=part|Voice=a",
+          "head": 3,
+          "deprel": "ATR"
+        },
+        {
+          "id": 8,
+          "form": "ἐγκύῳ",
+          "lemma": "ἔγκυος",
+          "upos": "a",
+          "xpos": "a-s---fd-",
+          "feats": "Case=d|Gender=f|Number=s",
+          "head": 7,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 9,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "lang": "lat",
+      "verse": "Luke 2:5",
+      "source": "vulgate.luke.2.5.lat.conllu",
+      "text": "ut profiteretur cum Maria desponsata sibi uxore praegnante .",
+      "words": [
+        {
+          "id": 1,
+          "form": "ut",
+          "lemma": "ut",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxC"
+        },
+        {
+          "id": 2,
+          "form": "profiteretur",
+          "lemma": "profiteor",
+          "upos": "v",
+          "xpos": "v3sippi--",
+          "feats": "Mood=s|Number=s|Person=3|Tense=i|Voice=p",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 3,
+          "form": "cum",
+          "lemma": "cum",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 4,
+          "form": "Maria",
+          "lemma": "maria",
+          "upos": "n",
+          "xpos": "n-s---fb-",
+          "feats": "Case=b|Gender=f|Number=s",
+          "head": 3,
+          "deprel": "ADV"
+        },
+        {
+          "id": 5,
+          "form": "desponsata",
+          "lemma": "desponso",
+          "upos": "v",
+          "xpos": "v-srpp-f-",
+          "feats": "Case=b|Gender=f|Number=s|Tense=p|VerbForm=part|Voice=p",
+          "head": 4,
+          "deprel": "ATR"
+        },
+        {
+          "id": 6,
+          "form": "sibi",
+          "lemma": "sui",
+          "upos": "p",
+          "xpos": "p-s---xd-",
+          "feats": "Case=d|Number=s",
+          "head": 5,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 7,
+          "form": "uxore",
+          "lemma": "uxor",
+          "upos": "n",
+          "xpos": "n-s---fb-",
+          "feats": "Case=b|Gender=f|Number=s",
+          "head": 4,
+          "deprel": "ATR"
+        },
+        {
+          "id": 8,
+          "form": "praegnante",
+          "lemma": "praegnans",
+          "upos": "a",
+          "xpos": "a-s---fb-",
+          "feats": "Case=b|Gender=f|Number=s",
+          "head": 7,
+          "deprel": "ATR"
+        },
+        {
+          "id": 9,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "lang": "eng",
+      "verse": "Luke 2:5",
+      "source": "KJV.luke.2.5.eng.conllu",
+      "text": "To be taxed with Mary his espoused wife being great with child .",
+      "words": [
+        {
+          "id": 1,
+          "form": "To",
+          "lemma": "to",
+          "upos": "PART",
+          "xpos": "TO",
+          "feats": "_",
+          "head": 3,
+          "deprel": "mark"
+        },
+        {
+          "id": 2,
+          "form": "be",
+          "lemma": "be",
+          "upos": "AUX",
+          "xpos": "VB",
+          "feats": "VerbForm=Inf",
+          "head": 3,
+          "deprel": "aux:pass"
+        },
+        {
+          "id": 3,
+          "form": "taxed",
+          "lemma": "tax",
+          "upos": "VERB",
+          "xpos": "VBN",
+          "feats": "Tense=Past|VerbForm=Part|Voice=Pass",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 4,
+          "form": "with",
+          "lemma": "with",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 5,
+          "deprel": "case"
+        },
+        {
+          "id": 5,
+          "form": "Mary",
+          "lemma": "Mary",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 3,
+          "deprel": "obl"
+        },
+        {
+          "id": 6,
+          "form": "his",
+          "lemma": "his",
+          "upos": "PRON",
+          "xpos": "PRP$",
+          "feats": "Case=Gen|Gender=Masc|Number=Sing",
+          "head": 8,
+          "deprel": "nmod:poss"
+        },
+        {
+          "id": 7,
+          "form": "espoused",
+          "lemma": "espouse",
+          "upos": "VERB",
+          "xpos": "VBN",
+          "feats": "Tense=Past|VerbForm=Part",
+          "head": 8,
+          "deprel": "amod"
+        },
+        {
+          "id": 8,
+          "form": "wife",
+          "lemma": "wife",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 5,
+          "deprel": "appos"
+        },
+        {
+          "id": 9,
+          "form": "being",
+          "lemma": "be",
+          "upos": "AUX",
+          "xpos": "VBG",
+          "feats": "Tense=Pres|VerbForm=Part",
+          "head": 3,
+          "deprel": "advcl"
+        },
+        {
+          "id": 10,
+          "form": "great",
+          "lemma": "great",
+          "upos": "ADJ",
+          "xpos": "JJ",
+          "feats": "_",
+          "head": 9,
+          "deprel": "xcomp"
+        },
+        {
+          "id": 11,
+          "form": "with",
+          "lemma": "with",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 12,
+          "deprel": "case"
+        },
+        {
+          "id": 12,
+          "form": "child",
+          "lemma": "child",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 10,
+          "deprel": "obl"
+        },
+        {
+          "id": 13,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 3,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "lang": "grc",
+      "verse": "Luke 2:6",
+      "source": "NA28.luke.2.6.grc.conllu",
+      "text": "ἐγένετο δὲ ἐν τῷ εἶναι αὐτοὺς ἐκεῖ ἐπλήσθησαν αἱ ἡμέραι τοῦ τεκεῖν αὐτήν .",
+      "words": [
+        {
+          "id": 1,
+          "form": "ἐγένετο",
+          "lemma": "γίγνομαι",
+          "upos": "v",
+          "xpos": "v3saie---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=e",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 2,
+          "form": "δὲ",
+          "lemma": "δέ",
+          "upos": "g",
+          "xpos": "g--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 3,
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 4,
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---nd-",
+          "feats": "Case=d|Gender=n|Number=s",
+          "head": 5,
+          "deprel": "ATR"
+        },
+        {
+          "id": 5,
+          "form": "εἶναι",
+          "lemma": "εἰμί",
+          "upos": "v",
+          "xpos": "v--pna---",
+          "feats": "Tense=p|VerbForm=inf|Voice=a",
+          "head": 3,
+          "deprel": "ADV"
+        },
+        {
+          "id": 6,
+          "form": "αὐτοὺς",
+          "lemma": "αὐτός",
+          "upos": "p",
+          "xpos": "p-p---ma-",
+          "feats": "Case=a|Gender=m|Number=p",
+          "head": 5,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 7,
+          "form": "ἐκεῖ",
+          "lemma": "ἐκεῖ",
+          "upos": "d",
+          "xpos": "d--------",
+          "feats": "_",
+          "head": 5,
+          "deprel": "ADV"
+        },
+        {
+          "id": 8,
+          "form": "ἐπλήσθησαν",
+          "lemma": "πίμπλημι",
+          "upos": "v",
+          "xpos": "v3paip---",
+          "feats": "Mood=i|Number=p|Person=3|Tense=a|Voice=p",
+          "head": 1,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 9,
+          "form": "αἱ",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-p---fn-",
+          "feats": "Case=n|Gender=f|Number=p",
+          "head": 10,
+          "deprel": "ATR"
+        },
+        {
+          "id": 10,
+          "form": "ἡμέραι",
+          "lemma": "ἡμέρα",
+          "upos": "n",
+          "xpos": "n-p---fn-",
+          "feats": "Case=n|Gender=f|Number=p",
+          "head": 8,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 11,
+          "form": "τοῦ",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---ng-",
+          "feats": "Case=g|Gender=n|Number=s",
+          "head": 12,
+          "deprel": "ATR"
+        },
+        {
+          "id": 12,
+          "form": "τεκεῖν",
+          "lemma": "τίκτω",
+          "upos": "v",
+          "xpos": "v--ana---",
+          "feats": "Tense=a|VerbForm=inf|Voice=a",
+          "head": 10,
+          "deprel": "ATR"
+        },
+        {
+          "id": 13,
+          "form": "αὐτήν",
+          "lemma": "αὐτός",
+          "upos": "p",
+          "xpos": "p-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 12,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 14,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "lang": "lat",
+      "verse": "Luke 2:6",
+      "source": "vulgate.luke.2.6.lat.conllu",
+      "text": "Factum est autem cum essent ibi impleti sunt dies ut pareret .",
+      "words": [
+        {
+          "id": 1,
+          "form": "Factum",
+          "lemma": "facio",
+          "upos": "v",
+          "xpos": "v-srpp-n-",
+          "feats": "Case=n|Gender=n|Number=s|Tense=p|VerbForm=part|Voice=p",
+          "head": 2,
+          "deprel": "ATR"
+        },
+        {
+          "id": 2,
+          "form": "est",
+          "lemma": "sum",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 3,
+          "form": "autem",
+          "lemma": "autem",
+          "upos": "g",
+          "xpos": "g--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 4,
+          "form": "cum",
+          "lemma": "cum",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxC"
+        },
+        {
+          "id": 5,
+          "form": "essent",
+          "lemma": "sum",
+          "upos": "v",
+          "xpos": "v3psia---",
+          "feats": "Mood=s|Number=p|Person=3|Tense=i|Voice=a",
+          "head": 4,
+          "deprel": "ADV"
+        },
+        {
+          "id": 6,
+          "form": "ibi",
+          "lemma": "ibi",
+          "upos": "d",
+          "xpos": "d--------",
+          "feats": "_",
+          "head": 5,
+          "deprel": "ADV"
+        },
+        {
+          "id": 7,
+          "form": "impleti",
+          "lemma": "impleo",
+          "upos": "v",
+          "xpos": "v-prpp-m-",
+          "feats": "Case=n|Gender=m|Number=p|Tense=p|VerbForm=part|Voice=p",
+          "head": 8,
+          "deprel": "ATR"
+        },
+        {
+          "id": 8,
+          "form": "sunt",
+          "lemma": "sum",
+          "upos": "v",
+          "xpos": "v3ppia---",
+          "feats": "Mood=i|Number=p|Person=3|Tense=p|Voice=a",
+          "head": 2,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 9,
+          "form": "dies",
+          "lemma": "dies",
+          "upos": "n",
+          "xpos": "n-p---mn-",
+          "feats": "Case=n|Gender=m|Number=p",
+          "head": 8,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 10,
+          "form": "ut",
+          "lemma": "ut",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 8,
+          "deprel": "AuxC"
+        },
+        {
+          "id": 11,
+          "form": "pareret",
+          "lemma": "pario",
+          "upos": "v",
+          "xpos": "v3ssiia--",
+          "feats": "Mood=s|Number=s|Person=3|Tense=i|Voice=a",
+          "head": 10,
+          "deprel": "ADV"
+        },
+        {
+          "id": 12,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "lang": "eng",
+      "verse": "Luke 2:6",
+      "source": "KJV.luke.2.6.eng.conllu",
+      "text": "And so it was that while they were there the days were accomplished that she should be delivered .",
+      "words": [
+        {
+          "id": 1,
+          "form": "And",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 4,
+          "deprel": "cc"
+        },
+        {
+          "id": 2,
+          "form": "so",
+          "lemma": "so",
+          "upos": "ADV",
+          "xpos": "RB",
+          "feats": "_",
+          "head": 4,
+          "deprel": "advmod"
+        },
+        {
+          "id": 3,
+          "form": "it",
+          "lemma": "it",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Nom|Number=Sing",
+          "head": 4,
+          "deprel": "expl"
+        },
+        {
+          "id": 4,
+          "form": "was",
+          "lemma": "be",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 5,
+          "form": "that",
+          "lemma": "that",
+          "upos": "SCONJ",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 10,
+          "deprel": "mark"
+        },
+        {
+          "id": 6,
+          "form": "while",
+          "lemma": "while",
+          "upos": "SCONJ",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 8,
+          "deprel": "mark"
+        },
+        {
+          "id": 7,
+          "form": "they",
+          "lemma": "they",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Nom|Number=Plur",
+          "head": 8,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 8,
+          "form": "were",
+          "lemma": "be",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past",
+          "head": 10,
+          "deprel": "advcl"
+        },
+        {
+          "id": 9,
+          "form": "there",
+          "lemma": "there",
+          "upos": "ADV",
+          "xpos": "RB",
+          "feats": "_",
+          "head": 8,
+          "deprel": "advmod"
+        },
+        {
+          "id": 10,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 11,
+          "deprel": "det"
+        },
+        {
+          "id": 11,
+          "form": "days",
+          "lemma": "day",
+          "upos": "NOUN",
+          "xpos": "NNS",
+          "feats": "Number=Plur",
+          "head": 12,
+          "deprel": "nsubj:pass"
+        },
+        {
+          "id": 12,
+          "form": "were",
+          "lemma": "be",
+          "upos": "AUX",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past",
+          "head": 12,
+          "deprel": "aux:pass"
+        },
+        {
+          "id": 13,
+          "form": "accomplished",
+          "lemma": "accomplish",
+          "upos": "VERB",
+          "xpos": "VBN",
+          "feats": "Tense=Past|VerbForm=Part|Voice=Pass",
+          "head": 4,
+          "deprel": "ccomp"
+        },
+        {
+          "id": 14,
+          "form": "that",
+          "lemma": "that",
+          "upos": "SCONJ",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 17,
+          "deprel": "mark"
+        },
+        {
+          "id": 15,
+          "form": "she",
+          "lemma": "she",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Nom|Gender=Fem|Number=Sing",
+          "head": 17,
+          "deprel": "nsubj:pass"
+        },
+        {
+          "id": 16,
+          "form": "should",
+          "lemma": "should",
+          "upos": "AUX",
+          "xpos": "MD",
+          "feats": "VerbForm=Fin",
+          "head": 17,
+          "deprel": "aux"
+        },
+        {
+          "id": 17,
+          "form": "be",
+          "lemma": "be",
+          "upos": "AUX",
+          "xpos": "VB",
+          "feats": "VerbForm=Inf",
+          "head": 17,
+          "deprel": "aux:pass"
+        },
+        {
+          "id": 18,
+          "form": "delivered",
+          "lemma": "deliver",
+          "upos": "VERB",
+          "xpos": "VBN",
+          "feats": "Tense=Past|VerbForm=Part|Voice=Pass",
+          "head": 12,
+          "deprel": "ccomp"
+        },
+        {
+          "id": 19,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 4,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "lang": "grc",
+      "verse": "Luke 2:7",
+      "source": "NA28.luke.2.7.grc.conllu",
+      "text": "καὶ ἔτεκεν τὸν υἱὸν αὐτῆς τὸν πρωτότοκον καὶ ἐσπαργάνωσεν αὐτὸν καὶ ἀνέκλινεν αὐτὸν ἐν φάτνῃ .",
+      "words": [
+        {
+          "id": 1,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "ἔτεκεν",
+          "lemma": "τίκτω",
+          "upos": "v",
+          "xpos": "v3saia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 3,
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 4,
+          "deprel": "ATR"
+        },
+        {
+          "id": 4,
+          "form": "υἱὸν",
+          "lemma": "υἱός",
+          "upos": "n",
+          "xpos": "n-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 2,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 5,
+          "form": "αὐτῆς",
+          "lemma": "αὐτός",
+          "upos": "p",
+          "xpos": "p-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 4,
+          "deprel": "ATR"
+        },
+        {
+          "id": 6,
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 7,
+          "deprel": "ATR"
+        },
+        {
+          "id": 7,
+          "form": "πρωτότοκον",
+          "lemma": "πρωτότοκος",
+          "upos": "a",
+          "xpos": "a-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 4,
+          "deprel": "ATR"
+        },
+        {
+          "id": 8,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 9,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 9,
+          "form": "ἐσπαργάνωσεν",
+          "lemma": "σπαργανόω",
+          "upos": "v",
+          "xpos": "v3saia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=a",
+          "head": 2,
+          "deprel": "COORD"
+        },
+        {
+          "id": 10,
+          "form": "αὐτὸν",
+          "lemma": "αὐτός",
+          "upos": "p",
+          "xpos": "p-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 9,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 11,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 12,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 12,
+          "form": "ἀνέκλινεν",
+          "lemma": "ἀνακλίνω",
+          "upos": "v",
+          "xpos": "v3saia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=a",
+          "head": 2,
+          "deprel": "COORD"
+        },
+        {
+          "id": 13,
+          "form": "αὐτὸν",
+          "lemma": "αὐτός",
+          "upos": "p",
+          "xpos": "p-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 12,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 14,
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 12,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 15,
+          "form": "φάτνῃ",
+          "lemma": "φάτνη",
+          "upos": "n",
+          "xpos": "n-s---fd-",
+          "feats": "Case=d|Gender=f|Number=s",
+          "head": 14,
+          "deprel": "ADV"
+        },
+        {
+          "id": 16,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "lang": "lat",
+      "verse": "Luke 2:7",
+      "source": "vulgate.luke.2.7.lat.conllu",
+      "text": "et peperit filium suum primogenitum et pannis eum involvit et reclinavit eum in praesepio .",
+      "words": [
+        {
+          "id": 1,
+          "form": "et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "peperit",
+          "lemma": "pario",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 3,
+          "form": "filium",
+          "lemma": "filius",
+          "upos": "n",
+          "xpos": "n-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 2,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 4,
+          "form": "suum",
+          "lemma": "suus",
+          "upos": "a",
+          "xpos": "a-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 3,
+          "deprel": "ATR"
+        },
+        {
+          "id": 5,
+          "form": "primogenitum",
+          "lemma": "primogenitus",
+          "upos": "a",
+          "xpos": "a-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 3,
+          "deprel": "ATR"
+        },
+        {
+          "id": 6,
+          "form": "et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 9,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 7,
+          "form": "pannis",
+          "lemma": "pannus",
+          "upos": "n",
+          "xpos": "n-p---mb-",
+          "feats": "Case=b|Gender=m|Number=p",
+          "head": 9,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 8,
+          "form": "eum",
+          "lemma": "is",
+          "upos": "p",
+          "xpos": "p-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 9,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 9,
+          "form": "involvit",
+          "lemma": "involvo",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 2,
+          "deprel": "COORD"
+        },
+        {
+          "id": 10,
+          "form": "et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 11,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 11,
+          "form": "reclinavit",
+          "lemma": "reclino",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 2,
+          "deprel": "COORD"
+        },
+        {
+          "id": 12,
+          "form": "eum",
+          "lemma": "is",
+          "upos": "p",
+          "xpos": "p-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 11,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 13,
+          "form": "in",
+          "lemma": "in",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 11,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 14,
+          "form": "praesepio",
+          "lemma": "praesepium",
+          "upos": "n",
+          "xpos": "n-s---nb-",
+          "feats": "Case=b|Gender=n|Number=s",
+          "head": 13,
+          "deprel": "ADV"
+        },
+        {
+          "id": 15,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "lang": "eng",
+      "verse": "Luke 2:7",
+      "source": "KJV.luke.2.7.eng.conllu",
+      "text": "And she brought forth her firstborn son and wrapped him in swaddling clothes and laid him in a manger .",
+      "words": [
+        {
+          "id": 1,
+          "form": "And",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 3,
+          "deprel": "cc"
+        },
+        {
+          "id": 2,
+          "form": "she",
+          "lemma": "she",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Nom|Gender=Fem|Number=Sing",
+          "head": 3,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 3,
+          "form": "brought",
+          "lemma": "bring",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Tense=Past",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 4,
+          "form": "forth",
+          "lemma": "forth",
+          "upos": "ADV",
+          "xpos": "RB",
+          "feats": "_",
+          "head": 3,
+          "deprel": "advmod"
+        },
+        {
+          "id": 5,
+          "form": "her",
+          "lemma": "her",
+          "upos": "PRON",
+          "xpos": "PRP$",
+          "feats": "Case=Gen|Gender=Fem|Number=Sing",
+          "head": 7,
+          "deprel": "nmod:poss"
+        },
+        {
+          "id": 6,
+          "form": "firstborn",
+          "lemma": "firstborn",
+          "upos": "ADJ",
+          "xpos": "JJ",
+          "feats": "_",
+          "head": 7,
+          "deprel": "amod"
+        },
+        {
+          "id": 7,
+          "form": "son",
+          "lemma": "son",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 3,
+          "deprel": "obj"
+        },
+        {
+          "id": 8,
+          "form": "and",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 9,
+          "deprel": "cc"
+        },
+        {
+          "id": 9,
+          "form": "wrapped",
+          "lemma": "wrap",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Tense=Past",
+          "head": 3,
+          "deprel": "conj"
+        },
+        {
+          "id": 10,
+          "form": "him",
+          "lemma": "him",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Acc|Gender=Masc|Number=Sing",
+          "head": 9,
+          "deprel": "obj"
+        },
+        {
+          "id": 11,
+          "form": "in",
+          "lemma": "in",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 13,
+          "deprel": "case"
+        },
+        {
+          "id": 12,
+          "form": "swaddling",
+          "lemma": "swaddle",
+          "upos": "VERB",
+          "xpos": "VBG",
+          "feats": "VerbForm=Part",
+          "head": 13,
+          "deprel": "amod"
+        },
+        {
+          "id": 13,
+          "form": "clothes",
+          "lemma": "clothes",
+          "upos": "NOUN",
+          "xpos": "NNS",
+          "feats": "Number=Plur",
+          "head": 9,
+          "deprel": "obl"
+        },
+        {
+          "id": 14,
+          "form": "and",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 15,
+          "deprel": "cc"
+        },
+        {
+          "id": 15,
+          "form": "laid",
+          "lemma": "lay",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Tense=Past",
+          "head": 3,
+          "deprel": "conj"
+        },
+        {
+          "id": 16,
+          "form": "him",
+          "lemma": "him",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Acc|Gender=Masc|Number=Sing",
+          "head": 15,
+          "deprel": "obj"
+        },
+        {
+          "id": 17,
+          "form": "in",
+          "lemma": "in",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 19,
+          "deprel": "case"
+        },
+        {
+          "id": 18,
+          "form": "a",
+          "lemma": "a",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Ind",
+          "head": 19,
+          "deprel": "det"
+        },
+        {
+          "id": 19,
+          "form": "manger",
+          "lemma": "manger",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 15,
+          "deprel": "obl"
+        },
+        {
+          "id": 20,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 3,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "lang": "grc",
+      "verse": "Luke 2:8",
+      "source": "NA28.luke.2.8.grc.conllu",
+      "text": "Καὶ ποιμένες ἦσαν ἐν τῇ χώρᾳ τῇ αὐτῇ ἀγραυλοῦντες καὶ φυλάσσοντες φυλακὰς τῆς νυκτὸς ἐπὶ τὴν ποίμνην αὐτῶν .",
+      "words": [
+        {
+          "id": 1,
+          "form": "Καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "ποιμένες",
+          "lemma": "ποιμήν",
+          "upos": "n",
+          "xpos": "n-p---mn-",
+          "feats": "Case=n|Gender=m|Number=p",
+          "head": 3,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 3,
+          "form": "ἦσαν",
+          "lemma": "εἰμί",
+          "upos": "v",
+          "xpos": "v3ipia---",
+          "feats": "Mood=i|Number=p|Person=3|Tense=i|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 4,
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 5,
+          "form": "τῇ",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---fd-",
+          "feats": "Case=d|Gender=f|Number=s",
+          "head": 6,
+          "deprel": "ATR"
+        },
+        {
+          "id": 6,
+          "form": "χώρᾳ",
+          "lemma": "χώρα",
+          "upos": "n",
+          "xpos": "n-s---fd-",
+          "feats": "Case=d|Gender=f|Number=s",
+          "head": 4,
+          "deprel": "ADV"
+        },
+        {
+          "id": 7,
+          "form": "τῇ",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---fd-",
+          "feats": "Case=d|Gender=f|Number=s",
+          "head": 6,
+          "deprel": "ATR"
+        },
+        {
+          "id": 8,
+          "form": "αὐτῇ",
+          "lemma": "αὐτός",
+          "upos": "a",
+          "xpos": "a-s---fd-",
+          "feats": "Case=d|Gender=f|Number=s",
+          "head": 6,
+          "deprel": "ATR"
+        },
+        {
+          "id": 9,
+          "form": "ἀγραυλοῦντες",
+          "lemma": "ἀγραυλέω",
+          "upos": "v",
+          "xpos": "v-pppamn-",
+          "feats": "Case=n|Gender=m|Number=p|Tense=p|VerbForm=part|Voice=a",
+          "head": 3,
+          "deprel": "ATR"
+        },
+        {
+          "id": 10,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 11,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 11,
+          "form": "φυλάσσοντες",
+          "lemma": "φυλάσσω",
+          "upos": "v",
+          "xpos": "v-pppamn-",
+          "feats": "Case=n|Gender=m|Number=p|Tense=p|VerbForm=part|Voice=a",
+          "head": 3,
+          "deprel": "ATR"
+        },
+        {
+          "id": 12,
+          "form": "φυλακὰς",
+          "lemma": "φυλακή",
+          "upos": "n",
+          "xpos": "n-p---fa-",
+          "feats": "Case=a|Gender=f|Number=p",
+          "head": 11,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 13,
+          "form": "τῆς",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 14,
+          "deprel": "ATR"
+        },
+        {
+          "id": 14,
+          "form": "νυκτὸς",
+          "lemma": "νύξ",
+          "upos": "n",
+          "xpos": "n-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 12,
+          "deprel": "ATR"
+        },
+        {
+          "id": 15,
+          "form": "ἐπὶ",
+          "lemma": "ἐπί",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 11,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 16,
+          "form": "τὴν",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 17,
+          "deprel": "ATR"
+        },
+        {
+          "id": 17,
+          "form": "ποίμνην",
+          "lemma": "ποίμνη",
+          "upos": "n",
+          "xpos": "n-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 15,
+          "deprel": "ADV"
+        },
+        {
+          "id": 18,
+          "form": "αὐτῶν",
+          "lemma": "αὐτός",
+          "upos": "p",
+          "xpos": "p-p---mg-",
+          "feats": "Case=g|Gender=m|Number=p",
+          "head": 17,
+          "deprel": "ATR"
+        },
+        {
+          "id": 19,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "lang": "lat",
+      "verse": "Luke 2:8",
+      "source": "vulgate.luke.2.8.lat.conllu",
+      "text": "Et pastores erant in regione eadem vigilantes et custodientes vigilias noctis supra gregem suum .",
+      "words": [
+        {
+          "id": 1,
+          "form": "Et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "pastores",
+          "lemma": "pastor",
+          "upos": "n",
+          "xpos": "n-p---mn-",
+          "feats": "Case=n|Gender=m|Number=p",
+          "head": 3,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 3,
+          "form": "erant",
+          "lemma": "sum",
+          "upos": "v",
+          "xpos": "v3ipia---",
+          "feats": "Mood=i|Number=p|Person=3|Tense=i|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 4,
+          "form": "in",
+          "lemma": "in",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 5,
+          "form": "regione",
+          "lemma": "regio",
+          "upos": "n",
+          "xpos": "n-s---fb-",
+          "feats": "Case=b|Gender=f|Number=s",
+          "head": 4,
+          "deprel": "ADV"
+        },
+        {
+          "id": 6,
+          "form": "eadem",
+          "lemma": "idem",
+          "upos": "a",
+          "xpos": "a-s---fb-",
+          "feats": "Case=b|Gender=f|Number=s",
+          "head": 5,
+          "deprel": "ATR"
+        },
+        {
+          "id": 7,
+          "form": "vigilantes",
+          "lemma": "vigilo",
+          "upos": "v",
+          "xpos": "v-pppamn-",
+          "feats": "Case=n|Gender=m|Number=p|Tense=p|VerbForm=part|Voice=a",
+          "head": 3,
+          "deprel": "ATR"
+        },
+        {
+          "id": 8,
+          "form": "et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 9,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 9,
+          "form": "custodientes",
+          "lemma": "custodio",
+          "upos": "v",
+          "xpos": "v-pppamn-",
+          "feats": "Case=n|Gender=m|Number=p|Tense=p|VerbForm=part|Voice=a",
+          "head": 3,
+          "deprel": "ATR"
+        },
+        {
+          "id": 10,
+          "form": "vigilias",
+          "lemma": "vigilia",
+          "upos": "n",
+          "xpos": "n-p---fa-",
+          "feats": "Case=a|Gender=f|Number=p",
+          "head": 9,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 11,
+          "form": "noctis",
+          "lemma": "nox",
+          "upos": "n",
+          "xpos": "n-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 10,
+          "deprel": "ATR"
+        },
+        {
+          "id": 12,
+          "form": "supra",
+          "lemma": "supra",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 9,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 13,
+          "form": "gregem",
+          "lemma": "grex",
+          "upos": "n",
+          "xpos": "n-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 12,
+          "deprel": "ADV"
+        },
+        {
+          "id": 14,
+          "form": "suum",
+          "lemma": "suus",
+          "upos": "a",
+          "xpos": "a-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 13,
+          "deprel": "ATR"
+        },
+        {
+          "id": 15,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "lang": "eng",
+      "verse": "Luke 2:8",
+      "source": "KJV.luke.2.8.eng.conllu",
+      "text": "And there were in the same country shepherds abiding in the field keeping watch over their flock by night .",
+      "words": [
+        {
+          "id": 1,
+          "form": "And",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 3,
+          "deprel": "cc"
+        },
+        {
+          "id": 2,
+          "form": "there",
+          "lemma": "there",
+          "upos": "PRON",
+          "xpos": "EX",
+          "feats": "_",
+          "head": 3,
+          "deprel": "expl"
+        },
+        {
+          "id": 3,
+          "form": "were",
+          "lemma": "be",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Past",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 4,
+          "form": "in",
+          "lemma": "in",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 7,
+          "deprel": "case"
+        },
+        {
+          "id": 5,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 7,
+          "deprel": "det"
+        },
+        {
+          "id": 6,
+          "form": "same",
+          "lemma": "same",
+          "upos": "ADJ",
+          "xpos": "JJ",
+          "feats": "_",
+          "head": 7,
+          "deprel": "amod"
+        },
+        {
+          "id": 7,
+          "form": "country",
+          "lemma": "country",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 3,
+          "deprel": "obl"
+        },
+        {
+          "id": 8,
+          "form": "shepherds",
+          "lemma": "shepherd",
+          "upos": "NOUN",
+          "xpos": "NNS",
+          "feats": "Number=Plur",
+          "head": 3,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 9,
+          "form": "abiding",
+          "lemma": "abide",
+          "upos": "VERB",
+          "xpos": "VBG",
+          "feats": "VerbForm=Part",
+          "head": 3,
+          "deprel": "xcomp"
+        },
+        {
+          "id": 10,
+          "form": "in",
+          "lemma": "in",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 12,
+          "deprel": "case"
+        },
+        {
+          "id": 11,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 12,
+          "deprel": "det"
+        },
+        {
+          "id": 12,
+          "form": "field",
+          "lemma": "field",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 9,
+          "deprel": "obl"
+        },
+        {
+          "id": 13,
+          "form": "keeping",
+          "lemma": "keep",
+          "upos": "VERB",
+          "xpos": "VBG",
+          "feats": "VerbForm=Part",
+          "head": 9,
+          "deprel": "advcl"
+        },
+        {
+          "id": 14,
+          "form": "watch",
+          "lemma": "watch",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 13,
+          "deprel": "obj"
+        },
+        {
+          "id": 15,
+          "form": "over",
+          "lemma": "over",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 17,
+          "deprel": "case"
+        },
+        {
+          "id": 16,
+          "form": "their",
+          "lemma": "their",
+          "upos": "PRON",
+          "xpos": "PRP$",
+          "feats": "Number=Plur",
+          "head": 17,
+          "deprel": "nmod:poss"
+        },
+        {
+          "id": 17,
+          "form": "flock",
+          "lemma": "flock",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 13,
+          "deprel": "obl"
+        },
+        {
+          "id": 18,
+          "form": "by",
+          "lemma": "by",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 20,
+          "deprel": "case"
+        },
+        {
+          "id": 19,
+          "form": "night",
+          "lemma": "night",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 13,
+          "deprel": "obl"
+        },
+        {
+          "id": 20,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 3,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "lang": "grc",
+      "verse": "Luke 2:9",
+      "source": "NA28.luke.2.9.grc.conllu",
+      "text": "καὶ ἄγγελος κυρίου ἐπέστη αὐτοῖς καὶ δόξα κυρίου περιέλαμψεν αὐτούς .",
+      "words": [
+        {
+          "id": 1,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 4,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "ἄγγελος",
+          "lemma": "ἄγγελος",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 4,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 3,
+          "form": "κυρίου",
+          "lemma": "κύριος",
+          "upos": "n",
+          "xpos": "n-s---mg-",
+          "feats": "Case=g|Gender=m|Number=s",
+          "head": 2,
+          "deprel": "ATR"
+        },
+        {
+          "id": 4,
+          "form": "ἐπέστη",
+          "lemma": "ἐφίστημι",
+          "upos": "v",
+          "xpos": "v3saia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 5,
+          "form": "αὐτοῖς",
+          "lemma": "αὐτός",
+          "upos": "p",
+          "xpos": "p-p---md-",
+          "feats": "Case=d|Gender=m|Number=p",
+          "head": 4,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 6,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 9,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 7,
+          "form": "δόξα",
+          "lemma": "δόξα",
+          "upos": "n",
+          "xpos": "n-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 9,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 8,
+          "form": "κυρίου",
+          "lemma": "κύριος",
+          "upos": "n",
+          "xpos": "n-s---mg-",
+          "feats": "Case=g|Gender=m|Number=s",
+          "head": 7,
+          "deprel": "ATR"
+        },
+        {
+          "id": 9,
+          "form": "περιέλαμψεν",
+          "lemma": "περιλάμπω",
+          "upos": "v",
+          "xpos": "v3saia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=a",
+          "head": 4,
+          "deprel": "COORD"
+        },
+        {
+          "id": 10,
+          "form": "αὐτούς",
+          "lemma": "αὐτός",
+          "upos": "p",
+          "xpos": "p-p---ma-",
+          "feats": "Case=a|Gender=m|Number=p",
+          "head": 9,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 11,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 4,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "lang": "lat",
+      "verse": "Luke 2:9",
+      "source": "vulgate.luke.2.9.lat.conllu",
+      "text": "et ecce angelus Domini stetit iuxta illos et claritas Dei circumfulsit illos .",
+      "words": [
+        {
+          "id": 1,
+          "form": "et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 5,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "ecce",
+          "lemma": "ecce",
+          "upos": "d",
+          "xpos": "d--------",
+          "feats": "_",
+          "head": 5,
+          "deprel": "ADV"
+        },
+        {
+          "id": 3,
+          "form": "angelus",
+          "lemma": "angelus",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 5,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 4,
+          "form": "Domini",
+          "lemma": "dominus",
+          "upos": "n",
+          "xpos": "n-s---mg-",
+          "feats": "Case=g|Gender=m|Number=s",
+          "head": 3,
+          "deprel": "ATR"
+        },
+        {
+          "id": 5,
+          "form": "stetit",
+          "lemma": "sto",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 6,
+          "form": "iuxta",
+          "lemma": "iuxta",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 5,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 7,
+          "form": "illos",
+          "lemma": "ille",
+          "upos": "p",
+          "xpos": "p-p---ma-",
+          "feats": "Case=a|Gender=m|Number=p",
+          "head": 6,
+          "deprel": "ADV"
+        },
+        {
+          "id": 8,
+          "form": "et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 11,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 9,
+          "form": "claritas",
+          "lemma": "claritas",
+          "upos": "n",
+          "xpos": "n-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 11,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 10,
+          "form": "Dei",
+          "lemma": "deus",
+          "upos": "n",
+          "xpos": "n-s---mg-",
+          "feats": "Case=g|Gender=m|Number=s",
+          "head": 9,
+          "deprel": "ATR"
+        },
+        {
+          "id": 11,
+          "form": "circumfulsit",
+          "lemma": "circumfulgeo",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 5,
+          "deprel": "COORD"
+        },
+        {
+          "id": 12,
+          "form": "illos",
+          "lemma": "ille",
+          "upos": "p",
+          "xpos": "p-p---ma-",
+          "feats": "Case=a|Gender=m|Number=p",
+          "head": 11,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 13,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 5,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "lang": "eng",
+      "verse": "Luke 2:9",
+      "source": "KJV.luke.2.9.eng.conllu",
+      "text": "And lo the angel of the Lord came upon them and the glory of the Lord shone round about them .",
+      "words": [
+        {
+          "id": 1,
+          "form": "And",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 7,
+          "deprel": "cc"
+        },
+        {
+          "id": 2,
+          "form": "lo",
+          "lemma": "lo",
+          "upos": "INTJ",
+          "xpos": "UH",
+          "feats": "_",
+          "head": 7,
+          "deprel": "discourse"
+        },
+        {
+          "id": 3,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 4,
+          "deprel": "det"
+        },
+        {
+          "id": 4,
+          "form": "angel",
+          "lemma": "angel",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 7,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 5,
+          "form": "of",
+          "lemma": "of",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 7,
+          "deprel": "case"
+        },
+        {
+          "id": 6,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 7,
+          "deprel": "det"
+        },
+        {
+          "id": 7,
+          "form": "Lord",
+          "lemma": "Lord",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 4,
+          "deprel": "nmod"
+        },
+        {
+          "id": 8,
+          "form": "came",
+          "lemma": "come",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Tense=Past",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 9,
+          "form": "upon",
+          "lemma": "upon",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 10,
+          "deprel": "case"
+        },
+        {
+          "id": 10,
+          "form": "them",
+          "lemma": "them",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Acc|Number=Plur",
+          "head": 8,
+          "deprel": "obl"
+        },
+        {
+          "id": 11,
+          "form": "and",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 14,
+          "deprel": "cc"
+        },
+        {
+          "id": 12,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 13,
+          "deprel": "det"
+        },
+        {
+          "id": 13,
+          "form": "glory",
+          "lemma": "glory",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 14,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 14,
+          "form": "of",
+          "lemma": "of",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 16,
+          "deprel": "case"
+        },
+        {
+          "id": 15,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 16,
+          "deprel": "det"
+        },
+        {
+          "id": 16,
+          "form": "Lord",
+          "lemma": "Lord",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 13,
+          "deprel": "nmod"
+        },
+        {
+          "id": 17,
+          "form": "shone",
+          "lemma": "shine",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Tense=Past",
+          "head": 8,
+          "deprel": "conj"
+        },
+        {
+          "id": 18,
+          "form": "round",
+          "lemma": "round",
+          "upos": "ADV",
+          "xpos": "RB",
+          "feats": "_",
+          "head": 14,
+          "deprel": "advmod"
+        },
+        {
+          "id": 19,
+          "form": "about",
+          "lemma": "about",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 20,
+          "deprel": "case"
+        },
+        {
+          "id": 20,
+          "form": "them",
+          "lemma": "them",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Acc|Number=Plur",
+          "head": 14,
+          "deprel": "obl"
+        },
+        {
+          "id": 21,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 8,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "lang": "grc",
+      "verse": "Luke 2:10",
+      "source": "NA28.luke.2.10.grc.conllu",
+      "text": "καὶ εἶπεν αὐτοῖς ὁ ἄγγελος μὴ φοβεῖσθε ἰδοὺ γὰρ εὐαγγελίζομαι ὑμῖν χαρὰν μεγάλην .",
+      "words": [
+        {
+          "id": 1,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "εἶπεν",
+          "lemma": "λέγω",
+          "upos": "v",
+          "xpos": "v3saia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 3,
+          "form": "αὐτοῖς",
+          "lemma": "αὐτός",
+          "upos": "p",
+          "xpos": "p-p---md-",
+          "feats": "Case=d|Gender=m|Number=p",
+          "head": 2,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 4,
+          "form": "ὁ",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 5,
+          "deprel": "ATR"
+        },
+        {
+          "id": 5,
+          "form": "ἄγγελος",
+          "lemma": "ἄγγελος",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 2,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 6,
+          "form": "μὴ",
+          "lemma": "μή",
+          "upos": "d",
+          "xpos": "d--------",
+          "feats": "_",
+          "head": 7,
+          "deprel": "AuxZ"
+        },
+        {
+          "id": 7,
+          "form": "φοβεῖσθε",
+          "lemma": "φοβέομαι",
+          "upos": "v",
+          "xpos": "v2ppme---",
+          "feats": "Mood=m|Number=p|Person=2|Tense=p|Voice=e",
+          "head": 2,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 8,
+          "form": "ἰδοὺ",
+          "lemma": "ἰδού",
+          "upos": "d",
+          "xpos": "d--------",
+          "feats": "_",
+          "head": 10,
+          "deprel": "ADV"
+        },
+        {
+          "id": 9,
+          "form": "γὰρ",
+          "lemma": "γάρ",
+          "upos": "g",
+          "xpos": "g--------",
+          "feats": "_",
+          "head": 10,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 10,
+          "form": "εὐαγγελίζομαι",
+          "lemma": "εὐαγγελίζω",
+          "upos": "v",
+          "xpos": "v1spia---",
+          "feats": "Mood=i|Number=s|Person=1|Tense=p|Voice=m",
+          "head": 7,
+          "deprel": "ADV"
+        },
+        {
+          "id": 11,
+          "form": "ὑμῖν",
+          "lemma": "σύ",
+          "upos": "p",
+          "xpos": "p-p---sd-",
+          "feats": "Case=d|Number=p|Person=2",
+          "head": 10,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 12,
+          "form": "χαρὰν",
+          "lemma": "χαρά",
+          "upos": "n",
+          "xpos": "n-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 10,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 13,
+          "form": "μεγάλην",
+          "lemma": "μέγας",
+          "upos": "a",
+          "xpos": "a-s---fa-",
+          "feats": "Case=a|Gender=f|Number=s",
+          "head": 12,
+          "deprel": "ATR"
+        },
+        {
+          "id": 14,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "lang": "lat",
+      "verse": "Luke 2:10",
+      "source": "vulgate.luke.2.10.lat.conllu",
+      "text": "et dixit illis angelus nolite timere ecce enim evangelizo vobis gaudium magnum .",
+      "words": [
+        {
+          "id": 1,
+          "form": "et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "dixit",
+          "lemma": "dico",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 3,
+          "form": "illis",
+          "lemma": "ille",
+          "upos": "p",
+          "xpos": "p-p---xd-",
+          "feats": "Case=d|Number=p",
+          "head": 2,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 4,
+          "form": "angelus",
+          "lemma": "angelus",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 2,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 5,
+          "form": "nolite",
+          "lemma": "nolo",
+          "upos": "v",
+          "xpos": "v2ppma---",
+          "feats": "Mood=m|Number=p|Person=2|Tense=p|Voice=a",
+          "head": 2,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 6,
+          "form": "timere",
+          "lemma": "timeo",
+          "upos": "v",
+          "xpos": "v--pna---",
+          "feats": "Tense=p|VerbForm=inf|Voice=a",
+          "head": 5,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 7,
+          "form": "ecce",
+          "lemma": "ecce",
+          "upos": "d",
+          "xpos": "d--------",
+          "feats": "_",
+          "head": 9,
+          "deprel": "ADV"
+        },
+        {
+          "id": 8,
+          "form": "enim",
+          "lemma": "enim",
+          "upos": "g",
+          "xpos": "g--------",
+          "feats": "_",
+          "head": 9,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 9,
+          "form": "evangelizo",
+          "lemma": "evangelizo",
+          "upos": "v",
+          "xpos": "v1spia---",
+          "feats": "Mood=i|Number=s|Person=1|Tense=p|Voice=a",
+          "head": 5,
+          "deprel": "ADV"
+        },
+        {
+          "id": 10,
+          "form": "vobis",
+          "lemma": "vos",
+          "upos": "p",
+          "xpos": "p-p---sd-",
+          "feats": "Case=d|Number=p|Person=2",
+          "head": 9,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 11,
+          "form": "gaudium",
+          "lemma": "gaudium",
+          "upos": "n",
+          "xpos": "n-s---na-",
+          "feats": "Case=a|Gender=n|Number=s",
+          "head": 9,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 12,
+          "form": "magnum",
+          "lemma": "magnus",
+          "upos": "a",
+          "xpos": "a-s---na-",
+          "feats": "Case=a|Gender=n|Number=s",
+          "head": 11,
+          "deprel": "ATR"
+        },
+        {
+          "id": 13,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "lang": "eng",
+      "verse": "Luke 2:10",
+      "source": "KJV.luke.2.10.eng.conllu",
+      "text": "And the angel said unto them Fear not for behold I bring you good tidings of great joy .",
+      "words": [
+        {
+          "id": 1,
+          "form": "And",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 3,
+          "deprel": "cc"
+        },
+        {
+          "id": 2,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 4,
+          "deprel": "det"
+        },
+        {
+          "id": 3,
+          "form": "angel",
+          "lemma": "angel",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 3,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 4,
+          "form": "said",
+          "lemma": "say",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Tense=Past",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 5,
+          "form": "unto",
+          "lemma": "unto",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 6,
+          "deprel": "case"
+        },
+        {
+          "id": 6,
+          "form": "them",
+          "lemma": "them",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Acc|Number=Plur",
+          "head": 4,
+          "deprel": "obl"
+        },
+        {
+          "id": 7,
+          "form": "Fear",
+          "lemma": "fear",
+          "upos": "VERB",
+          "xpos": "VB",
+          "feats": "Mood=Imp|VerbForm=Fin",
+          "head": 4,
+          "deprel": "ccomp"
+        },
+        {
+          "id": 8,
+          "form": "not",
+          "lemma": "not",
+          "upos": "PART",
+          "xpos": "RB",
+          "feats": "_",
+          "head": 7,
+          "deprel": "advmod"
+        },
+        {
+          "id": 9,
+          "form": "for",
+          "lemma": "for",
+          "upos": "SCONJ",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 11,
+          "deprel": "mark"
+        },
+        {
+          "id": 10,
+          "form": "behold",
+          "lemma": "behold",
+          "upos": "VERB",
+          "xpos": "VB",
+          "feats": "Mood=Imp|VerbForm=Fin",
+          "head": 11,
+          "deprel": "discourse"
+        },
+        {
+          "id": 11,
+          "form": "I",
+          "lemma": "I",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Nom|Number=Sing|Person=1",
+          "head": 11,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 12,
+          "form": "bring",
+          "lemma": "bring",
+          "upos": "VERB",
+          "xpos": "VBP",
+          "feats": "Mood=Ind|Tense=Pres",
+          "head": 7,
+          "deprel": "advcl"
+        },
+        {
+          "id": 13,
+          "form": "you",
+          "lemma": "you",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Acc|Number=Plur|Person=2",
+          "head": 11,
+          "deprel": "iobj"
+        },
+        {
+          "id": 14,
+          "form": "good",
+          "lemma": "good",
+          "upos": "ADJ",
+          "xpos": "JJ",
+          "feats": "_",
+          "head": 15,
+          "deprel": "amod"
+        },
+        {
+          "id": 15,
+          "form": "tidings",
+          "lemma": "tiding",
+          "upos": "NOUN",
+          "xpos": "NNS",
+          "feats": "Number=Plur",
+          "head": 11,
+          "deprel": "obj"
+        },
+        {
+          "id": 16,
+          "form": "of",
+          "lemma": "of",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 18,
+          "deprel": "case"
+        },
+        {
+          "id": 17,
+          "form": "great",
+          "lemma": "great",
+          "upos": "ADJ",
+          "xpos": "JJ",
+          "feats": "_",
+          "head": 18,
+          "deprel": "amod"
+        },
+        {
+          "id": 18,
+          "form": "joy",
+          "lemma": "joy",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 15,
+          "deprel": "nmod"
+        },
+        {
+          "id": 19,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 4,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "lang": "grc",
+      "verse": "Luke 2:11",
+      "source": "NA28.luke.2.11.grc.conllu",
+      "text": "ὅτι ἐτέχθη ὑμῖν σήμερον σωτὴρ ὅς ἐστιν Χριστὸς κύριος ἐν πόλει Δαυίδ .",
+      "words": [
+        {
+          "id": 1,
+          "form": "ὅτι",
+          "lemma": "ὅτι",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxC"
+        },
+        {
+          "id": 2,
+          "form": "ἐτέχθη",
+          "lemma": "τίκτω",
+          "upos": "v",
+          "xpos": "v3saip---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=p",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 3,
+          "form": "ὑμῖν",
+          "lemma": "σύ",
+          "upos": "p",
+          "xpos": "p-p---sd-",
+          "feats": "Case=d|Number=p|Person=2",
+          "head": 2,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 4,
+          "form": "σήμερον",
+          "lemma": "σήμερον",
+          "upos": "d",
+          "xpos": "d--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "ADV"
+        },
+        {
+          "id": 5,
+          "form": "σωτὴρ",
+          "lemma": "σωτήρ",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 2,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 6,
+          "form": "ὅς",
+          "lemma": "ὅς",
+          "upos": "p",
+          "xpos": "p-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 7,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 7,
+          "form": "ἐστιν",
+          "lemma": "εἰμί",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 5,
+          "deprel": "ATR"
+        },
+        {
+          "id": 8,
+          "form": "Χριστὸς",
+          "lemma": "χριστός",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 7,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 9,
+          "form": "κύριος",
+          "lemma": "κύριος",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 7,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 10,
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 11,
+          "form": "πόλει",
+          "lemma": "πόλις",
+          "upos": "n",
+          "xpos": "n-s---fd-",
+          "feats": "Case=d|Gender=f|Number=s",
+          "head": 10,
+          "deprel": "ADV"
+        },
+        {
+          "id": 12,
+          "form": "Δαυίδ",
+          "lemma": "δαυίδ",
+          "upos": "n",
+          "xpos": "n-s---mg-",
+          "feats": "Case=g|Gender=m|Number=s",
+          "head": 11,
+          "deprel": "ATR"
+        },
+        {
+          "id": 13,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 2,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "lang": "lat",
+      "verse": "Luke 2:11",
+      "source": "vulgate.luke.2.11.lat.conllu",
+      "text": "quia natus est vobis hodie Salvator qui est Christus Dominus in civitate David .",
+      "words": [
+        {
+          "id": 1,
+          "form": "quia",
+          "lemma": "quia",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "AuxC"
+        },
+        {
+          "id": 2,
+          "form": "natus",
+          "lemma": "nascor",
+          "upos": "v",
+          "xpos": "v-srpp-m-",
+          "feats": "Case=n|Gender=m|Number=s|Tense=p|VerbForm=part|Voice=p",
+          "head": 3,
+          "deprel": "ATR"
+        },
+        {
+          "id": 3,
+          "form": "est",
+          "lemma": "sum",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 4,
+          "form": "vobis",
+          "lemma": "vos",
+          "upos": "p",
+          "xpos": "p-p---sd-",
+          "feats": "Case=d|Number=p|Person=2",
+          "head": 3,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 5,
+          "form": "hodie",
+          "lemma": "hodie",
+          "upos": "d",
+          "xpos": "d--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "ADV"
+        },
+        {
+          "id": 6,
+          "form": "Salvator",
+          "lemma": "salvator",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 3,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 7,
+          "form": "qui",
+          "lemma": "qui",
+          "upos": "p",
+          "xpos": "p-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 9,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 8,
+          "form": "est",
+          "lemma": "sum",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 6,
+          "deprel": "ATR"
+        },
+        {
+          "id": 9,
+          "form": "Christus",
+          "lemma": "christus",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 8,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 10,
+          "form": "Dominus",
+          "lemma": "dominus",
+          "upos": "n",
+          "xpos": "n-s---mn-",
+          "feats": "Case=n|Gender=m|Number=s",
+          "head": 8,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 11,
+          "form": "in",
+          "lemma": "in",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 12,
+          "form": "civitate",
+          "lemma": "civitas",
+          "upos": "n",
+          "xpos": "n-s---fb-",
+          "feats": "Case=b|Gender=f|Number=s",
+          "head": 11,
+          "deprel": "ADV"
+        },
+        {
+          "id": 13,
+          "form": "David",
+          "lemma": "david",
+          "upos": "n",
+          "xpos": "n-s---mg-",
+          "feats": "Case=g|Gender=m|Number=s",
+          "head": 12,
+          "deprel": "ATR"
+        },
+        {
+          "id": 14,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "lang": "eng",
+      "verse": "Luke 2:11",
+      "source": "KJV.luke.2.11.eng.conllu",
+      "text": "For unto you is born this day in the city of David a Saviour which is Christ the Lord .",
+      "words": [
+        {
+          "id": 1,
+          "form": "For",
+          "lemma": "for",
+          "upos": "SCONJ",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 4,
+          "deprel": "mark"
+        },
+        {
+          "id": 2,
+          "form": "unto",
+          "lemma": "unto",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 3,
+          "deprel": "case"
+        },
+        {
+          "id": 3,
+          "form": "you",
+          "lemma": "you",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Acc|Number=Plur|Person=2",
+          "head": 4,
+          "deprel": "obl"
+        },
+        {
+          "id": 4,
+          "form": "is",
+          "lemma": "be",
+          "upos": "AUX",
+          "xpos": "VBZ",
+          "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres",
+          "head": 4,
+          "deprel": "aux:pass"
+        },
+        {
+          "id": 5,
+          "form": "born",
+          "lemma": "bear",
+          "upos": "VERB",
+          "xpos": "VBN",
+          "feats": "Tense=Past|VerbForm=Part|Voice=Pass",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 6,
+          "form": "this",
+          "lemma": "this",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Number=Sing",
+          "head": 7,
+          "deprel": "det"
+        },
+        {
+          "id": 7,
+          "form": "day",
+          "lemma": "day",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 4,
+          "deprel": "obl"
+        },
+        {
+          "id": 8,
+          "form": "in",
+          "lemma": "in",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 11,
+          "deprel": "case"
+        },
+        {
+          "id": 9,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 11,
+          "deprel": "det"
+        },
+        {
+          "id": 10,
+          "form": "city",
+          "lemma": "city",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 4,
+          "deprel": "obl"
+        },
+        {
+          "id": 11,
+          "form": "of",
+          "lemma": "of",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 12,
+          "deprel": "case"
+        },
+        {
+          "id": 12,
+          "form": "David",
+          "lemma": "David",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 10,
+          "deprel": "nmod"
+        },
+        {
+          "id": 13,
+          "form": "a",
+          "lemma": "a",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Ind",
+          "head": 14,
+          "deprel": "det"
+        },
+        {
+          "id": 14,
+          "form": "Saviour",
+          "lemma": "Saviour",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 4,
+          "deprel": "nsubj:pass"
+        },
+        {
+          "id": 15,
+          "form": "which",
+          "lemma": "which",
+          "upos": "PRON",
+          "xpos": "WDT",
+          "feats": "_",
+          "head": 16,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 16,
+          "form": "is",
+          "lemma": "be",
+          "upos": "VERB",
+          "xpos": "VBZ",
+          "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres",
+          "head": 14,
+          "deprel": "acl:relcl"
+        },
+        {
+          "id": 17,
+          "form": "Christ",
+          "lemma": "Christ",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 16,
+          "deprel": "xcomp"
+        },
+        {
+          "id": 18,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 19,
+          "deprel": "det"
+        },
+        {
+          "id": 19,
+          "form": "Lord",
+          "lemma": "Lord",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 17,
+          "deprel": "appos"
+        },
+        {
+          "id": 20,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 4,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "lang": "grc",
+      "verse": "Luke 2:12",
+      "source": "NA28.luke.2.12.grc.conllu",
+      "text": "καὶ τοῦτο ὑμῖν τὸ σημεῖον εὑρήσετε βρέφος ἐσπαργανωμένον καὶ κείμενον ἐν φάτνῃ .",
+      "words": [
+        {
+          "id": 1,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 6,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "τοῦτο",
+          "lemma": "οὗτος",
+          "upos": "p",
+          "xpos": "p-s---nn-",
+          "feats": "Case=n|Gender=n|Number=s",
+          "head": 5,
+          "deprel": "ATR"
+        },
+        {
+          "id": 3,
+          "form": "ὑμῖν",
+          "lemma": "σύ",
+          "upos": "p",
+          "xpos": "p-p---sd-",
+          "feats": "Case=d|Number=p|Person=2",
+          "head": 6,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 4,
+          "form": "τὸ",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---nn-",
+          "feats": "Case=n|Gender=n|Number=s",
+          "head": 5,
+          "deprel": "ATR"
+        },
+        {
+          "id": 5,
+          "form": "σημεῖον",
+          "lemma": "σημεῖον",
+          "upos": "n",
+          "xpos": "n-s---nn-",
+          "feats": "Case=n|Gender=n|Number=s",
+          "head": 6,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 6,
+          "form": "εὑρήσετε",
+          "lemma": "εὑρίσκω",
+          "upos": "v",
+          "xpos": "v2pfia---",
+          "feats": "Mood=i|Number=p|Person=2|Tense=f|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 7,
+          "form": "βρέφος",
+          "lemma": "βρέφος",
+          "upos": "n",
+          "xpos": "n-s---na-",
+          "feats": "Case=a|Gender=n|Number=s",
+          "head": 6,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 8,
+          "form": "ἐσπαργανωμένον",
+          "lemma": "σπαργανόω",
+          "upos": "v",
+          "xpos": "v-srppmna",
+          "feats": "Case=a|Gender=n|Number=s|Tense=p|VerbForm=part|Voice=p",
+          "head": 7,
+          "deprel": "ATR"
+        },
+        {
+          "id": 9,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 10,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 10,
+          "form": "κείμενον",
+          "lemma": "κεῖμαι",
+          "upos": "v",
+          "xpos": "v-sppmna-",
+          "feats": "Case=a|Gender=n|Number=s|Tense=p|VerbForm=part|Voice=m",
+          "head": 7,
+          "deprel": "ATR"
+        },
+        {
+          "id": 11,
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 10,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 12,
+          "form": "φάτνῃ",
+          "lemma": "φάτνη",
+          "upos": "n",
+          "xpos": "n-s---fd-",
+          "feats": "Case=d|Gender=f|Number=s",
+          "head": 11,
+          "deprel": "ADV"
+        },
+        {
+          "id": 13,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 6,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "lang": "lat",
+      "verse": "Luke 2:12",
+      "source": "vulgate.luke.2.12.lat.conllu",
+      "text": "et hoc vobis signum invenietis infantem pannis involutum et positum in praesepio .",
+      "words": [
+        {
+          "id": 1,
+          "form": "et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 5,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "hoc",
+          "lemma": "hic",
+          "upos": "p",
+          "xpos": "p-s---nn-",
+          "feats": "Case=n|Gender=n|Number=s",
+          "head": 4,
+          "deprel": "ATR"
+        },
+        {
+          "id": 3,
+          "form": "vobis",
+          "lemma": "vos",
+          "upos": "p",
+          "xpos": "p-p---sd-",
+          "feats": "Case=d|Number=p|Person=2",
+          "head": 5,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 4,
+          "form": "signum",
+          "lemma": "signum",
+          "upos": "n",
+          "xpos": "n-s---nn-",
+          "feats": "Case=n|Gender=n|Number=s",
+          "head": 5,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 5,
+          "form": "invenietis",
+          "lemma": "invenio",
+          "upos": "v",
+          "xpos": "v2pfia---",
+          "feats": "Mood=i|Number=p|Person=2|Tense=f|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 6,
+          "form": "infantem",
+          "lemma": "infans",
+          "upos": "n",
+          "xpos": "n-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 5,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 7,
+          "form": "pannis",
+          "lemma": "pannus",
+          "upos": "n",
+          "xpos": "n-p---mb-",
+          "feats": "Case=b|Gender=m|Number=p",
+          "head": 8,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 8,
+          "form": "involutum",
+          "lemma": "involvo",
+          "upos": "v",
+          "xpos": "v-srppmma",
+          "feats": "Case=a|Gender=m|Number=s|Tense=p|VerbForm=part|Voice=p",
+          "head": 6,
+          "deprel": "ATR"
+        },
+        {
+          "id": 9,
+          "form": "et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 10,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 10,
+          "form": "positum",
+          "lemma": "pono",
+          "upos": "v",
+          "xpos": "v-srppmma",
+          "feats": "Case=a|Gender=m|Number=s|Tense=p|VerbForm=part|Voice=p",
+          "head": 6,
+          "deprel": "ATR"
+        },
+        {
+          "id": 11,
+          "form": "in",
+          "lemma": "in",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 10,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 12,
+          "form": "praesepio",
+          "lemma": "praesepium",
+          "upos": "n",
+          "xpos": "n-s---nb-",
+          "feats": "Case=b|Gender=n|Number=s",
+          "head": 11,
+          "deprel": "ADV"
+        },
+        {
+          "id": 13,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 5,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "lang": "eng",
+      "verse": "Luke 2:12",
+      "source": "KJV.luke.2.12.eng.conllu",
+      "text": "And this shall be a sign unto you ye shall find the babe wrapped in swaddling clothes lying in a manger .",
+      "words": [
+        {
+          "id": 1,
+          "form": "And",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 3,
+          "deprel": "cc"
+        },
+        {
+          "id": 2,
+          "form": "this",
+          "lemma": "this",
+          "upos": "PRON",
+          "xpos": "DT",
+          "feats": "Number=Sing",
+          "head": 3,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 3,
+          "form": "shall",
+          "lemma": "shall",
+          "upos": "AUX",
+          "xpos": "MD",
+          "feats": "VerbForm=Fin",
+          "head": 3,
+          "deprel": "aux"
+        },
+        {
+          "id": 4,
+          "form": "be",
+          "lemma": "be",
+          "upos": "VERB",
+          "xpos": "VB",
+          "feats": "VerbForm=Inf",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 5,
+          "form": "a",
+          "lemma": "a",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Ind",
+          "head": 6,
+          "deprel": "det"
+        },
+        {
+          "id": 6,
+          "form": "sign",
+          "lemma": "sign",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 3,
+          "deprel": "xcomp"
+        },
+        {
+          "id": 7,
+          "form": "unto",
+          "lemma": "unto",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 8,
+          "deprel": "case"
+        },
+        {
+          "id": 8,
+          "form": "you",
+          "lemma": "you",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Acc|Number=Plur|Person=2",
+          "head": 6,
+          "deprel": "obl"
+        },
+        {
+          "id": 9,
+          "form": "ye",
+          "lemma": "ye",
+          "upos": "PRON",
+          "xpos": "PRP",
+          "feats": "Case=Nom|Number=Plur|Person=2",
+          "head": 10,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 10,
+          "form": "shall",
+          "lemma": "shall",
+          "upos": "AUX",
+          "xpos": "MD",
+          "feats": "VerbForm=Fin",
+          "head": 10,
+          "deprel": "aux"
+        },
+        {
+          "id": 11,
+          "form": "find",
+          "lemma": "find",
+          "upos": "VERB",
+          "xpos": "VB",
+          "feats": "VerbForm=Inf",
+          "head": 3,
+          "deprel": "advcl"
+        },
+        {
+          "id": 12,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 13,
+          "deprel": "det"
+        },
+        {
+          "id": 13,
+          "form": "babe",
+          "lemma": "babe",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 10,
+          "deprel": "obj"
+        },
+        {
+          "id": 14,
+          "form": "wrapped",
+          "lemma": "wrap",
+          "upos": "VERB",
+          "xpos": "VBN",
+          "feats": "Tense=Past|VerbForm=Part|Voice=Pass",
+          "head": 13,
+          "deprel": "acl"
+        },
+        {
+          "id": 15,
+          "form": "in",
+          "lemma": "in",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 16,
+          "deprel": "case"
+        },
+        {
+          "id": 16,
+          "form": "swaddling",
+          "lemma": "swaddle",
+          "upos": "VERB",
+          "xpos": "VBG",
+          "feats": "VerbForm=Part",
+          "head": 17,
+          "deprel": "amod"
+        },
+        {
+          "id": 17,
+          "form": "clothes",
+          "lemma": "clothes",
+          "upos": "NOUN",
+          "xpos": "NNS",
+          "feats": "Number=Plur",
+          "head": 14,
+          "deprel": "obl"
+        },
+        {
+          "id": 18,
+          "form": "lying",
+          "lemma": "lie",
+          "upos": "VERB",
+          "xpos": "VBG",
+          "feats": "VerbForm=Part",
+          "head": 13,
+          "deprel": "acl"
+        },
+        {
+          "id": 19,
+          "form": "in",
+          "lemma": "in",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 21,
+          "deprel": "case"
+        },
+        {
+          "id": 20,
+          "form": "a",
+          "lemma": "a",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Ind",
+          "head": 21,
+          "deprel": "det"
+        },
+        {
+          "id": 21,
+          "form": "manger",
+          "lemma": "manger",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 18,
+          "deprel": "obl"
+        },
+        {
+          "id": 22,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 3,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "lang": "grc",
+      "verse": "Luke 2:13",
+      "source": "NA28.luke.2.13.grc.conllu",
+      "text": "καὶ ἐξαίφνης ἐγένετο σὺν τῷ ἀγγέλῳ πλῆθος στρατιᾶς οὐρανίου αἰνούντων τὸν θεόν .",
+      "words": [
+        {
+          "id": 1,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "ἐξαίφνης",
+          "lemma": "ἐξαίφνης",
+          "upos": "d",
+          "xpos": "d--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "ADV"
+        },
+        {
+          "id": 3,
+          "form": "ἐγένετο",
+          "lemma": "γίγνομαι",
+          "upos": "v",
+          "xpos": "v3saie---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=a|Voice=e",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 4,
+          "form": "σὺν",
+          "lemma": "σύν",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 5,
+          "form": "τῷ",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---md-",
+          "feats": "Case=d|Gender=m|Number=s",
+          "head": 6,
+          "deprel": "ATR"
+        },
+        {
+          "id": 6,
+          "form": "ἀγγέλῳ",
+          "lemma": "ἄγγελος",
+          "upos": "n",
+          "xpos": "n-s---md-",
+          "feats": "Case=d|Gender=m|Number=s",
+          "head": 4,
+          "deprel": "ADV"
+        },
+        {
+          "id": 7,
+          "form": "πλῆθος",
+          "lemma": "πλῆθος",
+          "upos": "n",
+          "xpos": "n-s---nn-",
+          "feats": "Case=n|Gender=n|Number=s",
+          "head": 3,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 8,
+          "form": "στρατιᾶς",
+          "lemma": "στρατιά",
+          "upos": "n",
+          "xpos": "n-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 7,
+          "deprel": "ATR"
+        },
+        {
+          "id": 9,
+          "form": "οὐρανίου",
+          "lemma": "οὐράνιος",
+          "upos": "a",
+          "xpos": "a-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 8,
+          "deprel": "ATR"
+        },
+        {
+          "id": 10,
+          "form": "αἰνούντων",
+          "lemma": "αἰνέω",
+          "upos": "v",
+          "xpos": "v-pppamg-",
+          "feats": "Case=g|Gender=m|Number=p|Tense=p|VerbForm=part|Voice=a",
+          "head": 8,
+          "deprel": "ATR"
+        },
+        {
+          "id": 11,
+          "form": "τὸν",
+          "lemma": "ὁ",
+          "upos": "l",
+          "xpos": "l-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 12,
+          "deprel": "ATR"
+        },
+        {
+          "id": 12,
+          "form": "θεόν",
+          "lemma": "θεός",
+          "upos": "n",
+          "xpos": "n-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 10,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 13,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 3,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "lang": "lat",
+      "verse": "Luke 2:13",
+      "source": "vulgate.luke.2.13.lat.conllu",
+      "text": "et subito facta est cum angelo multitudo militiae caelestis laudantium Deum .",
+      "words": [
+        {
+          "id": 1,
+          "form": "et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 4,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 2,
+          "form": "subito",
+          "lemma": "subito",
+          "upos": "d",
+          "xpos": "d--------",
+          "feats": "_",
+          "head": 4,
+          "deprel": "ADV"
+        },
+        {
+          "id": 3,
+          "form": "facta",
+          "lemma": "facio",
+          "upos": "v",
+          "xpos": "v-srpp-f-",
+          "feats": "Case=n|Gender=f|Number=s|Tense=p|VerbForm=part|Voice=p",
+          "head": 4,
+          "deprel": "ATR"
+        },
+        {
+          "id": 4,
+          "form": "est",
+          "lemma": "sum",
+          "upos": "v",
+          "xpos": "v3spia---",
+          "feats": "Mood=i|Number=s|Person=3|Tense=p|Voice=a",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 5,
+          "form": "cum",
+          "lemma": "cum",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 4,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 6,
+          "form": "angelo",
+          "lemma": "angelus",
+          "upos": "n",
+          "xpos": "n-s---mb-",
+          "feats": "Case=b|Gender=m|Number=s",
+          "head": 5,
+          "deprel": "ADV"
+        },
+        {
+          "id": 7,
+          "form": "multitudo",
+          "lemma": "multitudo",
+          "upos": "n",
+          "xpos": "n-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 4,
+          "deprel": "SBJ"
+        },
+        {
+          "id": 8,
+          "form": "militiae",
+          "lemma": "militia",
+          "upos": "n",
+          "xpos": "n-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 7,
+          "deprel": "ATR"
+        },
+        {
+          "id": 9,
+          "form": "caelestis",
+          "lemma": "caelestis",
+          "upos": "a",
+          "xpos": "a-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 8,
+          "deprel": "ATR"
+        },
+        {
+          "id": 10,
+          "form": "laudantium",
+          "lemma": "laudo",
+          "upos": "v",
+          "xpos": "v-pppamg-",
+          "feats": "Case=g|Gender=m|Number=p|Tense=p|VerbForm=part|Voice=a",
+          "head": 8,
+          "deprel": "ATR"
+        },
+        {
+          "id": 11,
+          "form": "Deum",
+          "lemma": "deus",
+          "upos": "n",
+          "xpos": "n-s---ma-",
+          "feats": "Case=a|Gender=m|Number=s",
+          "head": 10,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 12,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 4,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "lang": "eng",
+      "verse": "Luke 2:13",
+      "source": "KJV.luke.2.13.eng.conllu",
+      "text": "And suddenly there was with the angel a multitude of the heavenly host praising God .",
+      "words": [
+        {
+          "id": 1,
+          "form": "And",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 4,
+          "deprel": "cc"
+        },
+        {
+          "id": 2,
+          "form": "suddenly",
+          "lemma": "suddenly",
+          "upos": "ADV",
+          "xpos": "RB",
+          "feats": "_",
+          "head": 4,
+          "deprel": "advmod"
+        },
+        {
+          "id": 3,
+          "form": "there",
+          "lemma": "there",
+          "upos": "PRON",
+          "xpos": "EX",
+          "feats": "_",
+          "head": 4,
+          "deprel": "expl"
+        },
+        {
+          "id": 4,
+          "form": "was",
+          "lemma": "be",
+          "upos": "VERB",
+          "xpos": "VBD",
+          "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Past",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 5,
+          "form": "with",
+          "lemma": "with",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 7,
+          "deprel": "case"
+        },
+        {
+          "id": 6,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 7,
+          "deprel": "det"
+        },
+        {
+          "id": 7,
+          "form": "angel",
+          "lemma": "angel",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 4,
+          "deprel": "obl"
+        },
+        {
+          "id": 8,
+          "form": "a",
+          "lemma": "a",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Ind",
+          "head": 9,
+          "deprel": "det"
+        },
+        {
+          "id": 9,
+          "form": "multitude",
+          "lemma": "multitude",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 4,
+          "deprel": "nsubj"
+        },
+        {
+          "id": 10,
+          "form": "of",
+          "lemma": "of",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 13,
+          "deprel": "case"
+        },
+        {
+          "id": 11,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 13,
+          "deprel": "det"
+        },
+        {
+          "id": 12,
+          "form": "heavenly",
+          "lemma": "heavenly",
+          "upos": "ADJ",
+          "xpos": "JJ",
+          "feats": "_",
+          "head": 13,
+          "deprel": "amod"
+        },
+        {
+          "id": 13,
+          "form": "host",
+          "lemma": "host",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 9,
+          "deprel": "nmod"
+        },
+        {
+          "id": 14,
+          "form": "praising",
+          "lemma": "praise",
+          "upos": "VERB",
+          "xpos": "VBG",
+          "feats": "VerbForm=Part",
+          "head": 9,
+          "deprel": "acl"
+        },
+        {
+          "id": 15,
+          "form": "God",
+          "lemma": "God",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 14,
+          "deprel": "obj"
+        },
+        {
+          "id": 16,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 4,
+          "deprel": "punct"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "lang": "grc",
+      "verse": "Luke 2:14",
+      "source": "NA28.luke.2.14.grc.conllu",
+      "text": "Δόξα ἐν ὑψίστοις θεῷ καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκίας .",
+      "words": [
+        {
+          "id": 1,
+          "form": "Δόξα",
+          "lemma": "δόξα",
+          "upos": "n",
+          "xpos": "n-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 2,
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 3,
+          "form": "ὑψίστοις",
+          "lemma": "ὕψιστος",
+          "upos": "a",
+          "xpos": "a-p---nd-",
+          "feats": "Case=d|Gender=n|Number=p",
+          "head": 2,
+          "deprel": "ADV"
+        },
+        {
+          "id": 4,
+          "form": "θεῷ",
+          "lemma": "θεός",
+          "upos": "n",
+          "xpos": "n-s---md-",
+          "feats": "Case=d|Gender=m|Number=s",
+          "head": 1,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 5,
+          "form": "καὶ",
+          "lemma": "καί",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 8,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 6,
+          "form": "ἐπὶ",
+          "lemma": "ἐπί",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 8,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 7,
+          "form": "γῆς",
+          "lemma": "γῆ",
+          "upos": "n",
+          "xpos": "n-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 6,
+          "deprel": "ADV"
+        },
+        {
+          "id": 8,
+          "form": "εἰρήνη",
+          "lemma": "εἰρήνη",
+          "upos": "n",
+          "xpos": "n-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 1,
+          "deprel": "COORD"
+        },
+        {
+          "id": 9,
+          "form": "ἐν",
+          "lemma": "ἐν",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 8,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 10,
+          "form": "ἀνθρώποις",
+          "lemma": "ἄνθρωπος",
+          "upos": "n",
+          "xpos": "n-p---md-",
+          "feats": "Case=d|Gender=m|Number=p",
+          "head": 9,
+          "deprel": "ADV"
+        },
+        {
+          "id": 11,
+          "form": "εὐδοκίας",
+          "lemma": "εὐδοκία",
+          "upos": "n",
+          "xpos": "n-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 10,
+          "deprel": "ATR"
+        },
+        {
+          "id": 12,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "lang": "lat",
+      "verse": "Luke 2:14",
+      "source": "vulgate.luke.2.14.lat.conllu",
+      "text": "gloria in altissimis Deo et in terra pax in hominibus bonae voluntatis .",
+      "words": [
+        {
+          "id": 1,
+          "form": "gloria",
+          "lemma": "gloria",
+          "upos": "n",
+          "xpos": "n-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 0,
+          "deprel": "PRED"
+        },
+        {
+          "id": 2,
+          "form": "in",
+          "lemma": "in",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 3,
+          "form": "altissimis",
+          "lemma": "altus",
+          "upos": "a",
+          "xpos": "a-p---nb-",
+          "feats": "Case=b|Gender=n|Number=p",
+          "head": 2,
+          "deprel": "ADV"
+        },
+        {
+          "id": 4,
+          "form": "Deo",
+          "lemma": "deus",
+          "upos": "n",
+          "xpos": "n-s---mb-",
+          "feats": "Case=b|Gender=m|Number=s",
+          "head": 1,
+          "deprel": "OBJ"
+        },
+        {
+          "id": 5,
+          "form": "et",
+          "lemma": "et",
+          "upos": "c",
+          "xpos": "c--------",
+          "feats": "_",
+          "head": 8,
+          "deprel": "AuxY"
+        },
+        {
+          "id": 6,
+          "form": "in",
+          "lemma": "in",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 8,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 7,
+          "form": "terra",
+          "lemma": "terra",
+          "upos": "n",
+          "xpos": "n-s---fb-",
+          "feats": "Case=b|Gender=f|Number=s",
+          "head": 6,
+          "deprel": "ADV"
+        },
+        {
+          "id": 8,
+          "form": "pax",
+          "lemma": "pax",
+          "upos": "n",
+          "xpos": "n-s---fn-",
+          "feats": "Case=n|Gender=f|Number=s",
+          "head": 1,
+          "deprel": "COORD"
+        },
+        {
+          "id": 9,
+          "form": "in",
+          "lemma": "in",
+          "upos": "r",
+          "xpos": "r--------",
+          "feats": "_",
+          "head": 8,
+          "deprel": "AuxP"
+        },
+        {
+          "id": 10,
+          "form": "hominibus",
+          "lemma": "homo",
+          "upos": "n",
+          "xpos": "n-p---mb-",
+          "feats": "Case=b|Gender=m|Number=p",
+          "head": 9,
+          "deprel": "ADV"
+        },
+        {
+          "id": 11,
+          "form": "bonae",
+          "lemma": "bonus",
+          "upos": "a",
+          "xpos": "a-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 12,
+          "deprel": "ATR"
+        },
+        {
+          "id": 12,
+          "form": "voluntatis",
+          "lemma": "voluntas",
+          "upos": "n",
+          "xpos": "n-s---fg-",
+          "feats": "Case=g|Gender=f|Number=s",
+          "head": 10,
+          "deprel": "ATR"
+        },
+        {
+          "id": 13,
+          "form": ".",
+          "lemma": ".",
+          "upos": "u",
+          "xpos": "u--------",
+          "feats": "_",
+          "head": 1,
+          "deprel": "AuxK"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "lang": "eng",
+      "verse": "Luke 2:14",
+      "source": "KJV.luke.2.14.eng.conllu",
+      "text": "Glory to God in the highest and on earth peace good will toward men .",
+      "words": [
+        {
+          "id": 1,
+          "form": "Glory",
+          "lemma": "glory",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 0,
+          "deprel": "root"
+        },
+        {
+          "id": 2,
+          "form": "to",
+          "lemma": "to",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 3,
+          "deprel": "case"
+        },
+        {
+          "id": 3,
+          "form": "God",
+          "lemma": "God",
+          "upos": "PROPN",
+          "xpos": "NNP",
+          "feats": "Number=Sing",
+          "head": 1,
+          "deprel": "nmod"
+        },
+        {
+          "id": 4,
+          "form": "in",
+          "lemma": "in",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 7,
+          "deprel": "case"
+        },
+        {
+          "id": 5,
+          "form": "the",
+          "lemma": "the",
+          "upos": "DET",
+          "xpos": "DT",
+          "feats": "Definite=Def",
+          "head": 7,
+          "deprel": "det"
+        },
+        {
+          "id": 6,
+          "form": "highest",
+          "lemma": "high",
+          "upos": "ADJ",
+          "xpos": "JJS",
+          "feats": "Degree=Sup",
+          "head": 1,
+          "deprel": "obl"
+        },
+        {
+          "id": 7,
+          "form": "and",
+          "lemma": "and",
+          "upos": "CCONJ",
+          "xpos": "CC",
+          "feats": "_",
+          "head": 9,
+          "deprel": "cc"
+        },
+        {
+          "id": 8,
+          "form": "on",
+          "lemma": "on",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 9,
+          "deprel": "case"
+        },
+        {
+          "id": 9,
+          "form": "earth",
+          "lemma": "earth",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 1,
+          "deprel": "conj"
+        },
+        {
+          "id": 10,
+          "form": "peace",
+          "lemma": "peace",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 1,
+          "deprel": "conj"
+        },
+        {
+          "id": 11,
+          "form": "good",
+          "lemma": "good",
+          "upos": "ADJ",
+          "xpos": "JJ",
+          "feats": "_",
+          "head": 12,
+          "deprel": "amod"
+        },
+        {
+          "id": 12,
+          "form": "will",
+          "lemma": "will",
+          "upos": "NOUN",
+          "xpos": "NN",
+          "feats": "Number=Sing",
+          "head": 1,
+          "deprel": "conj"
+        },
+        {
+          "id": 13,
+          "form": "toward",
+          "lemma": "toward",
+          "upos": "ADP",
+          "xpos": "IN",
+          "feats": "_",
+          "head": 14,
+          "deprel": "case"
+        },
+        {
+          "id": 14,
+          "form": "men",
+          "lemma": "man",
+          "upos": "NOUN",
+          "xpos": "NNS",
+          "feats": "Number=Plur",
+          "head": 12,
+          "deprel": "nmod"
+        },
+        {
+          "id": 15,
+          "form": ".",
+          "lemma": ".",
+          "upos": "PUNCT",
+          "xpos": ".",
+          "feats": "_",
+          "head": 1,
+          "deprel": "punct"
+        }
+      ]
+    }
+  ]
+}
