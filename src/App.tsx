@@ -11,6 +11,246 @@ const LANG_META = {
   eng: { label: "King James",    short: "English",  script: "English",  sigil: "E" },
 }
 
+// ── icons ─────────────────────────────────────────────────────────────────────
+
+function GearIcon({ className = "" }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="3" />
+      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33
+               1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33
+               l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4
+               h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06
+               A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51
+               a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9
+               a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+    </svg>
+  )
+}
+
+function CloseIcon({ className = "" }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+      <line x1="18" y1="6" x2="6" y2="18" />
+      <line x1="6" y1="6" x2="18" y2="18" />
+    </svg>
+  )
+}
+
+// ── settings modal ────────────────────────────────────────────────────────────
+
+const FONT_SIZES   = ["Small", "Medium", "Large"]
+const THEMES       = ["Dark", "Sepia", "High Contrast"]
+const ANNO_LEVELS  = ["None", "POS only", "Full morphology"]
+
+function Toggle({ checked, onChange }) {
+  return (
+    <button
+      role="switch"
+      aria-checked={checked}
+      onClick={() => onChange(!checked)}
+      className={[
+        "relative inline-flex h-5 w-9 shrink-0 rounded-full border-2 border-transparent",
+        "transition-colors duration-200 focus:outline-none",
+        checked ? "bg-amber-400" : "bg-stone-300",
+      ].join(" ")}
+    >
+      <span className={[
+        "pointer-events-none inline-block h-4 w-4 rounded-full bg-white shadow",
+        "transform transition-transform duration-200",
+        checked ? "translate-x-4" : "translate-x-0",
+      ].join(" ")} />
+    </button>
+  )
+}
+
+function SegmentedControl({ options, value, onChange }) {
+  return (
+    <div className="flex rounded-lg overflow-hidden border border-stone-200 bg-stone-100">
+      {options.map(opt => (
+        <button
+          key={opt}
+          onClick={() => onChange(opt)}
+          className={[
+            "flex-1 text-xs py-1.5 px-2 transition-colors duration-150 font-mono",
+            value === opt
+              ? "bg-stone-800 text-white"
+              : "text-stone-500 hover:text-stone-700 hover:bg-stone-200",
+          ].join(" ")}
+        >
+          {opt}
+        </button>
+      ))}
+    </div>
+  )
+}
+
+function SettingsRow({ label, hint, children }) {
+  return (
+    <div className="flex items-center justify-between gap-4 py-4 border-b border-stone-100 last:border-0">
+      <div className="min-w-0">
+        <p className="text-sm text-stone-800 font-medium leading-none">{label}</p>
+        {hint && <p className="text-xs text-stone-400 mt-1 leading-snug">{hint}</p>}
+      </div>
+      <div className="shrink-0">{children}</div>
+    </div>
+  )
+}
+
+function SettingsSection({ title, children }) {
+  return (
+    <section className="mb-6">
+      <h3 className="text-[10px] font-semibold tracking-widest uppercase text-stone-400 mb-1 px-1">
+        {title}
+      </h3>
+      <div className="bg-stone-50 rounded-xl px-4 border border-stone-100">
+        {children}
+      </div>
+    </section>
+  )
+}
+
+function SettingsModal({ open, onClose }) {
+  // dummy state — not wired to anything real yet
+  const [fontSize,     setFontSize]     = useState("Medium")
+  const [theme,        setTheme]        = useState("Dark")
+  const [annoLevel,    setAnnoLevel]    = useState("Full morphology")
+  const [syncScroll,   setSyncScroll]   = useState(true)
+  const [showVerseNos, setShowVerseNos] = useState(true)
+  const [showLemmas,   setShowLemmas]   = useState(true)
+  const [autoScroll,   setAutoScroll]   = useState(false)
+
+  // close on Escape
+  useEffect(() => {
+    if (!open) return
+    const handler = e => { if (e.key === "Escape") onClose() }
+    window.addEventListener("keydown", handler)
+    return () => window.removeEventListener("keydown", handler)
+  }, [open, onClose])
+
+  // lock body scroll while open
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : ""
+    return () => { document.body.style.overflow = "" }
+  }, [open])
+
+  if (!open) return null
+
+  return (
+    // backdrop
+    <div
+      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center"
+      onClick={e => { if (e.target === e.currentTarget) onClose() }}
+    >
+      {/* dim overlay */}
+      <div className="absolute inset-0 bg-black/20" onClick={onClose} />
+
+      {/* panel — fullscreen on mobile, centered card on desktop */}
+      <div
+        className={[
+          "relative z-10 flex flex-col",
+          "bg-white/90 backdrop-blur-xl border-stone-200",
+          // mobile: slide up from bottom, full width, rounded top corners
+          "w-full max-h-[92dvh] rounded-t-2xl border-t border-x",
+          // desktop: fixed-width centered card, fully rounded
+          "sm:w-[480px] sm:max-h-[80vh] sm:rounded-2xl sm:border",
+        ].join(" ")}
+        style={{ fontFamily: "'EB Garamond', Georgia, serif" }}
+      >
+
+        {/* drag handle (mobile only) */}
+        <div className="sm:hidden flex justify-center pt-3 pb-1 shrink-0">
+          <div className="w-10 h-1 rounded-full bg-stone-700" />
+        </div>
+
+        {/* modal header */}
+        <div className="shrink-0 flex items-center justify-between px-5 py-4 border-b border-stone-800">
+          <div className="flex items-center gap-2.5">
+            <GearIcon className="w-4 h-4 text-amber-400" />
+            <h2 className="text-base font-semibold text-stone-100 tracking-wide">
+              Settings
+            </h2>
+          </div>
+          <button
+            onClick={onClose}
+            className="w-7 h-7 rounded-full bg-stone-800 border border-stone-700
+                       flex items-center justify-center text-stone-400
+                       hover:text-stone-200 hover:bg-stone-700 transition-colors"
+            aria-label="Close settings"
+          >
+            <CloseIcon className="w-3.5 h-3.5" />
+          </button>
+        </div>
+
+        {/* scrollable body */}
+        <div className="flex-1 overflow-y-auto px-5 py-5"
+             style={{ scrollbarWidth: "thin", scrollbarColor: "#292524 transparent" }}>
+
+          <SettingsSection title="Display">
+            <SettingsRow label="Font size" hint="Size of the scripture text in each pane">
+              <SegmentedControl options={FONT_SIZES} value={fontSize} onChange={setFontSize} />
+            </SettingsRow>
+            <SettingsRow label="Theme" hint="Colour scheme for the viewer">
+              <SegmentedControl options={THEMES} value={theme} onChange={setTheme} />
+            </SettingsRow>
+            <SettingsRow label="Show verse numbers" hint="Display reference above each passage">
+              <Toggle checked={showVerseNos} onChange={setShowVerseNos} />
+            </SettingsRow>
+          </SettingsSection>
+
+          <SettingsSection title="Annotation">
+            <SettingsRow label="Annotation level" hint="How much morphological detail to show on tap">
+              <SegmentedControl options={ANNO_LEVELS} value={annoLevel} onChange={setAnnoLevel} />
+            </SettingsRow>
+            <SettingsRow label="Show lemmas" hint="Display dictionary form alongside word form">
+              <Toggle checked={showLemmas} onChange={setShowLemmas} />
+            </SettingsRow>
+          </SettingsSection>
+
+          <SettingsSection title="Scrolling">
+            <SettingsRow label="Sync scroll" hint="Keep all three panes aligned as you scroll">
+              <Toggle checked={syncScroll} onChange={setSyncScroll} />
+            </SettingsRow>
+            <SettingsRow label="Auto-scroll" hint="Slowly advance through the text automatically">
+              <Toggle checked={autoScroll} onChange={setAutoScroll} />
+            </SettingsRow>
+          </SettingsSection>
+
+          <SettingsSection title="About">
+            <SettingsRow label="Model" hint={data.meta?.description ?? "—"}>
+              <span className="text-xs font-mono text-stone-500 text-right max-w-[140px] leading-snug">
+                {data.model}
+              </span>
+            </SettingsRow>
+            <SettingsRow label="Sentences">
+              <span className="text-xs font-mono text-stone-400">{data.sentences.length}</span>
+            </SettingsRow>
+            <SettingsRow label="Dimensions">
+              <span className="text-xs font-mono text-stone-400">{data.dimensions}</span>
+            </SettingsRow>
+          </SettingsSection>
+
+        </div>
+
+        {/* footer */}
+        <div className="shrink-0 px-5 py-4 border-t border-stone-800">
+          <button
+            onClick={onClose}
+            className="w-full py-2.5 rounded-xl bg-amber-400 text-stone-950
+                       text-sm font-semibold tracking-wide
+                       hover:bg-amber-300 active:bg-amber-500 transition-colors"
+          >
+            Done
+          </button>
+        </div>
+
+      </div>
+    </div>
+  )
+}
+
 // ── helpers ──────────────────────────────────────────────────────────────────
 
 function groupByVerse(sentences) {
@@ -221,9 +461,10 @@ function MobileTabBar({ activeLang, onChange }) {
 
 export default function PolyglotViewer() {
   // desktop: hovered word; mobile: tapped/pinned word
-  const [hoveredWord, setHoveredWord] = useState(null)
-  const [pinnedWord,  setPinnedWord]  = useState(null)
-  const [activeLang,  setActiveLang]  = useState("grc") // mobile active pane
+  const [hoveredWord,  setHoveredWord]  = useState(null)
+  const [pinnedWord,   setPinnedWord]   = useState(null)
+  const [activeLang,   setActiveLang]   = useState("grc") // mobile active pane
+  const [settingsOpen, setSettingsOpen] = useState(false)
 
   const paneRefs   = useRef([null, null, null])
   const scrollLock = useRef(false)
@@ -305,11 +546,24 @@ export default function PolyglotViewer() {
           ))}
         </div>
 
-        <p className="text-[11px] text-stone-600 font-mono tabular-nums">
+        <p className="hidden sm:block text-[11px] text-stone-600 font-mono tabular-nums">
           {data.sentences.length} sentences
         </p>
 
+        {/* gear button */}
+        <button
+          onClick={() => setSettingsOpen(true)}
+          className="w-8 h-8 rounded-full flex items-center justify-center
+                     text-stone-400 hover:text-stone-200 hover:bg-stone-800
+                     active:bg-stone-700 transition-colors"
+          aria-label="Open settings"
+        >
+          <GearIcon className="w-4 h-4" />
+        </button>
+
       </header>
+
+      <SettingsModal open={settingsOpen} onClose={() => setSettingsOpen(false)} />
 
       {/* ── pane area ─────────────────────────────────────────────────────── */}
       <div className="flex-1 overflow-hidden">
